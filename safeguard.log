@@ -1,0 +1,20 @@
+2026-03-08 12:31:15,297 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-08 12:31:19,262 [INFO] ============================================================
+2026-03-08 12:31:19,263 [INFO]   SafeGuard AI Keylogger started
+2026-03-08 12:31:19,263 [INFO]   Device: Hostname: REDDYS | IP: 10.218.176.171 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-03-08 12:31:19,264 [INFO] ============================================================
+2026-03-08 12:31:19,289 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-03-08 12:31:44,412 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260308_123144.png
+2026-03-08 12:34:18,151 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260308_123417.png
+2026-03-08 12:35:08,468 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260308_123508.png
+2026-03-08 12:37:10,776 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260308_123710.png
+2026-03-08 12:38:14,188 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260308_123813.png
+2026-03-08 12:47:32,458 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-08 12:47:38,381 [INFO] ============================================================
+2026-03-08 12:47:38,417 [INFO]   SafeGuard AI Keylogger started
+2026-03-08 12:47:38,428 [INFO]   Device: Hostname: REDDYS | IP: 10.218.176.171 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-03-08 12:47:38,439 [INFO] ============================================================
+2026-03-08 12:47:38,516 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-03-08 12:50:06,872 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260308_125006.png
+2026-03-08 12:50:07,991 [INFO] [AUDIO] Recording 30s audio...
+2026-03-08 12:50:38,279 [INFO] [AUDIO] Saved: audio\audio_20260308_125007.wav

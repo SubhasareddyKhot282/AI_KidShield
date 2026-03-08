@@ -1,0 +1,5 @@
+explorer.exe
+python.exe
+pythonw.exe
+code.exe
+chrome.exe
