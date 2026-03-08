@@ -6,7 +6,7 @@ to create a smart parental control and online safety system.
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structures
 
 ```
 safeguard/
