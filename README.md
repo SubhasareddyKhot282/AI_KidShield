@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛡️ SafeGuard AI — Child Protection Monitoring System
 
 A complete capstone project combining **Cybersecurity**, **Machine Learning**, and **Web Development**
@@ -162,3 +163,6 @@ python keylogger/keylogger.py
 
 This system is designed for **parental monitoring of minor children** with appropriate consent and 
 legal compliance. Always ensure compliance with local privacy laws before deploying.
+=======
+# AI_KidShield
+>>>>>>> d9d59385251f0932d59a53122792389245ef8a12
