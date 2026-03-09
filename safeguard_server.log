@@ -368,3 +368,1132 @@
 2026-03-09 11:32:40,693 [INFO] 127.0.0.1 - - [09/Mar/2026 11:32:40] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
 2026-03-09 11:33:11,593 [INFO] 127.0.0.1 - - [09/Mar/2026 11:33:11] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
 2026-03-09 11:33:41,275 [INFO] 127.0.0.1 - - [09/Mar/2026 11:33:41] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:45:16,411 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 11:45:21,773 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.218.176.171:5000
+2026-03-09 11:45:21,775 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 11:45:25,724 [INFO] 10.218.176.171 - - [09/Mar/2026 11:45:25] "GET / HTTP/1.1" 200 -
+2026-03-09 11:45:26,124 [INFO] 10.218.176.171 - - [09/Mar/2026 11:45:26] "GET /socket.io/?EIO=4&transport=polling&t=PpHF7IE HTTP/1.1" 200 -
+2026-03-09 11:45:26,184 [INFO] 10.218.176.171 - - [09/Mar/2026 11:45:26] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 11:45:26,224 [INFO] [WS] Client connected: u83zhUXyPHIbX2TcAAAB
+2026-03-09 11:45:26,309 [INFO] 10.218.176.171 - - [09/Mar/2026 11:45:26] "GET /socket.io/?EIO=4&transport=polling&t=PpHF7JY&sid=3qGwSw0YPS0NRrIAAAAA HTTP/1.1" 200 -
+2026-03-09 11:45:26,322 [INFO] 10.218.176.171 - - [09/Mar/2026 11:45:26] "POST /socket.io/?EIO=4&transport=polling&t=PpHF7JE&sid=3qGwSw0YPS0NRrIAAAAA HTTP/1.1" 200 -
+2026-03-09 11:45:26,401 [INFO] 10.218.176.171 - - [09/Mar/2026 11:45:26] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 11:45:26,440 [INFO] 10.218.176.171 - - [09/Mar/2026 11:45:26] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 11:45:26,569 [INFO] 10.218.176.171 - - [09/Mar/2026 11:45:26] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 11:45:27,989 [INFO] 10.218.176.171 - - [09/Mar/2026 11:45:27] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:45:56,397 [INFO] 10.218.176.171 - - [09/Mar/2026 11:45:56] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:46:09,125 [INFO] 10.218.176.171 - - [09/Mar/2026 11:46:09] "DELETE /api/alerts/12 HTTP/1.1" 200 -
+2026-03-09 11:46:09,242 [INFO] 10.218.176.171 - - [09/Mar/2026 11:46:09] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 11:46:26,135 [INFO] 10.218.176.171 - - [09/Mar/2026 11:46:26] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:46:56,127 [INFO] 10.218.176.171 - - [09/Mar/2026 11:46:56] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:47:26,127 [INFO] 10.218.176.171 - - [09/Mar/2026 11:47:26] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:47:29,075 [INFO] [WS] Client disconnected: u83zhUXyPHIbX2TcAAAB
+2026-03-09 11:47:29,082 [INFO] 10.218.176.171 - - [09/Mar/2026 11:47:29] "GET /socket.io/?EIO=4&transport=websocket&sid=3qGwSw0YPS0NRrIAAAAA HTTP/1.1" 200 -
+2026-03-09 11:47:32,193 [INFO] 10.218.176.171 - - [09/Mar/2026 11:47:32] "GET /socket.io/?EIO=4&transport=polling&t=PpHFc4G HTTP/1.1" 200 -
+2026-03-09 11:47:32,330 [INFO] [WS] Client connected: NgdFK_b507U_zK-GAAAD
+2026-03-09 11:47:32,336 [INFO] 10.218.176.171 - - [09/Mar/2026 11:47:32] "POST /socket.io/?EIO=4&transport=polling&t=PpHFc6N&sid=reZub6u9o1md1wIZAAAC HTTP/1.1" 200 -
+2026-03-09 11:47:32,356 [INFO] 10.218.176.171 - - [09/Mar/2026 11:47:32] "GET /socket.io/?EIO=4&transport=polling&t=PpHFc6Y&sid=reZub6u9o1md1wIZAAAC HTTP/1.1" 200 -
+2026-03-09 11:47:56,518 [INFO] 10.218.176.171 - - [09/Mar/2026 11:47:56] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:48:26,396 [INFO] 10.218.176.171 - - [09/Mar/2026 11:48:26] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:48:56,402 [INFO] 10.218.176.171 - - [09/Mar/2026 11:48:56] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:49:57,383 [INFO] 10.218.176.171 - - [09/Mar/2026 11:49:57] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:50:57,389 [INFO] 10.218.176.171 - - [09/Mar/2026 11:50:57] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:51:57,399 [INFO] 10.218.176.171 - - [09/Mar/2026 11:51:57] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 11:53:07,550 [INFO] [WS] Client disconnected: NgdFK_b507U_zK-GAAAD
+2026-03-09 11:53:07,580 [INFO] 10.218.176.171 - - [09/Mar/2026 11:53:07] "GET /socket.io/?EIO=4&transport=websocket&sid=reZub6u9o1md1wIZAAAC HTTP/1.1" 200 -
+2026-03-09 12:22:51,522 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 12:22:58,253 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.2.69:5000
+2026-03-09 12:22:58,262 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 12:23:06,855 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:06] "GET / HTTP/1.1" 200 -
+2026-03-09 12:23:07,575 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:07] "GET /socket.io/?EIO=4&transport=polling&t=PpHNlP5 HTTP/1.1" 200 -
+2026-03-09 12:23:08,301 [INFO] [WS] Client connected: _sM3ZM6l_ArrLAfCAAAB
+2026-03-09 12:23:08,493 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:08] "GET /socket.io/?EIO=4&transport=polling&t=PpHNlRx&sid=CePjJ60cwzeaeFSqAAAA HTTP/1.1" 200 -
+2026-03-09 12:23:08,520 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:08] "POST /socket.io/?EIO=4&transport=polling&t=PpHNlRu&sid=CePjJ60cwzeaeFSqAAAA HTTP/1.1" 200 -
+2026-03-09 12:23:08,606 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:08] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:23:08,761 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:08] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:23:08,844 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:08] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:23:08,921 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:08] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:23:38,044 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:38] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:23:38,070 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:38] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:23:38,257 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:38] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:23:38,273 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:38] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:23:38,420 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:38] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:23:38,539 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:38] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:23:38,617 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:38] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:23:38,627 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:38] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:23:38,658 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:38] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:23:40,152 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:40] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:23:43,591 [INFO] [ALERT RECEIVED] abusive — i want kill my self
+2026-03-09 12:23:43,594 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:43] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 12:23:43,961 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:43] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:23:51,893 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:51] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:23:52,185 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:52] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:23:52,316 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:52] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:23:52,656 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:52] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:23:56,017 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:56] "GET / HTTP/1.1" 200 -
+2026-03-09 12:23:56,070 [INFO] [WS] Client disconnected: _sM3ZM6l_ArrLAfCAAAB
+2026-03-09 12:23:56,075 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:56] "GET /socket.io/?EIO=4&transport=websocket&sid=CePjJ60cwzeaeFSqAAAA HTTP/1.1" 200 -
+2026-03-09 12:23:56,324 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:56] "GET /socket.io/?EIO=4&transport=polling&t=PpHNxFg HTTP/1.1" 200 -
+2026-03-09 12:23:56,501 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:56] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:23:56,520 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:56] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:23:56,653 [INFO] [WS] Client connected: EVyr6m4cJGU_ht55AAAD
+2026-03-09 12:23:56,656 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:56] "POST /socket.io/?EIO=4&transport=polling&t=PpHNxJf&sid=rzPKudh2DdqNCi-hAAAC HTTP/1.1" 200 -
+2026-03-09 12:23:56,668 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:56] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:23:56,674 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:56] "GET /socket.io/?EIO=4&transport=polling&t=PpHNxJp&sid=rzPKudh2DdqNCi-hAAAC HTTP/1.1" 200 -
+2026-03-09 12:23:57,019 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:57] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:23:58,235 [INFO] 127.0.0.1 - - [09/Mar/2026 12:23:58] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:24:23,422 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:23] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:24:23,492 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:23] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:24:23,626 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:23] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:24:23,671 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:23] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:24:24,682 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:24] "GET / HTTP/1.1" 200 -
+2026-03-09 12:24:24,735 [INFO] [WS] Client disconnected: EVyr6m4cJGU_ht55AAAD
+2026-03-09 12:24:24,740 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:24] "GET /socket.io/?EIO=4&transport=websocket&sid=rzPKudh2DdqNCi-hAAAC HTTP/1.1" 200 -
+2026-03-09 12:24:24,759 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:24] "GET /socket.io/?EIO=4&transport=polling&t=PpHO2Fn HTTP/1.1" 200 -
+2026-03-09 12:24:24,958 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:24] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:24:25,104 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:25] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:24:25,152 [INFO] [WS] Client connected: hLGoLYpuBN0Apc1kAAAF
+2026-03-09 12:24:25,173 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:25] "POST /socket.io/?EIO=4&transport=polling&t=PpHO2Go&sid=7OkAq58i6Y0DOcYKAAAE HTTP/1.1" 200 -
+2026-03-09 12:24:25,186 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:25] "GET /socket.io/?EIO=4&transport=polling&t=PpHO2Gs&sid=7OkAq58i6Y0DOcYKAAAE HTTP/1.1" 200 -
+2026-03-09 12:24:25,310 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:25] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:24:25,536 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:25] "GET /socket.io/?EIO=4&transport=polling&t=PpHO2N8&sid=7OkAq58i6Y0DOcYKAAAE HTTP/1.1" 200 -
+2026-03-09 12:24:25,652 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:25] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:24:28,936 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:28] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:24:40,418 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:40] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:24:40,836 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:40] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:24:43,754 [INFO] [ALERT RECEIVED] abusive — drugs
+2026-03-09 12:24:43,758 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:43] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 12:24:44,117 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:44] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:24:50,023 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:50] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:24:50,421 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:50] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:24:50,551 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:50] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:24:50,884 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:50] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:24:53,382 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:53] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:24:55,102 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:55] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:24:55,169 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:55] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:24:55,205 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:55] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:24:55,358 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:55] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:24:55,385 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:55] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:24:56,220 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:56] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:24:56,726 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:56] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:24:57,024 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:57] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:24:57,172 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:57] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:24:57,511 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:57] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:24:57,655 [INFO] 127.0.0.1 - - [09/Mar/2026 12:24:57] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:25:02,323 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:02] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:25:02,636 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:02] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:25:02,755 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:02] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:25:03,106 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:03] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:25:03,437 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:03] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:25:04,376 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:04] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:25:04,405 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:04] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:25:04,568 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:04] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:25:04,590 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:04] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:25:22,656 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:22] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:25:23,491 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:23] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:25:23,772 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:23] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:25:23,908 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:23] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:25:24,240 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:24] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:25:24,305 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:24] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:25:24,540 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:24] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:25:24,833 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:24] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:25:24,956 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:24] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:25:25,105 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:25] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:25:25,167 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:25] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:25:25,314 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:25] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:25:25,441 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:25] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:25:25,777 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:25] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:25:45,584 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:45] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:25:46,919 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:46] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:25:46,968 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:46] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:25:47,129 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:47] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:25:47,156 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:47] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:25:48,174 [INFO] 127.0.0.1 - - [09/Mar/2026 12:25:48] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:26:04,290 [INFO] 127.0.0.1 - - [09/Mar/2026 12:26:04] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:26:25,117 [INFO] 127.0.0.1 - - [09/Mar/2026 12:26:25] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:26:41,672 [INFO] 127.0.0.1 - - [09/Mar/2026 12:26:41] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:26:43,205 [INFO] 127.0.0.1 - - [09/Mar/2026 12:26:43] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:26:54,873 [INFO] 127.0.0.1 - - [09/Mar/2026 12:26:54] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 12:26:55,132 [INFO] 127.0.0.1 - - [09/Mar/2026 12:26:55] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 12:26:58,688 [INFO] 127.0.0.1 - - [09/Mar/2026 12:26:58] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 12:27:16,689 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:16] "POST /api/check-url HTTP/1.1" 200 -
+2026-03-09 12:27:16,919 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:16] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 12:27:17,016 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:17] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 12:27:25,407 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:25] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 12:27:32,593 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:32] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:27:36,334 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:36] "POST /api/check-url HTTP/1.1" 200 -
+2026-03-09 12:27:36,550 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:36] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 12:27:36,657 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:36] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 12:27:47,083 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:47] "GET /api/activity?limit=50 HTTP/1.1" 200 -
+2026-03-09 12:27:51,899 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:51] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:27:51,906 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:51] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:27:52,138 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:52] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:27:54,808 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:54] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:27:55,118 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:55] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:27:55,249 [INFO] 127.0.0.1 - - [09/Mar/2026 12:27:55] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:28:25,101 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:25] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:28:25,149 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:25] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:28:25,323 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:25] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:28:36,916 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:36] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:28:37,222 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:37] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:28:37,349 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:37] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:28:37,701 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:37] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:28:45,196 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:45] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:28:49,199 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:49] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:28:53,852 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:53] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:28:55,101 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:55] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:28:59,722 [INFO] 127.0.0.1 - - [09/Mar/2026 12:28:59] "GET /api/settings HTTP/1.1" 200 -
+2026-03-09 12:29:24,769 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:24] "GET /api/settings HTTP/1.1" 200 -
+2026-03-09 12:29:27,251 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:27] "POST /api/test-email HTTP/1.1" 200 -
+2026-03-09 12:29:34,855 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:34] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:29:34,902 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:34] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:29:35,050 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:35] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:29:47,820 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:47] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:29:48,122 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:48] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:29:48,246 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:48] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:29:48,597 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:48] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:29:51,467 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:51] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:29:53,642 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:53] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:29:53,701 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:53] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:29:53,850 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:53] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:29:53,872 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:53] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:29:55,150 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:55] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:29:55,219 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:55] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:29:55,363 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:55] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:29:55,401 [INFO] 127.0.0.1 - - [09/Mar/2026 12:29:55] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:30:25,719 [INFO] 127.0.0.1 - - [09/Mar/2026 12:30:25] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:30:25,732 [INFO] 127.0.0.1 - - [09/Mar/2026 12:30:25] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:30:25,800 [INFO] 127.0.0.1 - - [09/Mar/2026 12:30:25] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:30:25,959 [INFO] 127.0.0.1 - - [09/Mar/2026 12:30:25] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:30:56,292 [INFO] 127.0.0.1 - - [09/Mar/2026 12:30:56] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:30:56,597 [INFO] 127.0.0.1 - - [09/Mar/2026 12:30:56] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:30:56,657 [INFO] 127.0.0.1 - - [09/Mar/2026 12:30:56] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:30:59,156 [INFO] 127.0.0.1 - - [09/Mar/2026 12:30:59] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:31:39,217 [INFO] 127.0.0.1 - - [09/Mar/2026 12:31:39] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:31:47,937 [INFO] 127.0.0.1 - - [09/Mar/2026 12:31:47] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:31:56,036 [INFO] 127.0.0.1 - - [09/Mar/2026 12:31:56] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:31:56,765 [INFO] 127.0.0.1 - - [09/Mar/2026 12:31:56] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:31:57,043 [INFO] 127.0.0.1 - - [09/Mar/2026 12:31:57] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:31:57,067 [INFO] 127.0.0.1 - - [09/Mar/2026 12:31:57] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:31:57,509 [INFO] 127.0.0.1 - - [09/Mar/2026 12:31:57] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:32:01,651 [INFO] 127.0.0.1 - - [09/Mar/2026 12:32:01] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:32:09,413 [INFO] 127.0.0.1 - - [09/Mar/2026 12:32:09] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:32:27,797 [INFO] [WS] Client disconnected: hLGoLYpuBN0Apc1kAAAF
+2026-03-09 12:32:27,825 [INFO] 127.0.0.1 - - [09/Mar/2026 12:32:27] "GET /socket.io/?EIO=4&transport=websocket&sid=7OkAq58i6Y0DOcYKAAAE HTTP/1.1" 200 -
+2026-03-09 12:48:45,809 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 12:48:51,698 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.11.2.69:5000
+2026-03-09 12:48:51,705 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 12:49:26,274 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:26] "GET / HTTP/1.1" 200 -
+2026-03-09 12:49:26,327 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:26] "GET /socket.io/?EIO=4&transport=polling&t=PpHTmrg HTTP/1.1" 200 -
+2026-03-09 12:49:26,526 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:26] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:49:26,649 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:26] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:49:26,670 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:26] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:49:26,799 [INFO] [WS] Client connected: galvb8ielyofhOfmAAAB
+2026-03-09 12:49:26,800 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:26] "POST /socket.io/?EIO=4&transport=polling&t=PpHTmuI&sid=icRlLwnf_BYcm-EaAAAA HTTP/1.1" 200 -
+2026-03-09 12:49:26,801 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:26] "GET /socket.io/?EIO=4&transport=polling&t=PpHTmuK&sid=icRlLwnf_BYcm-EaAAAA HTTP/1.1" 200 -
+2026-03-09 12:49:26,899 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-09 12:49:27,021 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:27] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:49:27,116 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:27] "GET /socket.io/?EIO=4&transport=polling&t=PpHTmzO&sid=icRlLwnf_BYcm-EaAAAA HTTP/1.1" 200 -
+2026-03-09 12:49:30,249 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:30] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:49:30,272 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:30] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:49:31,474 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:31] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:49:31,784 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:31] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:49:31,824 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:31] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:49:32,142 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:32] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:49:52,804 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:52] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:49:53,606 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:53] "GET / HTTP/1.1" 200 -
+2026-03-09 12:49:53,892 [INFO] [WS] Client disconnected: galvb8ielyofhOfmAAAB
+2026-03-09 12:49:54,084 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:54] "GET /socket.io/?EIO=4&transport=websocket&sid=icRlLwnf_BYcm-EaAAAA HTTP/1.1" 200 -
+2026-03-09 12:49:54,119 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:54] "GET /socket.io/?EIO=4&transport=polling&t=PpHTtXW HTTP/1.1" 200 -
+2026-03-09 12:49:54,198 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:54] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:49:54,264 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:54] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:49:54,388 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:54] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:49:54,507 [INFO] [WS] Client connected: StDbHe5LmNP6eX8FAAAD
+2026-03-09 12:49:54,520 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:54] "POST /socket.io/?EIO=4&transport=polling&t=PpHTtfE&sid=aBC2BXhFLsjJpVTEAAAC HTTP/1.1" 200 -
+2026-03-09 12:49:54,520 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:54] "GET /socket.io/?EIO=4&transport=polling&t=PpHTtfF&sid=aBC2BXhFLsjJpVTEAAAC HTTP/1.1" 200 -
+2026-03-09 12:49:54,739 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:54] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:49:56,022 [INFO] [ALERT RECEIVED] abusive — drugs
+2026-03-09 12:49:56,025 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:56] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 12:49:56,385 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:56] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:49:57,001 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:57] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:49:59,071 [INFO] 127.0.0.1 - - [09/Mar/2026 12:49:59] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:50:11,786 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:11] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:50:19,567 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:19] "DELETE /api/alerts/11 HTTP/1.1" 200 -
+2026-03-09 12:50:19,743 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:19] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:50:21,801 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:21] "DELETE /api/alerts/9 HTTP/1.1" 200 -
+2026-03-09 12:50:22,169 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:22] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:50:23,099 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:23] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:50:24,081 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:24] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:50:28,852 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:28] "GET / HTTP/1.1" 200 -
+2026-03-09 12:50:28,885 [INFO] [WS] Client disconnected: StDbHe5LmNP6eX8FAAAD
+2026-03-09 12:50:28,886 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:28] "GET /socket.io/?EIO=4&transport=websocket&sid=aBC2BXhFLsjJpVTEAAAC HTTP/1.1" 200 -
+2026-03-09 12:50:29,189 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:29] "GET /socket.io/?EIO=4&transport=polling&t=PpHU07b HTTP/1.1" 200 -
+2026-03-09 12:50:29,295 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:29] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:50:29,348 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:29] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:50:29,454 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:29] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:50:29,523 [INFO] [WS] Client connected: rlv_uCcDjD690ZiHAAAF
+2026-03-09 12:50:29,527 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:29] "POST /socket.io/?EIO=4&transport=polling&t=PpHU0CI&sid=UiiRR5Y6Q7_GnuPpAAAE HTTP/1.1" 200 -
+2026-03-09 12:50:29,538 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:29] "GET /socket.io/?EIO=4&transport=polling&t=PpHU0CJ&sid=UiiRR5Y6Q7_GnuPpAAAE HTTP/1.1" 200 -
+2026-03-09 12:50:29,783 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:29] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:50:31,285 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:31] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:50:44,299 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:44] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:50:46,770 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:46] "GET / HTTP/1.1" 200 -
+2026-03-09 12:50:46,800 [INFO] [WS] Client disconnected: rlv_uCcDjD690ZiHAAAF
+2026-03-09 12:50:46,801 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:46] "GET /socket.io/?EIO=4&transport=websocket&sid=UiiRR5Y6Q7_GnuPpAAAE HTTP/1.1" 200 -
+2026-03-09 12:50:46,819 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:46] "GET /socket.io/?EIO=4&transport=polling&t=PpHU4VU HTTP/1.1" 200 -
+2026-03-09 12:50:47,072 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:47] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:50:47,183 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:47] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:50:47,187 [INFO] [WS] Client connected: 8JHD51Tnp5Xy1SLeAAAH
+2026-03-09 12:50:47,191 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:47] "POST /socket.io/?EIO=4&transport=polling&t=PpHU4W7&sid=VZWfmoZCVRVT5JYrAAAG HTTP/1.1" 200 -
+2026-03-09 12:50:47,203 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:47] "GET /socket.io/?EIO=4&transport=polling&t=PpHU4W9&sid=VZWfmoZCVRVT5JYrAAAG HTTP/1.1" 200 -
+2026-03-09 12:50:47,318 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:47] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:50:47,534 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:47] "GET /socket.io/?EIO=4&transport=polling&t=PpHU4bs&sid=VZWfmoZCVRVT5JYrAAAG HTTP/1.1" 200 -
+2026-03-09 12:50:47,653 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:47] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:50:48,957 [INFO] 127.0.0.1 - - [09/Mar/2026 12:50:48] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:51:13,305 [INFO] 127.0.0.1 - - [09/Mar/2026 12:51:13] "GET /api/anti-keylogger/scan HTTP/1.1" 200 -
+2026-03-09 12:51:17,189 [INFO] 127.0.0.1 - - [09/Mar/2026 12:51:17] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:51:32,052 [INFO] 127.0.0.1 - - [09/Mar/2026 12:51:32] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 12:51:33,257 [INFO] 127.0.0.1 - - [09/Mar/2026 12:51:33] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 12:51:34,799 [INFO] 127.0.0.1 - - [09/Mar/2026 12:51:34] "GET /api/activity?limit=50 HTTP/1.1" 200 -
+2026-03-09 12:51:41,999 [INFO] 127.0.0.1 - - [09/Mar/2026 12:51:41] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:51:46,873 [INFO] 127.0.0.1 - - [09/Mar/2026 12:51:46] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:52:17,196 [INFO] 127.0.0.1 - - [09/Mar/2026 12:52:17] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:52:17,455 [INFO] 127.0.0.1 - - [09/Mar/2026 12:52:17] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:52:17,548 [INFO] 127.0.0.1 - - [09/Mar/2026 12:52:17] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:52:20,705 [INFO] [ALERT RECEIVED] abusive — i want drugs
+2026-03-09 12:52:20,713 [INFO] 127.0.0.1 - - [09/Mar/2026 12:52:20] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 12:52:20,752 [INFO] 127.0.0.1 - - [09/Mar/2026 12:52:20] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:52:46,727 [INFO] 127.0.0.1 - - [09/Mar/2026 12:52:46] "GET /api/anti-keylogger/scan HTTP/1.1" 200 -
+2026-03-09 12:52:46,873 [INFO] 127.0.0.1 - - [09/Mar/2026 12:52:46] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:53:17,707 [INFO] 127.0.0.1 - - [09/Mar/2026 12:53:17] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:53:44,456 [INFO] 127.0.0.1 - - [09/Mar/2026 12:53:44] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:53:44,754 [INFO] 127.0.0.1 - - [09/Mar/2026 12:53:44] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:53:47,215 [INFO] 127.0.0.1 - - [09/Mar/2026 12:53:47] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:53:47,603 [INFO] [ALERT RECEIVED] abusive — hot to suicide
+2026-03-09 12:53:47,637 [INFO] 127.0.0.1 - - [09/Mar/2026 12:53:47] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 12:53:47,705 [INFO] 127.0.0.1 - - [09/Mar/2026 12:53:47] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:54:17,194 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:17] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:54:22,121 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:22] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:54:22,433 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:22] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:54:22,535 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:22] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:54:22,878 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:22] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:54:43,252 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:43] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:54:45,896 [INFO] [ALERT RECEIVED] abusive — how to suicide
+2026-03-09 12:54:45,898 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:45] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 12:54:45,945 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:45] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:54:47,300 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:47] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:54:47,302 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:47] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:54:47,470 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:47] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:54:47,509 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:47] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:54:47,683 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:47] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:54:47,803 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:47] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:54:47,832 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:47] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:54:47,852 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:47] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:54:51,621 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:51] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:54:54,646 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:54] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:54:54,935 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:54] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:54:55,040 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:55] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:54:55,368 [INFO] 127.0.0.1 - - [09/Mar/2026 12:54:55] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:55:04,378 [INFO] 127.0.0.1 - - [09/Mar/2026 12:55:04] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:55:17,194 [INFO] 127.0.0.1 - - [09/Mar/2026 12:55:17] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:55:46,875 [INFO] 127.0.0.1 - - [09/Mar/2026 12:55:46] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:56:17,186 [INFO] 127.0.0.1 - - [09/Mar/2026 12:56:17] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:56:46,874 [INFO] 127.0.0.1 - - [09/Mar/2026 12:56:46] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:57:17,186 [INFO] 127.0.0.1 - - [09/Mar/2026 12:57:17] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:57:46,880 [INFO] 127.0.0.1 - - [09/Mar/2026 12:57:46] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:58:01,183 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:01] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:58:03,860 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:03] "GET / HTTP/1.1" 200 -
+2026-03-09 12:58:03,896 [INFO] [WS] Client disconnected: 8JHD51Tnp5Xy1SLeAAAH
+2026-03-09 12:58:03,901 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:03] "GET /socket.io/?EIO=4&transport=websocket&sid=VZWfmoZCVRVT5JYrAAAG HTTP/1.1" 200 -
+2026-03-09 12:58:03,929 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:03] "GET /socket.io/?EIO=4&transport=polling&t=PpHVlDB HTTP/1.1" 200 -
+2026-03-09 12:58:04,167 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:04] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:58:04,267 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:04] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 12:58:04,328 [INFO] [WS] Client connected: oVWFNtGOYzBrcUgTAAAJ
+2026-03-09 12:58:04,331 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:04] "POST /socket.io/?EIO=4&transport=polling&t=PpHVlED&sid=JQotHCBqiyqt5xLuAAAI HTTP/1.1" 200 -
+2026-03-09 12:58:04,332 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:04] "GET /socket.io/?EIO=4&transport=polling&t=PpHVlEL&sid=JQotHCBqiyqt5xLuAAAI HTTP/1.1" 200 -
+2026-03-09 12:58:04,509 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:04] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 12:58:04,726 [INFO] [ALERT RECEIVED] abusive — i want drugs
+2026-03-09 12:58:04,729 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:04] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 12:58:04,837 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:04] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 12:58:05,067 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:05] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 12:58:05,110 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:05] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:58:34,261 [INFO] 127.0.0.1 - - [09/Mar/2026 12:58:34] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:59:03,938 [INFO] 127.0.0.1 - - [09/Mar/2026 12:59:03] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:59:21,196 [INFO] 127.0.0.1 - - [09/Mar/2026 12:59:21] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:59:32,800 [INFO] 127.0.0.1 - - [09/Mar/2026 12:59:32] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 12:59:33,581 [INFO] 127.0.0.1 - - [09/Mar/2026 12:59:33] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:59:34,267 [INFO] 127.0.0.1 - - [09/Mar/2026 12:59:34] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 12:59:42,716 [INFO] 127.0.0.1 - - [09/Mar/2026 12:59:42] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 12:59:51,138 [INFO] 127.0.0.1 - - [09/Mar/2026 12:59:51] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 13:00:04,247 [INFO] 127.0.0.1 - - [09/Mar/2026 13:00:04] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 13:00:16,661 [INFO] 127.0.0.1 - - [09/Mar/2026 13:00:16] "POST /api/check-url HTTP/1.1" 200 -
+2026-03-09 13:00:17,019 [INFO] 127.0.0.1 - - [09/Mar/2026 13:00:17] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 13:00:17,243 [INFO] 127.0.0.1 - - [09/Mar/2026 13:00:17] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 13:00:33,937 [INFO] 127.0.0.1 - - [09/Mar/2026 13:00:33] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 13:00:34,788 [INFO] 127.0.0.1 - - [09/Mar/2026 13:00:34] "GET /api/activity?limit=50 HTTP/1.1" 200 -
+2026-03-09 13:00:40,742 [INFO] 127.0.0.1 - - [09/Mar/2026 13:00:40] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:00:41,045 [INFO] 127.0.0.1 - - [09/Mar/2026 13:00:41] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:00:41,216 [INFO] 127.0.0.1 - - [09/Mar/2026 13:00:41] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:01:04,298 [INFO] 127.0.0.1 - - [09/Mar/2026 13:01:04] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:01:04,316 [INFO] 127.0.0.1 - - [09/Mar/2026 13:01:04] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:01:04,464 [INFO] 127.0.0.1 - - [09/Mar/2026 13:01:04] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:01:33,974 [INFO] 127.0.0.1 - - [09/Mar/2026 13:01:33] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:01:34,266 [INFO] 127.0.0.1 - - [09/Mar/2026 13:01:34] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:01:34,372 [INFO] 127.0.0.1 - - [09/Mar/2026 13:01:34] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:02:04,260 [INFO] 127.0.0.1 - - [09/Mar/2026 13:02:04] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:02:04,304 [INFO] 127.0.0.1 - - [09/Mar/2026 13:02:04] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:02:04,398 [INFO] 127.0.0.1 - - [09/Mar/2026 13:02:04] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:02:33,949 [INFO] 127.0.0.1 - - [09/Mar/2026 13:02:33] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:02:34,265 [INFO] 127.0.0.1 - - [09/Mar/2026 13:02:34] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:02:34,393 [INFO] 127.0.0.1 - - [09/Mar/2026 13:02:34] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:03:04,360 [INFO] 127.0.0.1 - - [09/Mar/2026 13:03:04] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:03:04,367 [INFO] 127.0.0.1 - - [09/Mar/2026 13:03:04] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:03:04,495 [INFO] 127.0.0.1 - - [09/Mar/2026 13:03:04] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:03:33,961 [INFO] 127.0.0.1 - - [09/Mar/2026 13:03:33] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:03:34,279 [INFO] 127.0.0.1 - - [09/Mar/2026 13:03:34] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:03:34,408 [INFO] 127.0.0.1 - - [09/Mar/2026 13:03:34] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:04:04,294 [INFO] 127.0.0.1 - - [09/Mar/2026 13:04:04] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:04:04,312 [INFO] 127.0.0.1 - - [09/Mar/2026 13:04:04] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:04:04,462 [INFO] 127.0.0.1 - - [09/Mar/2026 13:04:04] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:04:33,958 [INFO] 127.0.0.1 - - [09/Mar/2026 13:04:33] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:04:34,273 [INFO] 127.0.0.1 - - [09/Mar/2026 13:04:34] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:04:34,425 [INFO] 127.0.0.1 - - [09/Mar/2026 13:04:34] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:05:04,293 [INFO] 127.0.0.1 - - [09/Mar/2026 13:05:04] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:05:04,322 [INFO] 127.0.0.1 - - [09/Mar/2026 13:05:04] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:05:04,422 [INFO] 127.0.0.1 - - [09/Mar/2026 13:05:04] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:05:33,978 [INFO] 127.0.0.1 - - [09/Mar/2026 13:05:33] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:05:34,262 [INFO] 127.0.0.1 - - [09/Mar/2026 13:05:34] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:05:34,406 [INFO] 127.0.0.1 - - [09/Mar/2026 13:05:34] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:06:04,275 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:04] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:06:04,323 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:04] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:06:04,441 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:04] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:06:12,241 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:12] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:06:12,558 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:12] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:06:12,672 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:12] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:06:13,013 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:13] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 13:06:33,961 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:33] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:06:34,304 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:34] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:06:34,437 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:34] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:06:34,761 [INFO] 127.0.0.1 - - [09/Mar/2026 13:06:34] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 13:07:03,960 [INFO] 127.0.0.1 - - [09/Mar/2026 13:07:03] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:07:04,271 [INFO] 127.0.0.1 - - [09/Mar/2026 13:07:04] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:07:04,394 [INFO] 127.0.0.1 - - [09/Mar/2026 13:07:04] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:07:04,736 [INFO] 127.0.0.1 - - [09/Mar/2026 13:07:04] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 13:07:33,973 [INFO] 127.0.0.1 - - [09/Mar/2026 13:07:33] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:07:34,275 [INFO] 127.0.0.1 - - [09/Mar/2026 13:07:34] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:07:34,402 [INFO] 127.0.0.1 - - [09/Mar/2026 13:07:34] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:07:34,740 [INFO] 127.0.0.1 - - [09/Mar/2026 13:07:34] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 13:07:45,003 [INFO] 127.0.0.1 - - [09/Mar/2026 13:07:45] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 13:08:04,256 [INFO] 127.0.0.1 - - [09/Mar/2026 13:08:04] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 13:08:33,934 [INFO] 127.0.0.1 - - [09/Mar/2026 13:08:33] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 13:08:48,294 [INFO] 127.0.0.1 - - [09/Mar/2026 13:08:48] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 13:08:48,326 [INFO] 127.0.0.1 - - [09/Mar/2026 13:08:48] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 13:08:48,407 [INFO] 127.0.0.1 - - [09/Mar/2026 13:08:48] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 13:08:48,542 [INFO] 127.0.0.1 - - [09/Mar/2026 13:08:48] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 13:08:49,556 [INFO] 127.0.0.1 - - [09/Mar/2026 13:08:49] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 13:08:57,013 [INFO] [WS] Client disconnected: oVWFNtGOYzBrcUgTAAAJ
+2026-03-09 13:08:57,022 [INFO] 127.0.0.1 - - [09/Mar/2026 13:08:57] "GET /socket.io/?EIO=4&transport=websocket&sid=JQotHCBqiyqt5xLuAAAI HTTP/1.1" 200 -
+2026-03-09 13:19:54,525 [INFO] 127.0.0.1 - - [09/Mar/2026 13:19:54] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 13:20:37,770 [INFO] 127.0.0.1 - - [09/Mar/2026 13:20:37] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 13:22:04,586 [INFO] 127.0.0.1 - - [09/Mar/2026 13:22:04] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 13:23:52,623 [INFO] 127.0.0.1 - - [09/Mar/2026 13:23:52] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 13:32:23,877 [INFO] 127.0.0.1 - - [09/Mar/2026 13:32:23] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 13:32:34,316 [INFO] 127.0.0.1 - - [09/Mar/2026 13:32:34] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 13:34:33,672 [INFO] 127.0.0.1 - - [09/Mar/2026 13:34:33] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 13:34:54,440 [INFO] 127.0.0.1 - - [09/Mar/2026 13:34:54] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 13:47:08,856 [INFO] 127.0.0.1 - - [09/Mar/2026 13:47:08] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 13:50:39,407 [INFO] 127.0.0.1 - - [09/Mar/2026 13:50:39] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 13:55:47,612 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 13:55:52,301 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.115:5000
+2026-03-09 13:55:52,303 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 13:56:28,399 [INFO] 127.0.0.1 - - [09/Mar/2026 13:56:28] "[33mHEAD /login HTTP/1.1[0m" 404 -
+2026-03-09 13:56:28,430 [INFO] 127.0.0.1 - - [09/Mar/2026 13:56:28] "[33mGET /login HTTP/1.1[0m" 404 -
+2026-03-09 13:57:04,226 [INFO] 127.0.0.1 - - [09/Mar/2026 13:57:04] "HEAD /api/stats HTTP/1.1" 200 -
+2026-03-09 13:57:04,251 [INFO] 127.0.0.1 - - [09/Mar/2026 13:57:04] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 14:00:06,002 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 14:00:10,414 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.115:5000
+2026-03-09 14:00:10,415 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 14:00:50,456 [INFO] 127.0.0.1 - - [09/Mar/2026 14:00:50] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-09 14:00:50,660 [INFO] 127.0.0.1 - - [09/Mar/2026 14:00:50] "GET /login HTTP/1.1" 200 -
+2026-03-09 14:00:50,839 [INFO] 127.0.0.1 - - [09/Mar/2026 14:00:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-09 14:02:25,561 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-09 14:02:25,633 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:25] "GET / HTTP/1.1" 200 -
+2026-03-09 14:02:25,983 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:25] "GET /socket.io/?EIO=4&transport=polling&t=PpHkU5m HTTP/1.1" 200 -
+2026-03-09 14:02:26,592 [INFO] [WS] Client connected: hLvhNcstznSe7MzcAAAB
+2026-03-09 14:02:26,600 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:26] "POST /socket.io/?EIO=4&transport=polling&t=PpHkUAP&sid=Jv_BC8nseRD3qv2yAAAA HTTP/1.1" 200 -
+2026-03-09 14:02:26,616 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:26] "GET /socket.io/?EIO=4&transport=polling&t=PpHkUAQ&sid=Jv_BC8nseRD3qv2yAAAA HTTP/1.1" 200 -
+2026-03-09 14:02:26,701 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:26] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 14:02:26,725 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:26] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 14:02:26,780 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:26] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 14:02:26,842 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:26] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 14:02:56,348 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:56] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 14:02:56,693 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:56] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 14:02:56,751 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:56] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 14:02:57,080 [INFO] 127.0.0.1 - - [09/Mar/2026 14:02:57] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 14:03:06,920 [INFO] 127.0.0.1 - - [09/Mar/2026 14:03:06] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:03:44,075 [INFO] 127.0.0.1 - - [09/Mar/2026 14:03:44] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:03:56,311 [INFO] 127.0.0.1 - - [09/Mar/2026 14:03:56] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:04:26,652 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:26] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:04:39,919 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:39] "GET / HTTP/1.1" 200 -
+2026-03-09 14:04:39,963 [INFO] [WS] Client disconnected: hLvhNcstznSe7MzcAAAB
+2026-03-09 14:04:39,974 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:39] "GET /socket.io/?EIO=4&transport=websocket&sid=Jv_BC8nseRD3qv2yAAAA HTTP/1.1" 200 -
+2026-03-09 14:04:40,228 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:40] "GET /socket.io/?EIO=4&transport=polling&t=PpHk-qB HTTP/1.1" 200 -
+2026-03-09 14:04:40,332 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:40] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 14:04:40,381 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:40] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 14:04:40,499 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:40] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 14:04:40,551 [INFO] [WS] Client connected: NLqvuk-kSg9PfwNqAAAD
+2026-03-09 14:04:40,555 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:40] "POST /socket.io/?EIO=4&transport=polling&t=PpHk-td&sid=wew9ekGgWXeZ5i8WAAAC HTTP/1.1" 200 -
+2026-03-09 14:04:40,559 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:40] "GET /socket.io/?EIO=4&transport=polling&t=PpHk-te&sid=wew9ekGgWXeZ5i8WAAAC HTTP/1.1" 200 -
+2026-03-09 14:04:40,848 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:40] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 14:04:43,723 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:43] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:04:58,695 [INFO] 127.0.0.1 - - [09/Mar/2026 14:04:58] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:05:00,140 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:00] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:05:10,056 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:10] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:05:22,827 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:22] "GET / HTTP/1.1" 200 -
+2026-03-09 14:05:22,845 [INFO] [WS] Client disconnected: NLqvuk-kSg9PfwNqAAAD
+2026-03-09 14:05:22,846 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:22] "GET /socket.io/?EIO=4&transport=websocket&sid=wew9ekGgWXeZ5i8WAAAC HTTP/1.1" 200 -
+2026-03-09 14:05:22,935 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:22] "GET /socket.io/?EIO=4&transport=polling&t=PpHl9ID HTTP/1.1" 200 -
+2026-03-09 14:05:23,177 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:23] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 14:05:23,236 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:23] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 14:05:23,296 [INFO] [WS] Client connected: MYs5u0vE7ziHrWzTAAAF
+2026-03-09 14:05:23,297 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:23] "POST /socket.io/?EIO=4&transport=polling&t=PpHl9JB&sid=b5Ic9Y-vr_AygwN4AAAE HTTP/1.1" 200 -
+2026-03-09 14:05:23,298 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:23] "GET /socket.io/?EIO=4&transport=polling&t=PpHl9JE&sid=b5Ic9Y-vr_AygwN4AAAE HTTP/1.1" 200 -
+2026-03-09 14:05:23,385 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:23] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 14:05:23,641 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:23] "GET /socket.io/?EIO=4&transport=polling&t=PpHl9O-&sid=b5Ic9Y-vr_AygwN4AAAE HTTP/1.1" 200 -
+2026-03-09 14:05:23,745 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:23] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 14:05:28,485 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:28] "GET /api/activity?limit=50 HTTP/1.1" 200 -
+2026-03-09 14:05:47,179 [INFO] 127.0.0.1 - - [09/Mar/2026 14:05:47] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:14:46,364 [INFO] [WS] Client disconnected: MYs5u0vE7ziHrWzTAAAF
+2026-03-09 14:14:46,366 [INFO] 127.0.0.1 - - [09/Mar/2026 14:14:46] "GET /socket.io/?EIO=4&transport=websocket&sid=b5Ic9Y-vr_AygwN4AAAE HTTP/1.1" 200 -
+2026-03-09 14:29:20,983 [INFO] 127.0.0.1 - - [09/Mar/2026 14:29:20] "GET /socket.io/?EIO=4&transport=polling&t=PpHqeId HTTP/1.1" 200 -
+2026-03-09 14:29:21,257 [INFO] [WS] Client connected: a0L90pjXtekXdN-XAAAH
+2026-03-09 14:29:21,264 [INFO] 127.0.0.1 - - [09/Mar/2026 14:29:21] "POST /socket.io/?EIO=4&transport=polling&t=PpHqeOi&sid=4RFpZsqt9h_0WUdDAAAG HTTP/1.1" 200 -
+2026-03-09 14:29:21,371 [INFO] 127.0.0.1 - - [09/Mar/2026 14:29:21] "GET /socket.io/?EIO=4&transport=polling&t=PpHqeO-&sid=4RFpZsqt9h_0WUdDAAAG HTTP/1.1" 200 -
+2026-03-09 14:29:21,434 [INFO] 127.0.0.1 - - [09/Mar/2026 14:29:21] "GET /socket.io/?EIO=4&transport=polling&t=PpHqeUl&sid=4RFpZsqt9h_0WUdDAAAG HTTP/1.1" 200 -
+2026-03-09 14:54:44,943 [INFO] 127.0.0.1 - - [09/Mar/2026 14:54:44] "POST /api/test-email HTTP/1.1" 200 -
+2026-03-09 14:55:41,185 [INFO] 127.0.0.1 - - [09/Mar/2026 14:55:41] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 14:55:41,693 [INFO] 127.0.0.1 - - [09/Mar/2026 14:55:41] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:55:53,275 [INFO] 127.0.0.1 - - [09/Mar/2026 14:55:53] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:55:53,971 [INFO] 127.0.0.1 - - [09/Mar/2026 14:55:53] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 14:55:54,260 [INFO] 127.0.0.1 - - [09/Mar/2026 14:55:54] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 14:55:54,419 [INFO] 127.0.0.1 - - [09/Mar/2026 14:55:54] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 14:55:54,780 [INFO] 127.0.0.1 - - [09/Mar/2026 14:55:54] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 14:56:09,810 [INFO] 127.0.0.1 - - [09/Mar/2026 14:56:09] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:56:11,288 [INFO] 127.0.0.1 - - [09/Mar/2026 14:56:11] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:56:22,908 [INFO] 127.0.0.1 - - [09/Mar/2026 14:56:22] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:56:53,240 [INFO] 127.0.0.1 - - [09/Mar/2026 14:56:53] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:57:22,951 [INFO] 127.0.0.1 - - [09/Mar/2026 14:57:22] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:57:53,222 [INFO] 127.0.0.1 - - [09/Mar/2026 14:57:53] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 14:58:09,691 [INFO] [WS] Client disconnected: a0L90pjXtekXdN-XAAAH
+2026-03-09 14:58:09,742 [INFO] 127.0.0.1 - - [09/Mar/2026 14:58:09] "GET /socket.io/?EIO=4&transport=websocket&sid=4RFpZsqt9h_0WUdDAAAG HTTP/1.1" 200 -
+2026-03-09 15:27:46,750 [INFO] 127.0.0.1 - - [09/Mar/2026 15:27:46] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:27:50,318 [INFO] 127.0.0.1 - - [09/Mar/2026 15:27:50] "GET /socket.io/?EIO=4&transport=polling&t=PpI20vG HTTP/1.1" 200 -
+2026-03-09 15:27:50,341 [INFO] [WS] Client connected: Y-58CA5Pz-GHTxVmAAAJ
+2026-03-09 15:27:50,355 [INFO] 127.0.0.1 - - [09/Mar/2026 15:27:50] "POST /socket.io/?EIO=4&transport=polling&t=PpI219t&sid=SqMejcWUBqMGxhEEAAAI HTTP/1.1" 200 -
+2026-03-09 15:27:50,708 [INFO] 127.0.0.1 - - [09/Mar/2026 15:27:50] "GET /socket.io/?EIO=4&transport=polling&t=PpI21A2&sid=SqMejcWUBqMGxhEEAAAI HTTP/1.1" 200 -
+2026-03-09 15:27:51,053 [INFO] 127.0.0.1 - - [09/Mar/2026 15:27:51] "GET /socket.io/?EIO=4&transport=polling&t=PpI21Fx&sid=SqMejcWUBqMGxhEEAAAI HTTP/1.1" 200 -
+2026-03-09 15:27:52,954 [INFO] 127.0.0.1 - - [09/Mar/2026 15:27:52] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:28:23,236 [INFO] 127.0.0.1 - - [09/Mar/2026 15:28:23] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:28:42,033 [INFO] 127.0.0.1 - - [09/Mar/2026 15:28:42] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:28:45,137 [INFO] 127.0.0.1 - - [09/Mar/2026 15:28:45] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:28:52,932 [INFO] 127.0.0.1 - - [09/Mar/2026 15:28:52] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:29:06,882 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:06] "GET / HTTP/1.1" 200 -
+2026-03-09 15:29:06,932 [INFO] [WS] Client disconnected: Y-58CA5Pz-GHTxVmAAAJ
+2026-03-09 15:29:06,933 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:06] "GET /socket.io/?EIO=4&transport=websocket&sid=SqMejcWUBqMGxhEEAAAI HTTP/1.1" 200 -
+2026-03-09 15:29:07,185 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:07] "GET /socket.io/?EIO=4&transport=polling&t=PpI2JwE HTTP/1.1" 200 -
+2026-03-09 15:29:07,371 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:07] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:29:07,650 [INFO] [WS] Client connected: 4bTMSc2kHytt2qHVAAAL
+2026-03-09 15:29:07,654 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:07] "POST /socket.io/?EIO=4&transport=polling&t=PpI2JyQ&sid=1BwpCGg3otUhsaVqAAAK HTTP/1.1" 200 -
+2026-03-09 15:29:07,655 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:07] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:29:07,663 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:07] "GET /socket.io/?EIO=4&transport=polling&t=PpI2JyW&sid=1BwpCGg3otUhsaVqAAAK HTTP/1.1" 200 -
+2026-03-09 15:29:07,834 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:07] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:29:08,014 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:08] "GET /socket.io/?EIO=4&transport=polling&t=PpI2K2o&sid=1BwpCGg3otUhsaVqAAAK HTTP/1.1" 200 -
+2026-03-09 15:29:08,249 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:08] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 15:29:09,701 [INFO] 127.0.0.1 - - [09/Mar/2026 15:29:09] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:31:17,669 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:17] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:31:25,922 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:25] "GET / HTTP/1.1" 200 -
+2026-03-09 15:31:25,970 [INFO] [WS] Client disconnected: 4bTMSc2kHytt2qHVAAAL
+2026-03-09 15:31:25,972 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:25] "GET /socket.io/?EIO=4&transport=websocket&sid=1BwpCGg3otUhsaVqAAAK HTTP/1.1" 200 -
+2026-03-09 15:31:26,229 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:26] "GET /socket.io/?EIO=4&transport=polling&t=PpI2rrd HTTP/1.1" 200 -
+2026-03-09 15:31:26,466 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:26] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:31:26,484 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:26] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:31:26,559 [INFO] [WS] Client connected: KiaNl44QSGHpfOZHAAAN
+2026-03-09 15:31:26,560 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:26] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:31:26,562 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:26] "POST /socket.io/?EIO=4&transport=polling&t=PpI2rtP&sid=H9fiF9PAyzECXex2AAAM HTTP/1.1" 200 -
+2026-03-09 15:31:26,567 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:26] "GET /socket.io/?EIO=4&transport=polling&t=PpI2rtR&sid=H9fiF9PAyzECXex2AAAM HTTP/1.1" 200 -
+2026-03-09 15:31:26,950 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:26] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 15:31:30,276 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:30] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:31:47,368 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:47] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:31:56,145 [INFO] 127.0.0.1 - - [09/Mar/2026 15:31:56] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:32:26,701 [INFO] 127.0.0.1 - - [09/Mar/2026 15:32:26] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:32:33,147 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 15:32:37,846 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.115:5000
+2026-03-09 15:32:37,848 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 15:32:56,405 [INFO] 127.0.0.1 - - [09/Mar/2026 15:32:56] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:33:07,251 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:07] "GET / HTTP/1.1" 200 -
+2026-03-09 15:33:07,289 [INFO] [WS] Client disconnected: KiaNl44QSGHpfOZHAAAN
+2026-03-09 15:33:07,293 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:07] "GET /socket.io/?EIO=4&transport=websocket&sid=H9fiF9PAyzECXex2AAAM HTTP/1.1" 200 -
+2026-03-09 15:33:07,347 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:07] "GET /socket.io/?EIO=4&transport=polling&t=PpI3EZA HTTP/1.1" 200 -
+2026-03-09 15:33:07,513 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:07] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:33:07,678 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:07] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:33:07,694 [INFO] [WS] Client connected: KquM2qGd8IYe_I3eAAAP
+2026-03-09 15:33:07,699 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:07] "POST /socket.io/?EIO=4&transport=polling&t=PpI3EZb&sid=G3x3vL0GjEpydWMwAAAO HTTP/1.1" 200 -
+2026-03-09 15:33:07,701 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:07] "GET /socket.io/?EIO=4&transport=polling&t=PpI3EZd&sid=G3x3vL0GjEpydWMwAAAO HTTP/1.1" 200 -
+2026-03-09 15:33:07,787 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:07] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:33:08,046 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:08] "GET /socket.io/?EIO=4&transport=polling&t=PpI3EfG&sid=G3x3vL0GjEpydWMwAAAO HTTP/1.1" 200 -
+2026-03-09 15:33:08,115 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:08] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 15:33:09,853 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:09] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:33:32,000 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:32] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:33:43,069 [INFO] 127.0.0.1 - - [09/Mar/2026 15:33:43] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:34:07,669 [INFO] 127.0.0.1 - - [09/Mar/2026 15:34:07] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:34:37,366 [INFO] 127.0.0.1 - - [09/Mar/2026 15:34:37] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:34:40,649 [INFO] 127.0.0.1 - - [09/Mar/2026 15:34:40] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:35:00,906 [INFO] 127.0.0.1 - - [09/Mar/2026 15:35:00] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:35:05,151 [INFO] 127.0.0.1 - - [09/Mar/2026 15:35:05] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:35:07,668 [INFO] 127.0.0.1 - - [09/Mar/2026 15:35:07] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:35:10,715 [INFO] 127.0.0.1 - - [09/Mar/2026 15:35:10] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:35:11,000 [INFO] 127.0.0.1 - - [09/Mar/2026 15:35:10] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:35:11,085 [INFO] 127.0.0.1 - - [09/Mar/2026 15:35:11] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:35:11,418 [INFO] 127.0.0.1 - - [09/Mar/2026 15:35:11] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 15:35:13,056 [INFO] 127.0.0.1 - - [09/Mar/2026 15:35:13] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:35:34,219 [INFO] 127.0.0.1 - - [09/Mar/2026 15:35:34] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 15:35:37,367 [INFO] 127.0.0.1 - - [09/Mar/2026 15:35:37] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 15:36:07,667 [INFO] 127.0.0.1 - - [09/Mar/2026 15:36:07] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 15:36:10,768 [INFO] 127.0.0.1 - - [09/Mar/2026 15:36:10] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 15:36:13,815 [INFO] 127.0.0.1 - - [09/Mar/2026 15:36:13] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:36:20,165 [INFO] 127.0.0.1 - - [09/Mar/2026 15:36:20] "GET /api/activity?limit=50 HTTP/1.1" 200 -
+2026-03-09 15:36:25,477 [INFO] 127.0.0.1 - - [09/Mar/2026 15:36:25] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:36:25,512 [INFO] 127.0.0.1 - - [09/Mar/2026 15:36:25] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:36:25,569 [INFO] 127.0.0.1 - - [09/Mar/2026 15:36:25] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:36:28,411 [INFO] 127.0.0.1 - - [09/Mar/2026 15:36:28] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:37:37,829 [INFO] 127.0.0.1 - - [09/Mar/2026 15:37:37] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:38:53,166 [INFO] 127.0.0.1 - - [09/Mar/2026 15:38:53] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:39:27,414 [INFO] [ALERT RECEIVED] drugs — if i typr something abuse whatsapp it is not capturing snd n
+2026-03-09 15:39:27,415 [INFO] 127.0.0.1 - - [09/Mar/2026 15:39:27] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 15:39:27,809 [INFO] 127.0.0.1 - - [09/Mar/2026 15:39:27] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:39:42,794 [INFO] 127.0.0.1 - - [09/Mar/2026 15:39:42] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:40:07,679 [INFO] 127.0.0.1 - - [09/Mar/2026 15:40:07] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:40:41,257 [INFO] 127.0.0.1 - - [09/Mar/2026 15:40:41] "GET / HTTP/1.1" 200 -
+2026-03-09 15:40:41,292 [INFO] [WS] Client disconnected: KquM2qGd8IYe_I3eAAAP
+2026-03-09 15:40:41,294 [INFO] 127.0.0.1 - - [09/Mar/2026 15:40:41] "GET /socket.io/?EIO=4&transport=websocket&sid=G3x3vL0GjEpydWMwAAAO HTTP/1.1" 200 -
+2026-03-09 15:40:41,564 [INFO] 127.0.0.1 - - [09/Mar/2026 15:40:41] "GET /socket.io/?EIO=4&transport=polling&t=PpI4zOr HTTP/1.1" 200 -
+2026-03-09 15:40:41,698 [INFO] 127.0.0.1 - - [09/Mar/2026 15:40:41] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:40:41,725 [INFO] 127.0.0.1 - - [09/Mar/2026 15:40:41] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:40:41,791 [INFO] 127.0.0.1 - - [09/Mar/2026 15:40:41] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:40:41,895 [INFO] [WS] Client connected: xBtVyzvT0-QAqm9oAAAR
+2026-03-09 15:40:41,906 [INFO] 127.0.0.1 - - [09/Mar/2026 15:40:41] "POST /socket.io/?EIO=4&transport=polling&t=PpI4zSW&sid=z_dy2S2qDR8YnSuiAAAQ HTTP/1.1" 200 -
+2026-03-09 15:40:41,907 [INFO] 127.0.0.1 - - [09/Mar/2026 15:40:41] "GET /socket.io/?EIO=4&transport=polling&t=PpI4zSe&sid=z_dy2S2qDR8YnSuiAAAQ HTTP/1.1" 200 -
+2026-03-09 15:40:42,114 [INFO] 127.0.0.1 - - [09/Mar/2026 15:40:42] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 15:43:59,641 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 15:44:04,639 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.115:5000
+2026-03-09 15:44:04,640 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 15:44:06,992 [INFO] 127.0.0.1 - - [09/Mar/2026 15:44:06] "GET /socket.io/?EIO=4&transport=polling&t=PpI5lXF HTTP/1.1" 200 -
+2026-03-09 15:44:07,257 [INFO] [WS] Client connected: 4FbTcqJsLtxAlvU8AAAB
+2026-03-09 15:44:07,259 [INFO] 127.0.0.1 - - [09/Mar/2026 15:44:07] "POST /socket.io/?EIO=4&transport=polling&t=PpI5lcK&sid=BS1ZmawDOvvlhnlXAAAA HTTP/1.1" 200 -
+2026-03-09 15:44:07,311 [INFO] 127.0.0.1 - - [09/Mar/2026 15:44:07] "GET /socket.io/?EIO=4&transport=polling&t=PpI5lcO&sid=BS1ZmawDOvvlhnlXAAAA HTTP/1.1" 200 -
+2026-03-09 15:44:07,355 [INFO] 127.0.0.1 - - [09/Mar/2026 15:44:07] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:44:07,471 [INFO] 127.0.0.1 - - [09/Mar/2026 15:44:07] "GET /socket.io/?EIO=4&transport=polling&t=PpI5lhJ&sid=BS1ZmawDOvvlhnlXAAAA HTTP/1.1" 200 -
+2026-03-09 15:44:11,362 [INFO] 127.0.0.1 - - [09/Mar/2026 15:44:11] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:44:41,692 [INFO] 127.0.0.1 - - [09/Mar/2026 15:44:41] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:45:06,756 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:06] "GET / HTTP/1.1" 200 -
+2026-03-09 15:45:06,777 [INFO] [WS] Client disconnected: 4FbTcqJsLtxAlvU8AAAB
+2026-03-09 15:45:06,779 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:06] "GET /socket.io/?EIO=4&transport=websocket&sid=BS1ZmawDOvvlhnlXAAAA HTTP/1.1" 200 -
+2026-03-09 15:45:06,971 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:06] "GET /socket.io/?EIO=4&transport=polling&t=PpI5-D5 HTTP/1.1" 200 -
+2026-03-09 15:45:07,252 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:07] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:45:07,302 [INFO] [WS] Client connected: qVx6uyP-9FUAIHsVAAAD
+2026-03-09 15:45:07,308 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:07] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:45:07,309 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:07] "POST /socket.io/?EIO=4&transport=polling&t=PpI5-FU&sid=rAb__lza8Vhr7y-nAAAC HTTP/1.1" 200 -
+2026-03-09 15:45:07,325 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:07] "GET /socket.io/?EIO=4&transport=polling&t=PpI5-FW&sid=rAb__lza8Vhr7y-nAAAC HTTP/1.1" 200 -
+2026-03-09 15:45:07,407 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:07] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:45:07,741 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:07] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 15:45:10,776 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:10] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:45:51,288 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:51] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:45:54,337 [INFO] [ALERT RECEIVED] abusive — i will kill  someone today
+2026-03-09 15:45:54,340 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:54] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 15:45:54,691 [INFO] 127.0.0.1 - - [09/Mar/2026 15:45:54] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:46:14,102 [INFO] 127.0.0.1 - - [09/Mar/2026 15:46:14] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:47:54,343 [INFO] 127.0.0.1 - - [09/Mar/2026 15:47:54] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:50:49,717 [INFO] 127.0.0.1 - - [09/Mar/2026 15:50:49] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:52:27,670 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 15:52:33,229 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.115:5000
+2026-03-09 15:52:33,230 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 15:52:35,164 [INFO] 127.0.0.1 - - [09/Mar/2026 15:52:35] "GET /socket.io/?EIO=4&transport=polling&t=PpI7hgH HTTP/1.1" 200 -
+2026-03-09 15:52:35,486 [INFO] [WS] Client connected: QefmdBV18JE7aMDJAAAB
+2026-03-09 15:52:35,488 [INFO] 127.0.0.1 - - [09/Mar/2026 15:52:35] "POST /socket.io/?EIO=4&transport=polling&t=PpI7hgW&sid=2T0Zb_GzI9GJic0pAAAA HTTP/1.1" 200 -
+2026-03-09 15:52:35,489 [INFO] 127.0.0.1 - - [09/Mar/2026 15:52:35] "GET /socket.io/?EIO=4&transport=polling&t=PpI7hgY&sid=2T0Zb_GzI9GJic0pAAAA HTTP/1.1" 200 -
+2026-03-09 15:52:35,750 [INFO] 127.0.0.1 - - [09/Mar/2026 15:52:35] "GET /socket.io/?EIO=4&transport=polling&t=PpI7hl-&sid=2T0Zb_GzI9GJic0pAAAA HTTP/1.1" 200 -
+2026-03-09 15:52:36,867 [INFO] 127.0.0.1 - - [09/Mar/2026 15:52:36] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:53:07,163 [INFO] 127.0.0.1 - - [09/Mar/2026 15:53:07] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:53:30,622 [INFO] 127.0.0.1 - - [09/Mar/2026 15:53:30] "GET /api/activity?limit=50 HTTP/1.1" 200 -
+2026-03-09 15:53:31,448 [INFO] 127.0.0.1 - - [09/Mar/2026 15:53:31] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:53:32,451 [INFO] 127.0.0.1 - - [09/Mar/2026 15:53:32] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 15:53:33,951 [INFO] 127.0.0.1 - - [09/Mar/2026 15:53:33] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:53:37,153 [INFO] 127.0.0.1 - - [09/Mar/2026 15:53:37] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:53:53,304 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 15:53:59,469 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.115:5000
+2026-03-09 15:53:59,470 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 15:54:06,841 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:06] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:54:21,414 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:21] "GET / HTTP/1.1" 200 -
+2026-03-09 15:54:21,501 [INFO] [WS] Client disconnected: QefmdBV18JE7aMDJAAAB
+2026-03-09 15:54:21,504 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:21] "GET /socket.io/?EIO=4&transport=websocket&sid=2T0Zb_GzI9GJic0pAAAA HTTP/1.1" 200 -
+2026-03-09 15:54:21,686 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:21] "GET /socket.io/?EIO=4&transport=polling&t=PpI85gm HTTP/1.1" 200 -
+2026-03-09 15:54:21,886 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:21] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:54:22,113 [INFO] [WS] Client connected: t7DJo5CyrJBkZaWyAAAD
+2026-03-09 15:54:22,128 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:22] "POST /socket.io/?EIO=4&transport=polling&t=PpI85ht&sid=ZG_i2XKGz90uH_WLAAAC HTTP/1.1" 200 -
+2026-03-09 15:54:22,130 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:22] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:54:22,133 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:22] "GET /socket.io/?EIO=4&transport=polling&t=PpI85hu&sid=ZG_i2XKGz90uH_WLAAAC HTTP/1.1" 200 -
+2026-03-09 15:54:22,186 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:22] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:54:22,502 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:22] "GET /socket.io/?EIO=4&transport=polling&t=PpI85oc&sid=ZG_i2XKGz90uH_WLAAAC HTTP/1.1" 200 -
+2026-03-09 15:54:22,546 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:22] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 15:54:45,602 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:45] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:54:46,815 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:46] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:54:48,301 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:48] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:54:51,758 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:51] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:54:56,971 [INFO] 127.0.0.1 - - [09/Mar/2026 15:54:56] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:55:01,223 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:01] "GET / HTTP/1.1" 200 -
+2026-03-09 15:55:01,251 [INFO] [WS] Client disconnected: t7DJo5CyrJBkZaWyAAAD
+2026-03-09 15:55:01,252 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:01] "GET /socket.io/?EIO=4&transport=websocket&sid=ZG_i2XKGz90uH_WLAAAC HTTP/1.1" 200 -
+2026-03-09 15:55:01,532 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:01] "GET /socket.io/?EIO=4&transport=polling&t=PpI8FLY HTTP/1.1" 200 -
+2026-03-09 15:55:01,679 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:01] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:55:01,686 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:01] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:55:01,747 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:01] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:55:01,863 [INFO] [WS] Client connected: KS0GqUhMERIGtQC9AAAF
+2026-03-09 15:55:01,867 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:01] "POST /socket.io/?EIO=4&transport=polling&t=PpI8FPW&sid=q40wUT8dQ77tAmmJAAAE HTTP/1.1" 200 -
+2026-03-09 15:55:01,871 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:01] "GET /socket.io/?EIO=4&transport=polling&t=PpI8FPZ&sid=q40wUT8dQ77tAmmJAAAE HTTP/1.1" 200 -
+2026-03-09 15:55:02,067 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:02] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 15:55:03,527 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:03] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:55:10,869 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:10] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:55:16,869 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:16] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 15:55:18,282 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:18] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 15:55:20,227 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:20] "GET /api/activity?limit=50 HTTP/1.1" 200 -
+2026-03-09 15:55:30,354 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:30] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 15:55:31,622 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:31] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 15:55:31,868 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:31] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 15:55:32,665 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:32] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 15:55:34,463 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:34] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:55:39,531 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:39] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:55:57,460 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:57] "GET / HTTP/1.1" 200 -
+2026-03-09 15:55:57,593 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:57] "GET /socket.io/?EIO=4&transport=polling&t=PpI8T4o HTTP/1.1" 200 -
+2026-03-09 15:55:57,769 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:57] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:55:58,082 [INFO] [WS] Client connected: Kjqk73TM_JA6_OqOAAAH
+2026-03-09 15:55:58,083 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:58] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:55:58,085 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:58] "POST /socket.io/?EIO=4&transport=polling&t=PpI8T7v&sid=vx-ldakvmdjF5B7dAAAG HTTP/1.1" 200 -
+2026-03-09 15:55:58,094 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:58] "GET /socket.io/?EIO=4&transport=polling&t=PpI8T7y&sid=vx-ldakvmdjF5B7dAAAG HTTP/1.1" 200 -
+2026-03-09 15:55:58,191 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:58] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:55:58,571 [INFO] 127.0.0.1 - - [09/Mar/2026 15:55:58] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 15:56:00,785 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:00] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:56:01,696 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:01] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:56:05,150 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:05] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:56:22,954 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:22] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:56:23,269 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:23] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:56:25,451 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:25] "GET / HTTP/1.1" 200 -
+2026-03-09 15:56:25,469 [INFO] [WS] Client disconnected: Kjqk73TM_JA6_OqOAAAH
+2026-03-09 15:56:25,470 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:25] "GET /socket.io/?EIO=4&transport=websocket&sid=vx-ldakvmdjF5B7dAAAG HTTP/1.1" 200 -
+2026-03-09 15:56:25,515 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:25] "GET /socket.io/?EIO=4&transport=polling&t=PpI8ZvS HTTP/1.1" 200 -
+2026-03-09 15:56:25,747 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:25] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:56:25,830 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:25] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 15:56:25,849 [INFO] [WS] Client connected: q6seOXSvQl4w5e5PAAAJ
+2026-03-09 15:56:25,852 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:25] "POST /socket.io/?EIO=4&transport=polling&t=PpI8Zvz&sid=cXZ3L_MmDN2ulxqbAAAI HTTP/1.1" 200 -
+2026-03-09 15:56:25,857 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:25] "GET /socket.io/?EIO=4&transport=polling&t=PpI8Zv-&sid=cXZ3L_MmDN2ulxqbAAAI HTTP/1.1" 200 -
+2026-03-09 15:56:25,934 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:25] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 15:56:26,200 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:26] "GET /socket.io/?EIO=4&transport=polling&t=PpI8Z_N&sid=cXZ3L_MmDN2ulxqbAAAI HTTP/1.1" 200 -
+2026-03-09 15:56:26,268 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:26] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 15:56:28,084 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:28] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:56:31,393 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:31] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:56:34,016 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:34] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:56:55,531 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:55] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:56:58,451 [INFO] [ALERT RECEIVED] abusive — drugs
+2026-03-09 15:56:58,453 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:58] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 15:56:58,469 [INFO] [ALERT RECEIVED] abusive — drugs
+2026-03-09 15:56:58,476 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:58] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 15:56:58,781 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:58] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:56:59,034 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:59] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:56:59,114 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:59] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:56:59,374 [INFO] 127.0.0.1 - - [09/Mar/2026 15:56:59] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 15:57:01,400 [INFO] 127.0.0.1 - - [09/Mar/2026 15:57:01] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:57:21,297 [INFO] 127.0.0.1 - - [09/Mar/2026 15:57:21] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:57:21,343 [INFO] 127.0.0.1 - - [09/Mar/2026 15:57:21] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 15:57:25,843 [INFO] 127.0.0.1 - - [09/Mar/2026 15:57:25] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:57:31,386 [INFO] 127.0.0.1 - - [09/Mar/2026 15:57:31] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:57:55,838 [INFO] 127.0.0.1 - - [09/Mar/2026 15:57:55] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:58:01,386 [INFO] 127.0.0.1 - - [09/Mar/2026 15:58:01] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:58:19,611 [INFO] 127.0.0.1 - - [09/Mar/2026 15:58:19] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:58:31,393 [INFO] 127.0.0.1 - - [09/Mar/2026 15:58:31] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 15:59:35,447 [INFO] [WS] Client disconnected: KS0GqUhMERIGtQC9AAAF
+2026-03-09 15:59:35,457 [INFO] 127.0.0.1 - - [09/Mar/2026 15:59:35] "GET /socket.io/?EIO=4&transport=websocket&sid=q40wUT8dQ77tAmmJAAAE HTTP/1.1" 200 -
+2026-03-09 15:59:53,259 [INFO] [WS] Client disconnected: q6seOXSvQl4w5e5PAAAJ
+2026-03-09 15:59:53,261 [INFO] 127.0.0.1 - - [09/Mar/2026 15:59:53] "GET /socket.io/?EIO=4&transport=websocket&sid=cXZ3L_MmDN2ulxqbAAAI HTTP/1.1" 200 -
+2026-03-09 17:04:02,395 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 17:04:07,566 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.115:5000
+2026-03-09 17:04:07,567 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 17:04:50,871 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:50] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-09 17:04:51,136 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:51] "GET /login HTTP/1.1" 200 -
+2026-03-09 17:04:51,413 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-09 17:04:55,933 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-09 17:04:56,069 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:56] "GET / HTTP/1.1" 200 -
+2026-03-09 17:04:56,293 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:56] "GET /socket.io/?EIO=4&transport=polling&t=PpIOFWF HTTP/1.1" 200 -
+2026-03-09 17:04:56,871 [INFO] [WS] Client connected: K6IdVv0maIH-Ei9fAAAB
+2026-03-09 17:04:56,888 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:56] "POST /socket.io/?EIO=4&transport=polling&t=PpIOFaE&sid=WX4t9FKJA3MBMaq5AAAA HTTP/1.1" 200 -
+2026-03-09 17:04:56,903 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:56] "GET /socket.io/?EIO=4&transport=polling&t=PpIOFaJ&sid=WX4t9FKJA3MBMaq5AAAA HTTP/1.1" 200 -
+2026-03-09 17:04:57,253 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:57] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:04:57,305 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:57] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:04:57,407 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:57] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:04:57,502 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:57] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:04:59,319 [INFO] 127.0.0.1 - - [09/Mar/2026 17:04:59] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:05:26,598 [INFO] 127.0.0.1 - - [09/Mar/2026 17:05:26] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:05:32,060 [INFO] 127.0.0.1 - - [09/Mar/2026 17:05:32] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 17:05:34,398 [INFO] 127.0.0.1 - - [09/Mar/2026 17:05:34] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 17:05:35,785 [INFO] 127.0.0.1 - - [09/Mar/2026 17:05:35] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:05:56,925 [INFO] 127.0.0.1 - - [09/Mar/2026 17:05:56] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:06:15,315 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:15] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 17:06:24,835 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:24] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:06:26,889 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:26] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:06:28,650 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:28] "GET / HTTP/1.1" 200 -
+2026-03-09 17:06:28,697 [INFO] [WS] Client disconnected: K6IdVv0maIH-Ei9fAAAB
+2026-03-09 17:06:28,701 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:28] "GET /socket.io/?EIO=4&transport=websocket&sid=WX4t9FKJA3MBMaq5AAAA HTTP/1.1" 200 -
+2026-03-09 17:06:28,966 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:28] "GET /socket.io/?EIO=4&transport=polling&t=PpIOc52 HTTP/1.1" 200 -
+2026-03-09 17:06:29,103 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:29] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:06:29,120 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:29] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:06:29,221 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:29] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:06:29,294 [INFO] [WS] Client connected: lymanebkW2X5qWlfAAAD
+2026-03-09 17:06:29,300 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:29] "POST /socket.io/?EIO=4&transport=polling&t=PpIOc8i&sid=pt9iQgbS6i0UxaCwAAAC HTTP/1.1" 200 -
+2026-03-09 17:06:29,302 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:29] "GET /socket.io/?EIO=4&transport=polling&t=PpIOc8n&sid=pt9iQgbS6i0UxaCwAAAC HTTP/1.1" 200 -
+2026-03-09 17:06:29,546 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:29] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:06:31,770 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:31] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:06:33,812 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:33] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:06:35,806 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:35] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 17:06:51,350 [INFO] [ALERT RECEIVED] abusive — i will kill someone
+2026-03-09 17:06:51,354 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:51] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 17:06:51,385 [INFO] 127.0.0.1 - - [09/Mar/2026 17:06:51] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:07:20,372 [INFO] 127.0.0.1 - - [09/Mar/2026 17:07:20] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 17:08:43,164 [INFO] 127.0.0.1 - - [09/Mar/2026 17:08:43] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:08:58,968 [INFO] 127.0.0.1 - - [09/Mar/2026 17:08:58] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:09:01,433 [INFO] 127.0.0.1 - - [09/Mar/2026 17:09:01] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 17:09:29,066 [INFO] 127.0.0.1 - - [09/Mar/2026 17:09:29] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:09:34,992 [INFO] [ALERT RECEIVED] abusive — i want drugs
+2026-03-09 17:09:34,995 [INFO] 127.0.0.1 - - [09/Mar/2026 17:09:34] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 17:09:35,032 [INFO] 127.0.0.1 - - [09/Mar/2026 17:09:35] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:09:59,064 [INFO] 127.0.0.1 - - [09/Mar/2026 17:09:59] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:10:16,881 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:16] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:10:17,170 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:17] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:10:17,347 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:17] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:10:17,717 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:17] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:10:25,376 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:25] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:10:29,067 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:29] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:10:37,028 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:37] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:10:44,252 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:44] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 17:10:51,313 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:51] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:10:59,081 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:59] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:10:59,579 [INFO] 127.0.0.1 - - [09/Mar/2026 17:10:59] "GET /api/activity?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:11:29,093 [INFO] 127.0.0.1 - - [09/Mar/2026 17:11:29] "GET /api/activity?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:11:31,243 [INFO] 127.0.0.1 - - [09/Mar/2026 17:11:31] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:11:41,296 [INFO] 127.0.0.1 - - [09/Mar/2026 17:11:41] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:11:41,334 [INFO] 127.0.0.1 - - [09/Mar/2026 17:11:41] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:11:41,445 [INFO] 127.0.0.1 - - [09/Mar/2026 17:11:41] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:11:41,492 [INFO] 127.0.0.1 - - [09/Mar/2026 17:11:41] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:11:58,785 [INFO] 127.0.0.1 - - [09/Mar/2026 17:11:58] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:11:59,097 [INFO] 127.0.0.1 - - [09/Mar/2026 17:11:59] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:11:59,258 [INFO] 127.0.0.1 - - [09/Mar/2026 17:11:59] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:11:59,594 [INFO] 127.0.0.1 - - [09/Mar/2026 17:11:59] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:12:20,567 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:20] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:12:20,866 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:20] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:12:21,017 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:21] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:12:21,283 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:21] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:12:21,330 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:21] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:12:21,379 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:21] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:12:21,512 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:21] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:12:21,848 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:21] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:12:22,268 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:22] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:12:22,605 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:22] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:12:22,727 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:22] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:12:23,066 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:23] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:12:23,345 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:23] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:12:27,421 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:27] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:12:27,466 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:27] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:12:27,603 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:27] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:12:27,633 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:27] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:12:28,681 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:28] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:12:28,948 [INFO] 127.0.0.1 - - [09/Mar/2026 17:12:28] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:15:23,811 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 17:15:25,956 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:25] "POST /api/test-email HTTP/1.1" 200 -
+2026-03-09 17:15:31,341 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.115:5000
+2026-03-09 17:15:31,342 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 17:15:56,788 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:56] "GET / HTTP/1.1" 200 -
+2026-03-09 17:15:56,863 [INFO] [WS] Client disconnected: lymanebkW2X5qWlfAAAD
+2026-03-09 17:15:56,873 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:56] "GET /socket.io/?EIO=4&transport=websocket&sid=pt9iQgbS6i0UxaCwAAAC HTTP/1.1" 200 -
+2026-03-09 17:15:57,025 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:57] "GET /socket.io/?EIO=4&transport=polling&t=PpIQmqJ HTTP/1.1" 200 -
+2026-03-09 17:15:57,067 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:57] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:15:57,381 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:57] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:15:57,452 [INFO] [WS] Client connected: wAeR_wnCPKAWIpIYAAAF
+2026-03-09 17:15:57,461 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:57] "POST /socket.io/?EIO=4&transport=polling&t=PpIQmrz&sid=TCBvtx_Yy3s_5ZJ2AAAE HTTP/1.1" 200 -
+2026-03-09 17:15:57,461 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:57] "GET /socket.io/?EIO=4&transport=polling&t=PpIQms4&sid=TCBvtx_Yy3s_5ZJ2AAAE HTTP/1.1" 200 -
+2026-03-09 17:15:57,548 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:57] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:15:57,798 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:57] "GET /socket.io/?EIO=4&transport=polling&t=PpIQmxd&sid=TCBvtx_Yy3s_5ZJ2AAAE HTTP/1.1" 200 -
+2026-03-09 17:15:57,912 [INFO] 127.0.0.1 - - [09/Mar/2026 17:15:57] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:16:00,163 [INFO] 127.0.0.1 - - [09/Mar/2026 17:16:00] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:16:05,128 [INFO] 127.0.0.1 - - [09/Mar/2026 17:16:05] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:16:27,372 [INFO] 127.0.0.1 - - [09/Mar/2026 17:16:27] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:16:41,611 [INFO] 127.0.0.1 - - [09/Mar/2026 17:16:41] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 17:16:44,214 [INFO] 127.0.0.1 - - [09/Mar/2026 17:16:44] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:16:45,656 [INFO] 127.0.0.1 - - [09/Mar/2026 17:16:45] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:16:47,109 [INFO] 127.0.0.1 - - [09/Mar/2026 17:16:47] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:19:23,745 [INFO] 127.0.0.1 - - [09/Mar/2026 17:19:23] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 17:20:05,761 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:05] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:20:05,805 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:05] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:20:05,888 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:05] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:20:05,980 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:05] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:20:27,076 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:27] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:20:27,401 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:27] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:20:27,542 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:27] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:20:27,895 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:27] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:20:52,602 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:52] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 17:20:55,457 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:55] "GET / HTTP/1.1" 200 -
+2026-03-09 17:20:55,494 [INFO] [WS] Client disconnected: wAeR_wnCPKAWIpIYAAAF
+2026-03-09 17:20:55,508 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:55] "GET /socket.io/?EIO=4&transport=websocket&sid=TCBvtx_Yy3s_5ZJ2AAAE HTTP/1.1" 200 -
+2026-03-09 17:20:55,761 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:55] "GET /socket.io/?EIO=4&transport=polling&t=PpIRvj2 HTTP/1.1" 200 -
+2026-03-09 17:20:55,972 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:55] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:20:55,978 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:55] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:20:56,111 [INFO] [WS] Client connected: mJJT5gaS8PMN3kqyAAAH
+2026-03-09 17:20:56,124 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:56] "POST /socket.io/?EIO=4&transport=polling&t=PpIRvmT&sid=BJLP8ePeyPxxCBX2AAAG HTTP/1.1" 200 -
+2026-03-09 17:20:56,156 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:56] "GET /socket.io/?EIO=4&transport=polling&t=PpIRvmX&sid=BJLP8ePeyPxxCBX2AAAG HTTP/1.1" 200 -
+2026-03-09 17:20:56,207 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:56] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:20:56,577 [INFO] 127.0.0.1 - - [09/Mar/2026 17:20:56] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:21:25,641 [INFO] 127.0.0.1 - - [09/Mar/2026 17:21:25] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:21:25,944 [INFO] 127.0.0.1 - - [09/Mar/2026 17:21:25] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:21:26,010 [INFO] 127.0.0.1 - - [09/Mar/2026 17:21:26] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:21:26,090 [INFO] 127.0.0.1 - - [09/Mar/2026 17:21:26] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:21:26,440 [INFO] 127.0.0.1 - - [09/Mar/2026 17:21:26] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:21:27,678 [INFO] 127.0.0.1 - - [09/Mar/2026 17:21:27] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:21:44,192 [INFO] 127.0.0.1 - - [09/Mar/2026 17:21:44] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 17:21:55,614 [INFO] 127.0.0.1 - - [09/Mar/2026 17:21:55] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 17:22:58,284 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 17:23:07,288 [INFO] [DB] Seeding demo data...
+2026-03-09 17:23:07,455 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.115:5000
+2026-03-09 17:23:07,455 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 17:23:07,653 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:07] "GET /socket.io/?EIO=4&transport=polling&t=PpISPlX HTTP/1.1" 200 -
+2026-03-09 17:23:07,950 [INFO] [WS] Client connected: R959LgNQ88TS4PViAAAB
+2026-03-09 17:23:07,955 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:07] "POST /socket.io/?EIO=4&transport=polling&t=PpISPzb&sid=elmCbfvuORSs6fkfAAAA HTTP/1.1" 200 -
+2026-03-09 17:23:08,005 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:08] "GET /socket.io/?EIO=4&transport=polling&t=PpISP-c&sid=elmCbfvuORSs6fkfAAAA HTTP/1.1" 200 -
+2026-03-09 17:23:08,151 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:08] "GET /socket.io/?EIO=4&transport=polling&t=PpISQ2j&sid=elmCbfvuORSs6fkfAAAA HTTP/1.1" 200 -
+2026-03-09 17:23:08,708 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:08] "GET / HTTP/1.1" 200 -
+2026-03-09 17:23:08,825 [INFO] [WS] Client disconnected: R959LgNQ88TS4PViAAAB
+2026-03-09 17:23:08,826 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:08] "GET /socket.io/?EIO=4&transport=websocket&sid=elmCbfvuORSs6fkfAAAA HTTP/1.1" 200 -
+2026-03-09 17:23:09,355 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:09] "GET /socket.io/?EIO=4&transport=polling&t=PpISQNI HTTP/1.1" 200 -
+2026-03-09 17:23:09,810 [INFO] [WS] Client connected: 1tpmCUi9ObRmpKNhAAAD
+2026-03-09 17:23:09,839 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:09] "POST /socket.io/?EIO=4&transport=polling&t=PpISQPK&sid=6l_xsvyyg0MFkXo1AAAC HTTP/1.1" 200 -
+2026-03-09 17:23:09,841 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:09] "GET /socket.io/?EIO=4&transport=polling&t=PpISQPR&sid=6l_xsvyyg0MFkXo1AAAC HTTP/1.1" 200 -
+2026-03-09 17:23:09,860 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:09] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:23:09,943 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:09] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:23:10,418 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:10] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:23:10,503 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:10] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:23:19,471 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:19] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:23:27,282 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:27] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:23:27,591 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:27] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:23:27,707 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:27] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:23:28,045 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:28] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:23:39,441 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:39] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:23:39,755 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:39] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:23:39,906 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:39] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:23:40,254 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:40] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:23:50,075 [INFO] 127.0.0.1 - - [09/Mar/2026 17:23:50] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:24:02,190 [INFO] 127.0.0.1 - - [09/Mar/2026 17:24:02] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:24:09,396 [INFO] 127.0.0.1 - - [09/Mar/2026 17:24:09] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:24:15,319 [INFO] 127.0.0.1 - - [09/Mar/2026 17:24:15] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 17:24:19,209 [INFO] 127.0.0.1 - - [09/Mar/2026 17:24:19] "GET /api/urls?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:24:24,017 [INFO] 127.0.0.1 - - [09/Mar/2026 17:24:24] "GET /api/activity?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:24:26,434 [INFO] 127.0.0.1 - - [09/Mar/2026 17:24:26] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:24:26,748 [INFO] 127.0.0.1 - - [09/Mar/2026 17:24:26] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:24:26,890 [INFO] 127.0.0.1 - - [09/Mar/2026 17:24:26] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:24:36,522 [INFO] 127.0.0.1 - - [09/Mar/2026 17:24:36] "GET /api/settings HTTP/1.1" 200 -
+2026-03-09 17:24:39,398 [INFO] 127.0.0.1 - - [09/Mar/2026 17:24:39] "GET /api/settings HTTP/1.1" 200 -
+2026-03-09 17:25:08,574 [INFO] 127.0.0.1 - - [09/Mar/2026 17:25:08] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:25:09,401 [INFO] 127.0.0.1 - - [09/Mar/2026 17:25:09] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:25:12,490 [INFO] 127.0.0.1 - - [09/Mar/2026 17:25:12] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:25:12,551 [INFO] 127.0.0.1 - - [09/Mar/2026 17:25:12] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:25:12,656 [INFO] 127.0.0.1 - - [09/Mar/2026 17:25:12] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:25:12,689 [INFO] 127.0.0.1 - - [09/Mar/2026 17:25:12] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:25:39,736 [INFO] 127.0.0.1 - - [09/Mar/2026 17:25:39] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:25:39,789 [INFO] 127.0.0.1 - - [09/Mar/2026 17:25:39] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:25:39,875 [INFO] 127.0.0.1 - - [09/Mar/2026 17:25:39] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:25:39,965 [INFO] 127.0.0.1 - - [09/Mar/2026 17:25:39] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:26:00,370 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:00] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:26:02,138 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:02] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:26:04,215 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:04] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 17:26:06,870 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:06] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 17:26:09,700 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:09] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 17:26:13,683 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:13] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:26:18,703 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:18] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:26:18,771 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:18] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:26:18,874 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:18] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:26:18,923 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:18] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:26:26,239 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:26] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:26:39,402 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:39] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:26:41,850 [INFO] [ALERT RECEIVED] abusive — i will kill ypu
+2026-03-09 17:26:41,853 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:41] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 17:26:42,205 [INFO] 127.0.0.1 - - [09/Mar/2026 17:26:42] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:27:09,401 [INFO] 127.0.0.1 - - [09/Mar/2026 17:27:09] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:27:12,987 [INFO] 127.0.0.1 - - [09/Mar/2026 17:27:12] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:27:18,477 [INFO] 127.0.0.1 - - [09/Mar/2026 17:27:18] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:27:18,775 [INFO] 127.0.0.1 - - [09/Mar/2026 17:27:18] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:27:18,919 [INFO] 127.0.0.1 - - [09/Mar/2026 17:27:18] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:27:19,270 [INFO] 127.0.0.1 - - [09/Mar/2026 17:27:19] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:27:21,466 [INFO] 127.0.0.1 - - [09/Mar/2026 17:27:21] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:27:28,656 [INFO] 127.0.0.1 - - [09/Mar/2026 17:27:28] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:27:39,402 [INFO] 127.0.0.1 - - [09/Mar/2026 17:27:39] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:28:09,725 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:09] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:28:19,050 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:19] "GET / HTTP/1.1" 200 -
+2026-03-09 17:28:19,094 [INFO] [WS] Client disconnected: 1tpmCUi9ObRmpKNhAAAD
+2026-03-09 17:28:19,100 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:19] "GET /socket.io/?EIO=4&transport=websocket&sid=6l_xsvyyg0MFkXo1AAAC HTTP/1.1" 200 -
+2026-03-09 17:28:19,356 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:19] "GET /socket.io/?EIO=4&transport=polling&t=PpITc0K HTTP/1.1" 200 -
+2026-03-09 17:28:19,525 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:19] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:28:19,549 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:19] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:28:19,682 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:19] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:28:19,723 [INFO] [WS] Client connected: f49SBzbnAr2npElpAAAF
+2026-03-09 17:28:19,735 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:19] "POST /socket.io/?EIO=4&transport=polling&t=PpITc3i&sid=Kz_IbrjmADKqmO_rAAAE HTTP/1.1" 200 -
+2026-03-09 17:28:19,760 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:19] "GET /socket.io/?EIO=4&transport=polling&t=PpITc4B&sid=Kz_IbrjmADKqmO_rAAAE HTTP/1.1" 200 -
+2026-03-09 17:28:20,022 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:20] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:28:22,949 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:22] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:28:49,206 [INFO] 127.0.0.1 - - [09/Mar/2026 17:28:49] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:31:06,562 [INFO] 127.0.0.1 - - [09/Mar/2026 17:31:06] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:31:19,182 [INFO] 127.0.0.1 - - [09/Mar/2026 17:31:19] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:31:23,579 [INFO] 127.0.0.1 - - [09/Mar/2026 17:31:23] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 17:31:49,510 [INFO] 127.0.0.1 - - [09/Mar/2026 17:31:49] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:32:19,187 [INFO] 127.0.0.1 - - [09/Mar/2026 17:32:19] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:32:39,231 [INFO] 127.0.0.1 - - [09/Mar/2026 17:32:39] "GET / HTTP/1.1" 200 -
+2026-03-09 17:32:39,262 [INFO] [WS] Client disconnected: f49SBzbnAr2npElpAAAF
+2026-03-09 17:32:39,264 [INFO] 127.0.0.1 - - [09/Mar/2026 17:32:39] "GET /socket.io/?EIO=4&transport=websocket&sid=Kz_IbrjmADKqmO_rAAAE HTTP/1.1" 200 -
+2026-03-09 17:32:39,319 [INFO] 127.0.0.1 - - [09/Mar/2026 17:32:39] "GET /socket.io/?EIO=4&transport=polling&t=PpIUbXH HTTP/1.1" 200 -
+2026-03-09 17:32:39,518 [INFO] 127.0.0.1 - - [09/Mar/2026 17:32:39] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:32:39,677 [INFO] [WS] Client connected: O1CnwBje_Xbhv3NjAAAH
+2026-03-09 17:32:39,680 [INFO] 127.0.0.1 - - [09/Mar/2026 17:32:39] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:32:39,686 [INFO] 127.0.0.1 - - [09/Mar/2026 17:32:39] "POST /socket.io/?EIO=4&transport=polling&t=PpIUbXn&sid=rFk3pbqpSFH9SNRUAAAG HTTP/1.1" 200 -
+2026-03-09 17:32:39,692 [INFO] 127.0.0.1 - - [09/Mar/2026 17:32:39] "GET /socket.io/?EIO=4&transport=polling&t=PpIUbXq&sid=rFk3pbqpSFH9SNRUAAAG HTTP/1.1" 200 -
+2026-03-09 17:32:39,831 [INFO] 127.0.0.1 - - [09/Mar/2026 17:32:39] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:32:40,167 [INFO] 127.0.0.1 - - [09/Mar/2026 17:32:40] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:33:31,661 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 17:33:42,221 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.115:5000
+2026-03-09 17:33:42,225 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-09 17:33:46,915 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:46] "GET / HTTP/1.1" 200 -
+2026-03-09 17:33:47,850 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:47] "GET /socket.io/?EIO=4&transport=polling&t=PpIUsFw HTTP/1.1" 200 -
+2026-03-09 17:33:48,277 [INFO] [WS] Client connected: 3HprkBQ4hkRhEm66AAAB
+2026-03-09 17:33:48,279 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:48] "POST /socket.io/?EIO=4&transport=polling&t=PpIUsHM&sid=kapBkBlNgviTgDjzAAAA HTTP/1.1" 200 -
+2026-03-09 17:33:48,279 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:48] "GET /socket.io/?EIO=4&transport=polling&t=PpIUsHS&sid=kapBkBlNgviTgDjzAAAA HTTP/1.1" 200 -
+2026-03-09 17:33:48,534 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:48] "GET /socket.io/?EIO=4&transport=polling&t=PpIUsN9&sid=kapBkBlNgviTgDjzAAAA HTTP/1.1" 200 -
+2026-03-09 17:33:48,567 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:48] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:33:48,676 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:48] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:33:48,747 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:48] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:33:48,832 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:48] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:33:52,610 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:52] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:33:58,349 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:58] "GET /api/alerts?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:33:58,781 [INFO] 127.0.0.1 - - [09/Mar/2026 17:33:58] "[33mGET /audio/audio/audio_20260309_172608.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:34:02,690 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:02] "[33mGET /screenshots/screenshotsss_20260309_172604.png HTTP/1.1[0m" 404 -
+2026-03-09 17:34:18,210 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:18] "GET /api/alerts?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:34:18,547 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:18] "[33mGET /audio/audio/audio_20260309_172608.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:34:30,799 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:30] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 17:34:32,047 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:32] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:34:32,323 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:32] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:34:32,454 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:32] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:34:32,793 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:32] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:34:33,480 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:33] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:34:38,577 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:38] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:34:48,207 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:48] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:34:48,675 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:48] "GET /api/alerts?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:34:48,930 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:48] "[33mGET /audio/audio/audio_20260309_172608.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:34:50,419 [INFO] 127.0.0.1 - - [09/Mar/2026 17:34:50] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:35:00,713 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:00] "GET /api/alerts?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:35:00,974 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:00] "[33mGET /audio/audio/audio_20260309_172608.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:35:02,251 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:02] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:35:08,397 [INFO] [ALERT RECEIVED] abusive — now run thnow i will kill you
+2026-03-09 17:35:08,401 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:08] "POST /api/alert HTTP/1.1" 200 -
+2026-03-09 17:35:08,748 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:08] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:35:14,835 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:14] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:35:18,513 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:18] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:35:24,397 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:24] "GET /api/keylogs?limit=8 HTTP/1.1" 200 -
+2026-03-09 17:35:26,813 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:26] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:35:38,399 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:38] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:35:40,804 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:40] "GET /api/alerts?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:35:41,063 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:41] "[33mGET /audio/audio/audio_20260309_173435.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:35:41,144 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:41] "[33mGET /audio/audio/audio_20260309_172608.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:35:43,859 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:43] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:35:48,523 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:48] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:35:50,415 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:50] "GET /api/stats HTTP/1.1" 200 -
+2026-03-09 17:35:50,744 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:50] "GET /api/category-breakdown HTTP/1.1" 200 -
+2026-03-09 17:35:50,845 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:50] "GET /api/trend HTTP/1.1" 200 -
+2026-03-09 17:35:51,193 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:51] "GET /api/alerts?limit=5 HTTP/1.1" 200 -
+2026-03-09 17:35:55,575 [INFO] 127.0.0.1 - - [09/Mar/2026 17:35:55] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:36:18,598 [INFO] 127.0.0.1 - - [09/Mar/2026 17:36:18] "GET /api/alerts?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:36:36,610 [INFO] 127.0.0.1 - - [09/Mar/2026 17:36:36] "GET /api/alerts?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:36:36,963 [INFO] 127.0.0.1 - - [09/Mar/2026 17:36:36] "[33mGET /audio/audio/audio_20260309_173435.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:36:36,970 [INFO] 127.0.0.1 - - [09/Mar/2026 17:36:36] "[33mGET /audio/audio/audio_20260309_172608.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:36:48,205 [INFO] 127.0.0.1 - - [09/Mar/2026 17:36:48] "GET /api/alerts?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:36:48,564 [INFO] 127.0.0.1 - - [09/Mar/2026 17:36:48] "[33mGET /audio/audio/audio_20260309_173435.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:36:48,576 [INFO] 127.0.0.1 - - [09/Mar/2026 17:36:48] "[33mGET /audio/audio/audio_20260309_172608.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:36:48,825 [INFO] 127.0.0.1 - - [09/Mar/2026 17:36:48] "[33mGET /screenshots/screenshotsss_20260309_173430.png HTTP/1.1[0m" 404 -
+2026-03-09 17:36:52,431 [INFO] 127.0.0.1 - - [09/Mar/2026 17:36:52] "[33mGET /screenshots/screenshotsss_20260309_172604.png HTTP/1.1[0m" 404 -
+2026-03-09 17:37:09,345 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:09] "[33mGET /screenshots/screenshotsss_20260309_172604.png HTTP/1.1[0m" 404 -
+2026-03-09 17:37:18,391 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:18] "GET /api/alerts?limit=20 HTTP/1.1" 200 -
+2026-03-09 17:37:23,362 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:23] "[33mGET /audio/audio/audio_20260309_173435.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:37:23,373 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:23] "[33mGET /audio/audio/audio_20260309_172608.wav HTTP/1.1[0m" 404 -
+2026-03-09 17:37:24,573 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:24] "GET /api/keylogs?limit=30 HTTP/1.1" 200 -
+2026-03-09 17:37:25,840 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:25] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:30,987 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:30] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:32,967 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:32] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:33,615 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:33] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:34,166 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:34] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:45,931 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:45] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:46,452 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:46] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:46,725 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:46] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:46,792 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:46] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:47,094 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:47] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:47,643 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:47] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:47,893 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:47] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:48,215 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:48] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:48,641 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:48] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:48,898 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:48] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:49,066 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:49] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:49,313 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:49] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:37:49,856 [INFO] 127.0.0.1 - - [09/Mar/2026 17:37:49] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:38:18,547 [INFO] 127.0.0.1 - - [09/Mar/2026 17:38:18] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:38:48,197 [INFO] 127.0.0.1 - - [09/Mar/2026 17:38:48] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:39:18,507 [INFO] 127.0.0.1 - - [09/Mar/2026 17:39:18] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-03-09 17:39:38,663 [INFO] 127.0.0.1 - - [09/Mar/2026 17:39:38] "POST /api/keylog HTTP/1.1" 200 -
+2026-03-09 17:39:48,209 [INFO] 127.0.0.1 - - [09/Mar/2026 17:39:48] "GET /api/alerts?limit=50 HTTP/1.1" 200 -

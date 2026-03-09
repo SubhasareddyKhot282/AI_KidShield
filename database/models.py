@@ -20,6 +20,7 @@ class Alert(db.Model):
     severity = db.Column(db.String(20), nullable=False, default="medium")
     confidence = db.Column(db.Float, default=0.0)
     application = db.Column(db.String(100), default="unknown")
+    location = db.Column(db.String(255), nullable=True)
     screenshot_path = db.Column(db.String(255), nullable=True)
     audio_path = db.Column(db.String(255), nullable=True)
     email_sent = db.Column(db.Boolean, default=False)
@@ -35,6 +36,7 @@ class Alert(db.Model):
             "severity": self.severity,
             "confidence": self.confidence,
             "application": self.application,
+            "location": self.location,
             "screenshot_path": self.screenshot_path,
             "audio_path": self.audio_path,
             "email_sent": self.email_sent,

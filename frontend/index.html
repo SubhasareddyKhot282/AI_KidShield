@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>SafeGuard AI — Child Protection Monitoring Portal</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
 <style>
 :root{--bg:#060b14;--surface:#0d1626;--surface2:#111d33;--border:#1e3050;--accent:#00d4ff;--accent2:#ff4f7b;--accent3:#a855f7;--safe:#22d3a0;--warn:#f59e0b;--danger:#ef4444;--text:#e2eaf7;--muted:#6b84a8;--glow:0 0 30px rgba(0,212,255,.15);--glow-danger:0 0 24px rgba(239,68,68,.3)}
@@ -201,6 +202,7 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
     <div class="nav-item active" onclick="showSection('dashboard',this)"><span>📊</span>Dashboard<span class="badge" id="badge-alerts">0</span></div>
     <div class="nav-item" onclick="showSection('alerts',this)"><span>🚨</span>Alerts<span class="badge" id="badge-critical">0</span></div>
     <div class="nav-item" onclick="showSection('screenshots',this)"><span>📸</span>Screenshots</div>
+    <div class="nav-item" onclick="showSection('locations',this)"><span>📍</span>Location Tracker</div>
   </div>
   <div class="nav-section">
     <div class="nav-label">Analysis</div>
@@ -222,6 +224,7 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
         <div class="child-status">Monitoring Active</div>
       </div>
     </div>
+    <a href="/logout" style="display:block;margin-top:12px;text-align:center;padding:10px;background:rgba(239,68,68,.1);color:var(--danger);border-radius:10px;text-decoration:none;font-weight:600;font-size:13px;border:1px solid rgba(239,68,68,.3);transition:all .2s;font-family:'Syne',sans-serif">🚪 Secure Logout</a>
   </div>
 </aside>
 
@@ -324,6 +327,15 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
   <div class="panel">
     <div class="panel-header"><div class="panel-title">🎙️ Audio Recordings</div><span class="pbadge pbadge-ai">EVIDENCE</span></div>
     <div id="audio-list"><div style="color:var(--muted);font-size:12px;font-family:'DM Mono',monospace">Audio recordings will appear here when captured...</div></div>
+  </div>
+</div>
+
+<!-- LOCATIONS -->
+<div class="section" id="locations">
+  <div style="margin-bottom:18px"><div style="font-family:'Syne',sans-serif;font-size:21px;font-weight:800">Location Tracker</div><div style="font-size:12px;color:var(--muted);margin-top:4px;font-family:'DM Mono',monospace">Physical locations where alerts were generated</div></div>
+  <div class="panel">
+    <div class="panel-header"><div class="panel-title">📍 Alert Geolocation History</div><button class="btn btn-outline btn-sm" onclick="loadLocations()">Refresh</button></div>
+    <div id="location-list"><div style="color:var(--muted);font-size:12px;font-family:'DM Mono',monospace;padding:20px">Loading locations...</div></div>
   </div>
 </div>
 
@@ -480,7 +492,7 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
       <div class="panel-header"><div class="panel-title">🏷️ Category Distribution</div></div>
       <div id="report-cats"><div style="color:var(--muted);font-size:12px;font-family:'DM Mono',monospace">Loading...</div></div>
       <div style="margin-top:16px">
-        <button class="btn btn-primary" style="width:100%" onclick="alert('In production: generates and emails full PDF report to parent.')">📄 Email Parent Report</button>
+        <button class="btn btn-primary" style="width:100%" onclick="exportToPDF()">📄 Export to PDF Details</button>
       </div>
     </div>
   </div>
@@ -568,7 +580,7 @@ socket.on('new_url_check', (data) => {
 // ── Navigation ─────────────────────────────────────────────────────────────────
 const TITLES = {
   dashboard:'Dashboard Overview', alerts:'Alerts Center',
-  screenshots:'Screenshot Evidence', keylogger:'Keylog Monitor',
+  screenshots:'Screenshot Evidence', locations: 'Location Tracker', keylogger:'Keylog Monitor',
   ml:'ML Analyzer', urlchecker:'URL / Phishing Checker',
   activity:'Activity Log', reports:'Risk Reports', settings:'Settings'
 };
@@ -576,6 +588,8 @@ const TITLES = {
 const sectionLoaders = {
   dashboard: loadDashboard,
   alerts: loadAlerts,
+  screenshots: loadScreenshots,
+  locations: loadLocations,
   keylogger: loadKeylogs,
   ml: loadMLHistory,
   urlchecker: loadURLs,
@@ -744,6 +758,7 @@ function alertHtml(a) {
       <div class="alert-meta">
         <span>📱 ${a.application}</span>
         <span>🕐 ${a.timestamp}</span>
+        ${a.location ? `<span>📍 ${a.location}</span>` : ''}
         ${a.email_sent?'<span>📧 Alert sent</span>':''}
         ${a.screenshot_path?'<span>📸 Screenshot</span>':''}
         <span style="color:var(--muted)">Conf: ${a.confidence}%</span>
@@ -796,6 +811,7 @@ function showAlertModal(a) {
 🔴 Content: "${escHtml(a.content.substring(0,120))}"<br/>
 🧠 ML Confidence: ${a.confidence}%<br/>
 📂 Category: ${a.category.replace(/_/g,' ')}<br/>
+📍 Location: ${a.location || 'Unknown'}<br/>
 📸 Screenshot: ${a.screenshot_path?'Captured':'Not captured'}<br/>
 🎙️ Audio: ${a.audio_path?'Recorded':'Not recorded'}<br/>
 📧 Email: ${a.email_sent?'Sent to parent':'Queued'}
@@ -1059,7 +1075,7 @@ async function loadScreenshots() {
   const bgs=['linear-gradient(135deg,#1a0a0a,#3a1010)','linear-gradient(135deg,#0a1a0a,#103a10)','linear-gradient(135deg,#0a0a1a,#10103a)','linear-gradient(135deg,#1a0a1a,#3a103a)'];
 
   grid.innerHTML = withSS.length ? withSS.map((a,i)=>`
-    <div class="ss-card" onclick="window.open('/screenshots/${a.screenshot_path.split('/').pop()}','_blank')">
+    <div class="ss-card" onclick="window.open('/screenshots/${a.screenshot_path.replace(/\\\\/g, '/').split('/').pop()}','_blank')">
       <div class="ss-img" style="background:${bgs[i%bgs.length]}">${emojis[a.category]||'📸'}</div>
       <div class="ss-meta">
         <div class="ss-type">${a.category.replace(/_/g,' ').toUpperCase()}</div>
@@ -1072,9 +1088,39 @@ async function loadScreenshots() {
     <div style="display:flex;align-items:center;gap:12px;padding:11px;background:var(--surface2);border-radius:9px;border:1px solid var(--border);margin-bottom:8px">
       <span style="font-size:22px">🎵</span>
       <div style="flex:1"><div style="font-size:13px;font-weight:600">audio_${a.timestamp.replace(/[: ]/g,'_')}.wav</div><div style="font-size:11px;color:var(--muted);font-family:'DM Mono',monospace">${a.timestamp} · ${a.category}</div></div>
-      <audio controls src="/audio/${a.audio_path.split('/').pop()}" style="height:30px"></audio>
+      <audio controls src="/audio/${a.audio_path.replace(/\\\\/g, '/').split('/').pop()}" style="height:30px"></audio>
     </div>`).join('') :
     '<div style="color:var(--muted);font-size:12px;font-family:DM Mono,monospace">Audio recordings will appear here.</div>';
+}
+
+// ── Locations ─────────────────────────────────────────────────────────────────
+async function loadLocations() {
+  const alerts = await api('alerts?limit=50');
+  const div = document.getElementById('location-list');
+  if(!alerts || !alerts.length) {
+    div.innerHTML = '<div style="color:var(--muted);font-size:12px;font-family:DM Mono,monospace">No location history available yet.</div>';
+    return;
+  }
+  
+  const withLoc = alerts.filter(a => a.location);
+  
+  if(!withLoc.length) {
+     div.innerHTML = '<div style="color:var(--muted);font-size:12px;font-family:DM Mono,monospace">No specific location data captured for recent alerts.</div>';
+     return;
+  }
+  
+  const emojis={drugs:'💊',violence:'⚔️',phishing:'🎣',adult:'🔞',abusive:'💬',dangerous_challenges:'🐋'};
+  const chipMap = {critical:'chip-blocked',high:'chip-flagged',medium:'chip-info',low:'chip-safe'};
+  
+  div.innerHTML = `<table><thead><tr><th>Time</th><th>Location</th><th>Category</th><th>Severity</th><th>App</th></tr></thead><tbody>${
+    withLoc.map(a=>`<tr>
+      <td style="font-family:'DM Mono',monospace;font-size:11px;color:var(--muted)">${a.timestamp}</td>
+      <td style="font-weight:600">📍 ${escHtml(a.location)}</td>
+      <td>${emojis[a.category]||'⚠️'} <span style="text-transform:capitalize">${a.category.replace(/_/g,' ')}</span></td>
+      <td><span class="chip ${chipMap[a.severity]||'chip-info'}">${a.severity}</span></td>
+      <td>${escHtml(a.application)}</td>
+    </tr>`).join('')
+  }</tbody></table>`;
 }
 
 // ── Toast ─────────────────────────────────────────────────────────────────────
@@ -1083,6 +1129,21 @@ function showToast(msg, type='info') {
   t.className='toast show'+(type==='error'||type==='warn'?' danger-toast':'');
   document.getElementById('toast-msg').textContent = msg;
   setTimeout(()=>t.className='toast',3500);
+}
+
+function exportToPDF() {
+  const element = document.getElementById('reports');
+  const opt = {
+    margin: 10,
+    filename: 'SafeGuard_Report.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2, useCORS: true, backgroundColor: '#060b14' },
+    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+  };
+  showToast('📄 Generating PDF Report...', 'info');
+  html2pdf().set(opt).from(element).save().then(() => {
+    showToast('✅ PDF Report downloaded successfully', 'safe');
+  });
 }
 
 function showCriticalToast(alert) {

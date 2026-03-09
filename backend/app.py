@@ -9,7 +9,7 @@ import os
 import sys
 import logging
 from datetime import datetime, timedelta
-from flask import Flask, render_template, request, jsonify, send_from_directory
+from flask import Flask, render_template, request, jsonify, send_from_directory, session, redirect, url_for
 from flask_cors import CORS
 from flask_socketio import SocketIO, emit
 from dotenv import load_dotenv
@@ -91,6 +91,7 @@ def seed_demo_data():
             severity=severity,
             confidence=confidence,
             application=app,
+            location="New York, USA",
             email_sent=True,
             action_taken="alert_sent",
             child_name=os.getenv("CHILD_NAME", "Aarav"),
@@ -169,7 +170,26 @@ def seed_demo_data():
 
 @app.route("/")
 def index():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
     return render_template("index.html")
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        password = request.form.get("password", "")
+        parent_password = os.getenv("PARENT_PASSWORD", "admin123")
+        if password == parent_password:
+            session['logged_in'] = True
+            return redirect(url_for('index'))
+        else:
+            return render_template("login.html", error="Invalid password")
+    return render_template("login.html")
+
+@app.route("/logout")
+def logout():
+    session.clear()
+    return redirect(url_for('login'))
 
 
 @app.route("/screenshots/<path:filename>")
@@ -354,6 +374,7 @@ def receive_alert():
         severity=data.get("severity", "medium"),
         confidence=data.get("confidence", 0.0),
         application=data.get("application", "unknown"),
+        location=data.get("location"),
         screenshot_path=data.get("screenshot_path"),
         audio_path=data.get("audio_path"),
         email_sent=False,
