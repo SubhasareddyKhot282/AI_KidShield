@@ -119,3 +119,62 @@
 2026-03-09 17:34:32,164 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260309_173430.png
 2026-03-09 17:34:35,556 [INFO] [AUDIO] Recording 30s audio...
 2026-03-09 17:35:05,802 [INFO] [AUDIO] Saved: audio\audio_20260309_173435.wav
+2026-03-09 19:25:24,296 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 19:25:27,525 [INFO] ============================================================
+2026-03-09 19:25:27,525 [INFO]   SafeGuard AI Keylogger started
+2026-03-09 19:25:27,525 [INFO]   Device: Hostname: LAPTOP-J1DQ470D | IP: 192.168.163.1 | OS: Windows 10.0.26200 | Processor: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+2026-03-09 19:25:27,525 [INFO] ============================================================
+2026-03-09 19:25:27,563 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-03-09 19:26:57,455 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260309_192657.png
+2026-03-09 19:26:59,087 [INFO] [AUDIO] Recording 30s audio...
+2026-03-09 19:27:28,677 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260309_192728.png
+2026-03-09 19:27:28,678 [INFO] [AUDIO] Recording 30s audio...
+2026-03-09 19:27:28,718 [INFO] [AUDIO] Saved: audio\audio_20260309_192659.wav
+2026-03-09 19:27:34,813 [ERROR] [EMAIL ERROR] (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ae83f8b9e4sm112129935ad.64 - gsmtp')
+2026-03-09 19:27:58,799 [INFO] [AUDIO] Saved: audio\audio_20260309_192728.wav
+2026-03-09 19:28:04,907 [ERROR] [EMAIL ERROR] (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ae840ad894sm158462405ad.80 - gsmtp')
+2026-03-09 19:39:30,147 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 19:39:32,783 [INFO] ============================================================
+2026-03-09 19:39:32,784 [INFO]   SafeGuard AI Keylogger started
+2026-03-09 19:39:32,784 [INFO]   Device: Hostname: LAPTOP-J1DQ470D | IP: 192.168.163.1 | OS: Windows 10.0.26200 | Processor: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+2026-03-09 19:39:32,784 [INFO] ============================================================
+2026-03-09 19:39:32,801 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-03-09 19:39:57,326 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260309_193957.png
+2026-03-09 19:39:57,741 [INFO] [AUDIO] Recording 30s audio...
+2026-03-09 19:40:27,844 [INFO] [AUDIO] Saved: audio\audio_20260309_193957.wav
+2026-03-09 19:40:32,123 [ERROR] [EMAIL ERROR] (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-829a4866763sm10495022b3a.38 - gsmtp')
+2026-03-09 19:49:36,419 [WARNING] [API] Could not reach dashboard: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/keylog (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001381B436840>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2026-03-09 19:49:53,972 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 19:49:57,543 [INFO] ============================================================
+2026-03-09 19:49:57,544 [INFO]   SafeGuard AI Keylogger started
+2026-03-09 19:49:57,544 [INFO]   Device: Hostname: LAPTOP-J1DQ470D | IP: 192.168.163.1 | OS: Windows 10.0.26200 | Processor: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+2026-03-09 19:49:57,544 [INFO] ============================================================
+2026-03-09 19:49:57,562 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-03-09 19:50:17,993 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260309_195017.png
+2026-03-09 19:50:18,364 [INFO] [AUDIO] Recording 30s audio...
+2026-03-09 19:50:48,480 [INFO] [AUDIO] Saved: audio\audio_20260309_195018.wav
+2026-03-09 19:50:52,477 [ERROR] [EMAIL ERROR] (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ae83e9ad26sm150457285ad.28 - gsmtp')
+2026-03-09 19:52:22,841 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 19:52:25,757 [INFO] ============================================================
+2026-03-09 19:52:25,757 [INFO]   SafeGuard AI Keylogger started
+2026-03-09 19:52:25,757 [INFO]   Device: Hostname: LAPTOP-J1DQ470D | IP: 192.168.163.1 | OS: Windows 10.0.26200 | Processor: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+2026-03-09 19:52:25,757 [INFO] ============================================================
+2026-03-09 19:52:25,774 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-03-09 19:53:27,593 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260309_195327.png
+2026-03-09 19:53:27,893 [INFO] [AUDIO] Recording 30s audio...
+2026-03-09 19:53:57,999 [INFO] [AUDIO] Saved: audio\audio_20260309_195327.wav
+2026-03-09 20:20:39,139 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260309_202039.png
+2026-03-09 20:20:39,140 [INFO] [AUDIO] Recording 30s audio...
+2026-03-09 20:21:09,229 [INFO] [AUDIO] Saved: audio\audio_20260309_202039.wav
+2026-03-09 20:27:39,387 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 20:27:42,388 [INFO] ============================================================
+2026-03-09 20:27:42,388 [INFO]   SafeGuard AI Keylogger started
+2026-03-09 20:27:42,388 [INFO]   Device: Hostname: LAPTOP-J1DQ470D | IP: 192.168.163.1 | OS: Windows 10.0.26200 | Processor: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+2026-03-09 20:27:42,388 [INFO] ============================================================
+2026-03-09 20:27:42,487 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-03-09 20:28:10,801 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260309_202810.png
+2026-03-09 20:28:11,413 [INFO] [AUDIO] Recording 30s audio...
+2026-03-09 20:28:41,527 [INFO] [AUDIO] Saved: audio\audio_20260309_202811.wav
+2026-03-09 20:30:22,925 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260309_203022.png
+2026-03-09 20:30:22,926 [INFO] [AUDIO] Recording 30s audio...
+2026-03-09 20:30:53,010 [INFO] [AUDIO] Saved: audio\audio_20260309_203022.wav

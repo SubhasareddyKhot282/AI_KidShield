@@ -44,7 +44,7 @@ main{margin-left:240px;padding-top:58px;min-height:100vh;position:relative;z-ind
 .section.active{display:block}
 @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 /* CARDS */
-.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:22px}
 .stat-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px;position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s}
 .stat-card:hover{transform:translateY(-2px);box-shadow:var(--glow)}
 .stat-card::after{content:'';position:absolute;top:0;left:0;right:0;height:2px}
@@ -202,7 +202,7 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
     <div class="nav-item active" onclick="showSection('dashboard',this)"><span>📊</span>Dashboard<span class="badge" id="badge-alerts">0</span></div>
     <div class="nav-item" onclick="showSection('alerts',this)"><span>🚨</span>Alerts<span class="badge" id="badge-critical">0</span></div>
     <div class="nav-item" onclick="showSection('screenshots',this)"><span>📸</span>Screenshots</div>
-    <div class="nav-item" onclick="showSection('locations',this)"><span>📍</span>Location Tracker</div>
+    <div class="nav-item" onclick="showSection('locations',this)"><span>📍</span>Tracker</div>
   </div>
   <div class="nav-section">
     <div class="nav-label">Analysis</div>
@@ -244,7 +244,6 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
 <div class="section active" id="dashboard">
   <div class="stat-grid">
     <div class="stat-card c1"><div class="stat-icon">🚨</div><div class="stat-value sv-danger" id="stat-critical">—</div><div class="stat-label">CRITICAL ALERTS TODAY</div></div>
-    <div class="stat-card c2"><div class="stat-icon">🔗</div><div class="stat-value sv-warn" id="stat-blocked">—</div><div class="stat-label">BLOCKED URLs TOTAL</div></div>
     <div class="stat-card c3"><div class="stat-icon">🧠</div><div class="stat-value sv-purple">94%</div><div class="stat-label">ML MODEL ACCURACY</div></div>
     <div class="stat-card c4"><div class="stat-icon">📧</div><div class="stat-value sv-safe" id="stat-emails">—</div><div class="stat-label">ALERTS SENT TODAY</div></div>
   </div>
@@ -271,7 +270,13 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
     </div>
     <div>
       <div class="panel">
-        <div class="panel-header"><div class="panel-title">⚡ Risk Level</div><span class="pbadge pbadge-live">LIVE</span></div>
+        <div class="panel-header">
+          <div class="panel-title">⚡ Risk Level</div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span class="pbadge pbadge-live">LIVE</span>
+            <button class="btn btn-outline btn-sm" onclick="resetRisk()">Reset</button>
+          </div>
+        </div>
         <div class="risk-center">
           <svg width="180" height="110" viewBox="0 0 180 110">
             <defs><linearGradient id="ag" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#22d3a0"/><stop offset="40%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#ef4444"/></linearGradient></defs>
@@ -332,7 +337,7 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
 
 <!-- LOCATIONS -->
 <div class="section" id="locations">
-  <div style="margin-bottom:18px"><div style="font-family:'Syne',sans-serif;font-size:21px;font-weight:800">Location Tracker</div><div style="font-size:12px;color:var(--muted);margin-top:4px;font-family:'DM Mono',monospace">Physical locations where alerts were generated</div></div>
+  <div style="margin-bottom:18px"><div style="font-family:'Syne',sans-serif;font-size:21px;font-weight:800">Tracker</div><div style="font-size:12px;color:var(--muted);margin-top:4px;font-family:'DM Mono',monospace">Alert time overview</div></div>
   <div class="panel">
     <div class="panel-header"><div class="panel-title">📍 Alert Geolocation History</div><button class="btn btn-outline btn-sm" onclick="loadLocations()">Refresh</button></div>
     <div id="location-list"><div style="color:var(--muted);font-size:12px;font-family:'DM Mono',monospace;padding:20px">Loading locations...</div></div>
@@ -349,7 +354,7 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
         <div class="keylog-stream" id="keylog-display"><span class="kl-neutral">// Waiting for keylog data from agent...</span></div>
         <div style="margin-top:10px;display:flex;gap:8px">
           <button class="btn btn-outline btn-sm" onclick="loadKeylogs()">🔄 Refresh</button>
-          <button class="btn btn-outline btn-sm" onclick="document.getElementById('keylog-display').innerHTML='<span class=kl-neutral>// Cleared</span>'">🗑️ Clear</button>
+          <button class="btn btn-outline btn-sm" onclick="clearKeylogs()">🗑️ Clear</button>
         </div>
       </div>
       <div class="panel">
@@ -398,14 +403,6 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
           <div class="conf-bar"><div class="conf-fill" id="bar-safe" style="width:0%;background:var(--safe)"></div></div>
           <div class="conf-row"><span>Category</span><span id="ml-category" style="color:var(--accent)">—</span></div>
           <div style="margin-top:10px;padding:10px;border-radius:8px;font-size:12px;font-family:'DM Mono',monospace" id="ml-action"></div>
-        </div>
-      </div>
-      <div class="panel">
-        <div class="panel-header"><div class="panel-title">📊 Model Performance</div></div>
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px">
-          <div style="text-align:center;padding:12px;background:var(--surface2);border-radius:8px;border:1px solid var(--border)"><div style="font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:var(--safe)">94.2%</div><div class="stat-label">ACCURACY</div></div>
-          <div style="text-align:center;padding:12px;background:var(--surface2);border-radius:8px;border:1px solid var(--border)"><div style="font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:var(--accent)">91.8%</div><div class="stat-label">PRECISION</div></div>
-          <div style="text-align:center;padding:12px;background:var(--surface2);border-radius:8px;border:1px solid var(--border)"><div style="font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:var(--accent3)">96.1%</div><div class="stat-label">RECALL</div></div>
         </div>
       </div>
     </div>
@@ -479,7 +476,6 @@ input:checked+.slider::before{background:var(--accent);transform:translateX(20px
   <div style="margin-bottom:18px"><div style="font-family:'Syne',sans-serif;font-size:21px;font-weight:800">Risk Reports</div><div style="font-size:12px;color:var(--muted);margin-top:4px;font-family:'DM Mono',monospace">Analytics and trend data from the database</div></div>
   <div class="stat-grid" id="report-stats">
     <div class="stat-card c1"><div class="stat-icon">🚨</div><div class="stat-value sv-danger" id="rep-total">—</div><div class="stat-label">TOTAL INCIDENTS</div></div>
-    <div class="stat-card c2"><div class="stat-icon">🔗</div><div class="stat-value sv-warn" id="rep-blocked">—</div><div class="stat-label">BLOCKED URLs</div></div>
     <div class="stat-card c3"><div class="stat-icon">⌨️</div><div class="stat-value sv-purple" id="rep-keylogs">—</div><div class="stat-label">HARMFUL KEYLOGS</div></div>
     <div class="stat-card c4"><div class="stat-icon">📈</div><div class="stat-value sv-danger" id="rep-risk">—</div><div class="stat-label">RISK SCORE / 100</div></div>
   </div>
@@ -580,7 +576,7 @@ socket.on('new_url_check', (data) => {
 // ── Navigation ─────────────────────────────────────────────────────────────────
 const TITLES = {
   dashboard:'Dashboard Overview', alerts:'Alerts Center',
-  screenshots:'Screenshot Evidence', locations: 'Location Tracker', keylogger:'Keylog Monitor',
+  screenshots:'Screenshot Evidence', locations: 'Tracker', keylogger:'Keylog Monitor',
   ml:'ML Analyzer', urlchecker:'URL / Phishing Checker',
   activity:'Activity Log', reports:'Risk Reports', settings:'Settings'
 };
@@ -622,6 +618,40 @@ async function api(path, opts={}) {
 }
 
 // ── Dashboard ──────────────────────────────────────────────────────────────────
+let riskReset = false;
+
+function renderRisk(score) {
+  const riskScoreEl = document.getElementById('risk-score');
+  if(!riskScoreEl) return;
+  riskScoreEl.textContent = score;
+
+  const s = Number(score) || 0;
+  const offset = 220 - (s/100)*220;
+  const arc = document.getElementById('risk-arc');
+  const needle = document.getElementById('risk-needle');
+  if(arc && needle) {
+    arc.setAttribute('stroke-dashoffset', offset);
+    const angle = -90 + (s/100)*180;
+    const rad = angle * Math.PI/180;
+    const nx = 90 + 60*Math.cos(rad), ny = 95 + 60*Math.sin(rad);
+    needle.setAttribute('x2', nx);
+    needle.setAttribute('y2', ny);
+  }
+
+  const labelEl = document.getElementById('risk-label');
+  if(labelEl) {
+    const lbl = s >= 70 ? '⚠️ Immediate parental attention recommended' :
+                s >= 40 ? '⚠️ Moderate risk — Monitor closely' :
+                '✅ Risk level acceptable';
+    labelEl.textContent = lbl;
+  }
+}
+
+function resetRisk() {
+  riskReset = true;
+  renderRisk(0);
+}
+
 async function loadDashboard() {
   const [stats, trend, cats] = await Promise.all([
     api('stats'), api('trend'), api('category-breakdown')
@@ -629,26 +659,14 @@ async function loadDashboard() {
 
   if(stats) {
     document.getElementById('stat-critical').textContent = stats.critical_today;
-    document.getElementById('stat-blocked').textContent = stats.blocked_urls;
     document.getElementById('stat-emails').textContent = stats.alerts_today;
-    document.getElementById('risk-score').textContent = stats.risk_score;
     document.getElementById('child-name-display').textContent = stats.child_name;
     document.getElementById('badge-alerts').textContent = stats.alerts_today;
     document.getElementById('badge-critical').textContent = stats.critical_today;
 
-    const s = stats.risk_score;
-    const offset = 220 - (s/100)*220;
-    document.getElementById('risk-arc').setAttribute('stroke-dashoffset', offset);
-    const angle = -90 + (s/100)*180;
-    const rad = angle * Math.PI/180;
-    const nx = 90 + 60*Math.cos(rad), ny = 95 + 60*Math.sin(rad);
-    document.getElementById('risk-needle').setAttribute('x2', nx);
-    document.getElementById('risk-needle').setAttribute('y2', ny);
-
-    const lbl = s >= 70 ? '⚠️ Immediate parental attention recommended' :
-                s >= 40 ? '⚠️ Moderate risk — Monitor closely' :
-                '✅ Risk level acceptable';
-    document.getElementById('risk-label').textContent = lbl;
+    if (!riskReset) {
+      renderRisk(stats.risk_score);
+    }
   }
 
   if(cats) {
@@ -823,8 +841,12 @@ function closeModal(){document.getElementById('alert-modal').classList.remove('s
 document.getElementById('alert-modal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeModal()});
 
 // ── Keylogger ─────────────────────────────────────────────────────────────────
+let keylogLastSeenId = null;
+let keylogCutoffId = null;
+
 async function loadKeylogs() {
-  const data = await api('keylogs?limit=30');
+  const since = keylogCutoffId != null ? `&since_id=${keylogCutoffId}` : '';
+  const data = await api(`keylogs?limit=30${since}`);
   const display = document.getElementById('keylog-display');
   if(!data||!data.length){display.innerHTML='<span class="kl-neutral">// No keylog data yet. Start the keylogger agent.</span>';return;}
   display.innerHTML = data.reverse().map(k=>{
@@ -832,6 +854,12 @@ async function loadKeylogs() {
     return `<span class="kl-neutral">${k.timestamp} — [${k.application}] </span><span class="${cls}">${escHtml(k.sentence)}</span><br/>`;
   }).join('');
   display.scrollTop = display.scrollHeight;
+
+  const ids = data.map(k=>k.id).filter(id=>typeof id === 'number');
+  if(ids.length){
+    const maxId = Math.max(...ids);
+    keylogLastSeenId = keylogLastSeenId == null ? maxId : Math.max(keylogLastSeenId, maxId);
+  }
 
   // App-wise risk
   const appMap = {};
@@ -865,6 +893,17 @@ function appendKeylog(data) {
   line.innerHTML = `<span class="kl-neutral">${data.timestamp} — [${data.application}] </span><span class="${cls}">${escHtml(data.sentence)}</span><br/>`;
   display.appendChild(line);
   display.scrollTop = display.scrollHeight;
+  if(typeof data.id === 'number'){
+    keylogLastSeenId = keylogLastSeenId == null ? data.id : Math.max(keylogLastSeenId, data.id);
+  }
+}
+
+function clearKeylogs() {
+  const display = document.getElementById('keylog-display');
+  display.innerHTML = '<span class="kl-neutral">// Cleared</span>';
+  if(keylogLastSeenId != null) {
+    keylogCutoffId = keylogLastSeenId;
+  }
 }
 
 async function runAKScan() {
@@ -935,12 +974,26 @@ async function loadMLHistory() {
     const bc = k.is_harmful?'rgba(239,68,68,.2)':'rgba(34,211,160,.2)';
     const lbl = k.is_harmful?`🔴 OFFENSIVE — ${k.confidence}%`:`🟢 SAFE — ${100-k.confidence}%`;
     const col = k.is_harmful?'var(--danger)':'var(--safe)';
-    return `<div style="padding:10px;border-radius:8px;background:${cls};border:1px solid ${bc};margin-bottom:8px">
-      <div style="font-size:11px;color:${col};font-weight:700">${lbl}</div>
-      <div style="font-size:12px;margin-top:3px">"${escHtml(k.sentence.substring(0,70))}"</div>
-      <div style="font-size:10px;color:var(--muted);font-family:'DM Mono',monospace;margin-top:2px">${k.timestamp} · ${k.application}</div>
+    return `<div style="padding:10px;border-radius:8px;background:${cls};border:1px solid ${bc};margin-bottom:8px;display:flex;justify-content:space-between;gap:10px;align-items:flex-start" data-ml-id="${k.id}">
+      <div style="flex:1">
+        <div style="font-size:11px;color:${col};font-weight:700">${lbl}</div>
+        <div style="font-size:12px;margin-top:3px">"${escHtml(k.sentence.substring(0,70))}"</div>
+        <div style="font-size:10px;color:var(--muted);font-family:'DM Mono',monospace;margin-top:2px">${k.timestamp} · ${k.application}</div>
+      </div>
+      <button class="icon-btn" title="Delete record" aria-label="Delete record" onclick="deleteMLHistory(${k.id})">🗑️</button>
     </div>`;
   }).join('');
+}
+
+async function deleteMLHistory(id) {
+  const res = await api(`keylogs/${id}`, { method: 'DELETE' });
+  if(res && res.status === 'deleted') {
+    const el = document.querySelector(`[data-ml-id="${id}"]`);
+    if(el) el.remove();
+    showToast('🗑️ Analysis record deleted','safe');
+  } else {
+    showToast('❌ Failed to delete record','error');
+  }
 }
 
 // ── URL Checker ───────────────────────────────────────────────────────────────
@@ -1007,7 +1060,6 @@ async function loadReports() {
   ]);
   if(stats){
     document.getElementById('rep-total').textContent = stats.total_alerts;
-    document.getElementById('rep-blocked').textContent = stats.blocked_urls;
     document.getElementById('rep-keylogs').textContent = stats.harmful_keylogs;
     document.getElementById('rep-risk').textContent = stats.risk_score;
   }
@@ -1112,10 +1164,9 @@ async function loadLocations() {
   const emojis={drugs:'💊',violence:'⚔️',phishing:'🎣',adult:'🔞',abusive:'💬',dangerous_challenges:'🐋'};
   const chipMap = {critical:'chip-blocked',high:'chip-flagged',medium:'chip-info',low:'chip-safe'};
   
-  div.innerHTML = `<table><thead><tr><th>Time</th><th>Location</th><th>Category</th><th>Severity</th><th>App</th></tr></thead><tbody>${
+  div.innerHTML = `<table><thead><tr><th>Time</th><th>Category</th><th>Severity</th><th>App</th></tr></thead><tbody>${
     withLoc.map(a=>`<tr>
-      <td style="font-family:'DM Mono',monospace;font-size:11px;color:var(--muted)">${a.timestamp}</td>
-      <td style="font-weight:600">📍 ${escHtml(a.location)}</td>
+      <td style="font-family:'DM Mono',monospace;font-size:11px;color:var(--muted)">${formatTime12(a.timestamp)}</td>
       <td>${emojis[a.category]||'⚠️'} <span style="text-transform:capitalize">${a.category.replace(/_/g,' ')}</span></td>
       <td><span class="chip ${chipMap[a.severity]||'chip-info'}">${a.severity}</span></td>
       <td>${escHtml(a.application)}</td>
@@ -1157,6 +1208,20 @@ function showCriticalToast(alert) {
 // ── Utils ─────────────────────────────────────────────────────────────────────
 function escHtml(s){
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function formatTime12(ts) {
+  if(!ts) return '';
+  // ts like "2025-01-01 13:45:00"
+  const safe = ts.replace(' ', 'T');
+  const d = new Date(safe);
+  if(Number.isNaN(d.getTime())) return ts;
+  let h = d.getHours();
+  const m = String(d.getMinutes()).padStart(2,'0');
+  const ampm = h >= 12 ? 'PM' : 'AM';
+  h = h % 12;
+  if(h === 0) h = 12;
+  return `${h}:${m} ${ampm}`;
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
