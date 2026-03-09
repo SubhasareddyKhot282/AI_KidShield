@@ -38,7 +38,7 @@ logging.basicConfig(
 DASHBOARD_API = os.getenv("DASHBOARD_API", "http://localhost:5000/api")
 SCREENSHOT_DIR = os.getenv("SCREENSHOT_DIR", "screenshots")
 AUDIO_DIR = os.getenv("AUDIO_DIR", "audio")
-AUDIO_DURATION = int(os.getenv("AUDIO_DURATION_SECONDS", "30"))
+AUDIO_DURATION = int(os.getenv("AUDIO_DURATION_SECONDS", "10"))
 ENABLE_SCREENSHOT = os.getenv("ENABLE_SCREENSHOT", "True").lower() == "true"
 ENABLE_AUDIO = os.getenv("ENABLE_AUDIO_RECORD", "True").lower() == "true"
 
