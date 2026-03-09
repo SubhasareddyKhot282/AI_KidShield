@@ -18,3 +18,15 @@
 2026-03-08 12:50:06,872 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260308_125006.png
 2026-03-08 12:50:07,991 [INFO] [AUDIO] Recording 30s audio...
 2026-03-08 12:50:38,279 [INFO] [AUDIO] Saved: audio\audio_20260308_125007.wav
+2026-03-09 11:24:33,548 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 11:24:36,449 [INFO] ============================================================
+2026-03-09 11:24:36,449 [INFO]   SafeGuard AI Keylogger started
+2026-03-09 11:24:36,449 [INFO]   Device: Hostname: LAPTOP-J1DQ470D | IP: 192.168.163.1 | OS: Windows 10.0.26200 | Processor: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+2026-03-09 11:24:36,449 [INFO] ============================================================
+2026-03-09 11:24:36,469 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-03-09 11:32:04,843 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-03-09 11:32:07,752 [INFO] ============================================================
+2026-03-09 11:32:07,753 [INFO]   SafeGuard AI Keylogger started
+2026-03-09 11:32:07,753 [INFO]   Device: Hostname: LAPTOP-J1DQ470D | IP: 192.168.163.1 | OS: Windows 10.0.26200 | Processor: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+2026-03-09 11:32:07,753 [INFO] ============================================================
+2026-03-09 11:32:07,783 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.

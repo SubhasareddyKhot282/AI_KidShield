@@ -224,6 +224,17 @@ def get_alerts():
     return jsonify([a.to_dict() for a in alerts])
 
 
+@app.route("/api/alerts/<int:alert_id>", methods=["DELETE"])
+def delete_alert(alert_id: int):
+    alert = Alert.query.get(alert_id)
+    if not alert:
+        return jsonify({"error": "Alert not found"}), 404
+
+    db.session.delete(alert)
+    db.session.commit()
+    return jsonify({"status": "deleted", "id": alert_id})
+
+
 @app.route("/api/activity")
 def get_activity():
     limit = request.args.get("limit", 100, type=int)
