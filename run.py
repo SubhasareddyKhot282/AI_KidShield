@@ -24,4 +24,5 @@ if __name__ == "__main__":
         db.create_all()
         seed_demo_data()
     port = int(os.getenv("FLASK_PORT", 5000))
-    socketio.run(app, host="0.0.0.0", port=port, debug=False)
+    # Safe for local development (allows Werkzeug even when not using a WSGI prod server)
+    socketio.run(app, host="0.0.0.0", port=port, debug=False, allow_unsafe_werkzeug=True)

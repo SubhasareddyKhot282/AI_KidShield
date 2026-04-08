@@ -552,4 +552,5 @@ if __name__ == "__main__":
     logger.info(f"  ╚══════════════════════════════════════╝")
     logger.info(f"")
 
-    socketio.run(app, host="0.0.0.0", port=port, debug=debug)
+    # Safe for local development (allows Werkzeug even when not using a WSGI prod server)
+    socketio.run(app, host="0.0.0.0", port=port, debug=debug, allow_unsafe_werkzeug=True)

@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SafeGuard AI - Secure Login</title>
+    <title>SafeGuard AI — Parent Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #03060c;
-            --surface: rgba(13, 22, 38, 0.6);
-            --border: rgba(30, 48, 80, 0.8);
-            --accent: #00d4ff;
-            --accent3: #a855f7;
-            --danger: #ef4444;
-            --text: #e2eaf7;
-            --muted: #8b9ebf;
+            --bg: #f6fbff;
+            --surface: rgba(255, 255, 255, 0.85);
+            --border: #cfe4ff;
+            --accent: #0ea5e9;
+            --accent3: #2563eb;
+            --danger: #dc2626;
+            --text: #0f172a;
+            --muted: #4b637a;
         }
         
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -40,7 +40,7 @@
         }
         .bg-glow-2 {
             position: absolute; width: 500px; height: 500px;
-            background: radial-gradient(circle, rgba(168,85,247,0.15) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(37,99,235,0.15) 0%, transparent 70%);
             bottom: -150px; right: -150px; border-radius: 50%; z-index: 0; filter: blur(60px);
             animation: float 10s ease-in-out infinite alternate-reverse;
         }
@@ -61,7 +61,7 @@
             width: 100%;
             max-width: 440px;
             z-index: 10;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255,255,255,0.05) inset;
+            box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(255,255,255,0.65) inset;
             transform: translateY(20px);
             opacity: 0;
             animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
@@ -134,7 +134,7 @@
         }
         .input-field {
             width: 100%;
-            background: rgba(13, 22, 38, 0.8);
+            background: rgba(255, 255, 255, 0.9);
             border: 1px solid var(--border);
             border-radius: 12px;
             padding: 16px;
@@ -148,7 +148,7 @@
             border-color: var(--accent);
             box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.15);
         }
-        .input-field::placeholder { color: rgba(139, 158, 191, 0.4); }
+        .input-field::placeholder { color: rgba(75, 99, 122, 0.45); }
 
         /* Button */
         .btn-submit {
@@ -178,7 +178,7 @@
         .login-footer {
             margin-top: 32px;
             text-align: center;
-            color: rgba(139, 158, 191, 0.6);
+            color: rgba(75, 99, 122, 0.7);
             font-size: 13px;
             letter-spacing: 0.5px;
         }
@@ -193,7 +193,7 @@
         <div class="logo-container">
             <div class="logo-icon">🛡️</div>
             <div class="logo-text">Safe<span>Guard</span> AI</div>
-            <div class="logo-sub">Parent Portal Authentication</div>
+            <div class="logo-sub">Parent Portal Login</div>
         </div>
 
         {% if error %}
