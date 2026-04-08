@@ -15,7 +15,7 @@ if __name__ == "__main__":
 ║  1. Starting Flask Backend + Parent Dashboard             ║
 ║  2. Dashboard: http://localhost:5000                      ║
 ║                                                          ║
-║  To start keylogger agent (on child's device):           ║
+║  To start keylogger agent (on child's device)           ║
 ║    python keylogger/keylogger.py                          ║
 ╚══════════════════════════════════════════════════════════╝
     """)
