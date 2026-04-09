@@ -294,3 +294,104 @@
 2026-04-08 12:43:28,494 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260408_124327.png
 2026-04-08 12:43:30,316 [INFO] [AUDIO] Recording 30s audio...
 2026-04-08 12:44:00,784 [INFO] [AUDIO] Saved: audio\audio_20260408_124330.wav
+2026-04-09 10:18:16,997 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-09 10:18:22,159 [INFO] ============================================================
+2026-04-09 10:18:22,159 [INFO]   SafeGuard AI Keylogger started
+2026-04-09 10:18:22,161 [INFO]   Device: Hostname: REDDYS | IP: 172.20.22.109 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-04-09 10:18:22,163 [INFO] ============================================================
+2026-04-09 10:18:22,261 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-04-09 10:21:29,980 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-09 10:21:34,575 [INFO] ============================================================
+2026-04-09 10:21:34,575 [INFO]   SafeGuard AI Keylogger started
+2026-04-09 10:21:34,575 [INFO]   Device: Hostname: REDDYS | IP: 172.20.22.109 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-04-09 10:21:34,576 [INFO] ============================================================
+2026-04-09 10:21:34,603 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-04-09 10:24:52,709 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-09 10:24:57,153 [INFO] ============================================================
+2026-04-09 10:24:57,154 [INFO]   SafeGuard AI Keylogger started
+2026-04-09 10:24:57,154 [INFO]   Device: Hostname: REDDYS | IP: 172.20.22.109 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-04-09 10:24:57,155 [INFO] ============================================================
+2026-04-09 10:24:57,182 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-04-09 10:27:52,140 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260409_102750.png
+2026-04-09 10:27:54,796 [INFO] [AUDIO] Recording 30s audio...
+2026-04-09 10:28:25,219 [INFO] [AUDIO] Saved: audio\audio_20260409_102754.wav
+2026-04-09 10:57:53,414 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260409_105752.png
+2026-04-09 10:57:53,428 [INFO] [AUDIO] Recording 30s audio...
+2026-04-09 10:58:24,175 [INFO] [AUDIO] Saved: audio\audio_20260409_105753.wav
+2026-04-09 11:05:37,817 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-09 11:05:41,987 [INFO] ============================================================
+2026-04-09 11:05:41,987 [INFO]   SafeGuard AI Keylogger started
+2026-04-09 11:05:41,987 [INFO]   Device: Hostname: REDDYS | IP: 172.20.22.109 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-04-09 11:05:41,989 [INFO] ============================================================
+2026-04-09 11:05:42,136 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-04-09 11:06:03,493 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260409_110603.png
+2026-04-09 11:06:04,894 [INFO] [AUDIO] Recording 30s audio...
+2026-04-09 11:06:35,185 [INFO] [AUDIO] Saved: audio\audio_20260409_110604.wav
+2026-04-09 11:06:36,559 [WARNING] [MEDIA] Upload failed (400): {"error":"Missing file"}
+2026-04-09 11:06:36,661 [WARNING] [MEDIA] Upload failed (400): {"error":"Missing file"}
+2026-04-09 11:13:39,480 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-09 11:13:43,203 [INFO] ============================================================
+2026-04-09 11:13:43,203 [INFO]   SafeGuard AI Keylogger started
+2026-04-09 11:13:43,203 [INFO]   Device: Hostname: REDDYS | IP: 172.20.22.109 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-04-09 11:13:43,203 [INFO] ============================================================
+2026-04-09 11:13:43,226 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-04-09 11:14:34,745 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260409_111434.png
+2026-04-09 11:14:35,561 [INFO] [AUDIO] Recording 30s audio...
+2026-04-09 11:15:05,935 [INFO] [AUDIO] Saved: audio\audio_20260409_111435.wav
+2026-04-09 11:15:06,924 [INFO] [MEDIA] Uploaded screenshot successfully: screenshots\ss_20260409_111434.png
+2026-04-09 11:15:07,072 [INFO] [MEDIA] Uploaded audio successfully: audio\audio_20260409_111435.wav
+2026-04-09 11:48:17,048 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-09 11:48:20,672 [INFO] ============================================================
+2026-04-09 11:48:20,673 [INFO]   SafeGuard AI Keylogger started
+2026-04-09 11:48:20,673 [INFO]   Device: Hostname: REDDYS | IP: 172.20.22.109 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-04-09 11:48:20,673 [INFO] ============================================================
+2026-04-09 11:48:20,766 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-04-09 11:50:07,478 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260409_115006.png
+2026-04-09 11:50:09,062 [INFO] [AUDIO] Recording 30s audio...
+2026-04-09 11:50:39,366 [INFO] [AUDIO] Saved: audio\audio_20260409_115009.wav
+2026-04-09 11:50:40,351 [INFO] [MEDIA] Uploaded screenshot successfully: screenshots\ss_20260409_115006.png
+2026-04-09 11:50:40,458 [WARNING] [API] Media upload error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-04-09 12:08:37,522 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260409_120836.png
+2026-04-09 12:08:37,526 [INFO] [AUDIO] Recording 30s audio...
+2026-04-09 12:09:08,156 [INFO] [AUDIO] Saved: audio\audio_20260409_120837.wav
+2026-04-09 12:09:12,762 [WARNING] [API] Media upload error: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/media/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BB23EE1390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2026-04-09 12:09:16,893 [WARNING] [API] Media upload error: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/media/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BB23EE24D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2026-04-09 12:17:50,394 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-09 12:17:55,437 [INFO] ============================================================
+2026-04-09 12:17:55,438 [INFO]   SafeGuard AI Keylogger started
+2026-04-09 12:17:55,439 [INFO]   Device: Hostname: REDDYS | IP: 172.20.22.109 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-04-09 12:17:55,441 [INFO] ============================================================
+2026-04-09 12:17:55,542 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-04-09 12:19:00,979 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260409_121900.png
+2026-04-09 12:19:03,383 [INFO] [AUDIO] Recording 30s audio...
+2026-04-09 12:19:33,787 [INFO] [AUDIO] Saved: audio\audio_20260409_121903.wav
+2026-04-09 12:19:38,416 [WARNING] [API] Media upload error: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/media/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002379BBF1910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2026-04-09 12:19:42,553 [WARNING] [API] Media upload error: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/media/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002379BBF1490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2026-04-09 12:49:42,172 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260409_124941.png
+2026-04-09 12:49:42,210 [INFO] [AUDIO] Recording 30s audio...
+2026-04-09 12:50:13,343 [INFO] [AUDIO] Saved: audio\audio_20260409_124942.wav
+2026-04-09 12:50:18,141 [WARNING] [API] Media upload error: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/media/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002379BC01D50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2026-04-09 12:50:22,277 [WARNING] [API] Media upload error: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /api/media/upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002379BC28990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2026-04-09 12:58:58,860 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-09 12:59:02,729 [INFO] ============================================================
+2026-04-09 12:59:02,729 [INFO]   SafeGuard AI Keylogger started
+2026-04-09 12:59:02,729 [INFO]   Device: Hostname: REDDYS | IP: 172.20.22.109 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-04-09 12:59:02,729 [INFO] ============================================================
+2026-04-09 12:59:02,763 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-04-09 13:00:03,624 [INFO] [SCREENSHOT] Saved: screenshots\ss_20260409_130003.png
+2026-04-09 13:00:04,990 [INFO] [AUDIO] Recording 30s audio...
+2026-04-09 13:00:35,444 [INFO] [AUDIO] Saved: audio\audio_20260409_130004.wav
+2026-04-09 13:00:36,187 [INFO] [MEDIA] Uploaded screenshot successfully: screenshots\ss_20260409_130003.png
+2026-04-09 13:00:36,293 [INFO] [MEDIA] Uploaded audio successfully: audio\audio_20260409_130004.wav
+2026-04-09 13:23:05,774 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-09 13:23:09,904 [INFO] ============================================================
+2026-04-09 13:23:09,904 [INFO]   SafeGuard AI Keylogger started
+2026-04-09 13:23:09,905 [INFO]   Device: Hostname: REDDYS | IP: 172.20.22.109 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-04-09 13:23:09,905 [INFO] ============================================================
+2026-04-09 13:23:09,997 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.
+2026-04-09 14:49:41,973 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-09 14:49:47,505 [INFO] ============================================================
+2026-04-09 14:49:47,505 [INFO]   SafeGuard AI Keylogger started
+2026-04-09 14:49:47,506 [INFO]   Device: Hostname: REDDYS | IP: 172.20.22.109 | OS: Windows 10.0.26200 | Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-04-09 14:49:47,506 [INFO] ============================================================
+2026-04-09 14:49:47,568 [INFO] [KEYLOGGER] Listener started. Press CTRL+C to stop.

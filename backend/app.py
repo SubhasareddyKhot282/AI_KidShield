@@ -36,8 +36,9 @@ logger = logging.getLogger(__name__)
 
 app = Flask(
     __name__,
-    template_folder=os.path.join(os.path.dirname(__file__), "..", "frontend"),
-    static_folder=os.path.join(os.path.dirname(__file__), "..", "frontend", "static"),
+    static_folder=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "react-dashboard", "dist")),
+    static_url_path='',
+    template_folder=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "react-dashboard", "dist"))
 )
 
 app.config["SECRET_KEY"] = os.getenv("FLASK_SECRET_KEY", "safeguard_dev_secret")
@@ -58,6 +59,7 @@ email_service = EmailAlertService()
 
 SCREENSHOT_DIR = os.getenv("SCREENSHOT_DIR", "screenshots")
 AUDIO_DIR = os.getenv("AUDIO_DIR", "audio")
+
 os.makedirs(SCREENSHOT_DIR, exist_ok=True)
 os.makedirs(AUDIO_DIR, exist_ok=True)
 
@@ -170,26 +172,7 @@ def seed_demo_data():
 
 @app.route("/")
 def index():
-    if not session.get('logged_in'):
-        return redirect(url_for('login'))
     return render_template("index.html")
-
-@app.route("/login", methods=["GET", "POST"])
-def login():
-    if request.method == "POST":
-        password = request.form.get("password", "")
-        parent_password = os.getenv("PARENT_PASSWORD", "admin123")
-        if password == parent_password:
-            session['logged_in'] = True
-            return redirect(url_for('index'))
-        else:
-            return render_template("login.html", error="Invalid password")
-    return render_template("login.html")
-
-@app.route("/logout")
-def logout():
-    session.clear()
-    return redirect(url_for('login'))
 
 
 @app.route("/screenshots/<path:filename>")
@@ -206,7 +189,7 @@ def serve_audio(filename):
 
 @app.route("/api/stats")
 def get_stats():
-    today = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
+    today = datetime.utcnow() - timedelta(hours=24)
 
     total_alerts = Alert.query.count()
     alerts_today = Alert.query.filter(Alert.timestamp >= today).count()
