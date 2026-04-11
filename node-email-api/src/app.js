@@ -13,6 +13,7 @@ const alertsRoutes = require("./routes/alertsRoutes");
 const mediaRoutes = require("./routes/mediaRoutes");
 const healthRoutes = require("./routes/healthRoutes");
 const configRoutes = require("./routes/configRoutes");
+const authRoutes = require("./routes/authRoutes");
 
 function createApp() {
   const app = express();
@@ -41,6 +42,7 @@ function createApp() {
   app.use("/api/config", configRoutes(config));
   app.use("/api/alerts", alertsRoutes(config));
   app.use("/api/media", mediaRoutes(config));
+  app.use("/api/auth", authRoutes());
   app.use("/health", healthRoutes());
 
   // Catch-all for frontend routes (Express 5 path-to-regexp doesn't like "*").

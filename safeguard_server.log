@@ -5961,3 +5961,567 @@
 2026-04-09 14:56:29,869 [INFO] 127.0.0.1 - - [09/Apr/2026 14:56:29] "GET /socket.io/?EIO=4&transport=websocket&sid=jNAjpo1xLz0WrfKMAABU HTTP/1.1" 200 -
 2026-04-09 14:56:29,879 [INFO] 127.0.0.1 - - [09/Apr/2026 14:56:29] "POST /api/keylog HTTP/1.1" 200 -
 2026-04-09 14:56:52,066 [INFO] 127.0.0.1 - - [09/Apr/2026 14:56:52] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 14:57:19,475 [INFO] 127.0.0.1 - - [09/Apr/2026 14:57:19] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:02:06,269 [INFO] 127.0.0.1 - - [09/Apr/2026 15:02:06] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:03:25,486 [INFO] 127.0.0.1 - - [09/Apr/2026 15:03:25] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:05:57,895 [INFO] 127.0.0.1 - - [09/Apr/2026 15:05:57] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:06:42,549 [INFO] 127.0.0.1 - - [09/Apr/2026 15:06:42] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:07:31,257 [INFO] 127.0.0.1 - - [09/Apr/2026 15:07:31] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:11:10,925 [INFO] 127.0.0.1 - - [09/Apr/2026 15:11:10] "GET /api/settings HTTP/1.1" 200 -
+2026-04-09 15:11:12,043 [INFO] 127.0.0.1 - - [09/Apr/2026 15:11:12] "GET /socket.io/?EIO=4&transport=polling&t=PrndVg5 HTTP/1.1" 200 -
+2026-04-09 15:11:12,154 [INFO] [WS] Client connected: v1mqkC6qN9DR3N40AABX
+2026-04-09 15:11:12,163 [INFO] 127.0.0.1 - - [09/Apr/2026 15:11:12] "POST /socket.io/?EIO=4&transport=polling&t=PrndVi5&sid=0DZyNFIh3HY-OpXIAABW HTTP/1.1" 200 -
+2026-04-09 15:11:12,170 [INFO] 127.0.0.1 - - [09/Apr/2026 15:11:12] "GET /socket.io/?EIO=4&transport=polling&t=PrndViv&sid=0DZyNFIh3HY-OpXIAABW HTTP/1.1" 200 -
+2026-04-09 15:12:10,269 [INFO] [WS] Client disconnected: v1mqkC6qN9DR3N40AABX
+2026-04-09 15:23:23,190 [INFO] 127.0.0.1 - - [09/Apr/2026 15:23:23] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:23:58,744 [INFO] 127.0.0.1 - - [09/Apr/2026 15:23:58] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:24:07,677 [INFO] 127.0.0.1 - - [09/Apr/2026 15:24:07] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:24:17,110 [INFO] 127.0.0.1 - - [09/Apr/2026 15:24:17] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:24:23,258 [INFO] 127.0.0.1 - - [09/Apr/2026 15:24:23] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:26:20,257 [INFO] 127.0.0.1 - - [09/Apr/2026 15:26:20] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:26:43,978 [INFO] 127.0.0.1 - - [09/Apr/2026 15:26:43] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:29:01,591 [INFO] 127.0.0.1 - - [09/Apr/2026 15:29:01] "GET /socket.io/?EIO=4&transport=websocket&sid=0DZyNFIh3HY-OpXIAABW HTTP/1.1" 200 -
+2026-04-09 15:45:31,060 [INFO] 127.0.0.1 - - [09/Apr/2026 15:45:31] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:45:39,441 [INFO] 127.0.0.1 - - [09/Apr/2026 15:45:39] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:45:55,893 [INFO] 127.0.0.1 - - [09/Apr/2026 15:45:55] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:46:17,811 [INFO] 127.0.0.1 - - [09/Apr/2026 15:46:17] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:46:32,214 [INFO] 127.0.0.1 - - [09/Apr/2026 15:46:32] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:49:08,555 [INFO] 127.0.0.1 - - [09/Apr/2026 15:49:08] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:49:25,018 [INFO] 127.0.0.1 - - [09/Apr/2026 15:49:25] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:49:33,573 [INFO] 127.0.0.1 - - [09/Apr/2026 15:49:33] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:50:12,827 [INFO] 127.0.0.1 - - [09/Apr/2026 15:50:12] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:50:39,337 [INFO] 127.0.0.1 - - [09/Apr/2026 15:50:39] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:53:04,289 [INFO] 127.0.0.1 - - [09/Apr/2026 15:53:04] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 15:58:34,992 [INFO] 127.0.0.1 - - [09/Apr/2026 15:58:34] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 16:13:25,985 [INFO] 127.0.0.1 - - [09/Apr/2026 16:13:25] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 16:13:30,922 [INFO] 127.0.0.1 - - [09/Apr/2026 16:13:30] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 16:15:31,102 [INFO] 127.0.0.1 - - [09/Apr/2026 16:15:31] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 16:19:38,751 [INFO] 127.0.0.1 - - [09/Apr/2026 16:19:38] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 17:58:07,774 [INFO] 127.0.0.1 - - [09/Apr/2026 17:58:07] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 17:58:14,392 [INFO] 127.0.0.1 - - [09/Apr/2026 17:58:14] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 17:58:25,527 [INFO] 127.0.0.1 - - [09/Apr/2026 17:58:25] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 17:58:33,309 [INFO] 127.0.0.1 - - [09/Apr/2026 17:58:33] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:01:21,108 [INFO] 127.0.0.1 - - [09/Apr/2026 18:01:21] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:02:13,591 [INFO] 127.0.0.1 - - [09/Apr/2026 18:02:13] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:02:17,789 [INFO] 127.0.0.1 - - [09/Apr/2026 18:02:17] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:07:39,273 [INFO] 127.0.0.1 - - [09/Apr/2026 18:07:39] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:07:52,771 [INFO] 127.0.0.1 - - [09/Apr/2026 18:07:52] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:08:48,501 [INFO] 127.0.0.1 - - [09/Apr/2026 18:08:48] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:09:48,248 [INFO] 127.0.0.1 - - [09/Apr/2026 18:09:48] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:09:58,652 [INFO] 127.0.0.1 - - [09/Apr/2026 18:09:58] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:10:10,382 [INFO] 127.0.0.1 - - [09/Apr/2026 18:10:10] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:10:24,122 [INFO] 127.0.0.1 - - [09/Apr/2026 18:10:24] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:10:36,542 [INFO] 127.0.0.1 - - [09/Apr/2026 18:10:36] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:10:43,973 [INFO] 127.0.0.1 - - [09/Apr/2026 18:10:43] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:10:52,053 [INFO] 127.0.0.1 - - [09/Apr/2026 18:10:52] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:18:04,464 [INFO] 127.0.0.1 - - [09/Apr/2026 18:18:04] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:40:35,961 [INFO] 127.0.0.1 - - [09/Apr/2026 18:40:35] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:41:03,254 [INFO] 127.0.0.1 - - [09/Apr/2026 18:41:03] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:41:09,485 [INFO] 127.0.0.1 - - [09/Apr/2026 18:41:09] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:41:13,894 [INFO] 127.0.0.1 - - [09/Apr/2026 18:41:13] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:51:45,737 [INFO] 127.0.0.1 - - [09/Apr/2026 18:51:45] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:51:54,552 [INFO] 127.0.0.1 - - [09/Apr/2026 18:51:54] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:55:31,739 [INFO] 127.0.0.1 - - [09/Apr/2026 18:55:31] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:55:35,685 [INFO] 127.0.0.1 - - [09/Apr/2026 18:55:35] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:55:42,715 [INFO] 127.0.0.1 - - [09/Apr/2026 18:55:42] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:55:55,033 [INFO] 127.0.0.1 - - [09/Apr/2026 18:55:55] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:56:29,455 [INFO] 127.0.0.1 - - [09/Apr/2026 18:56:29] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:56:44,443 [INFO] 127.0.0.1 - - [09/Apr/2026 18:56:44] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:56:52,980 [INFO] 127.0.0.1 - - [09/Apr/2026 18:56:52] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 18:57:44,531 [INFO] 127.0.0.1 - - [09/Apr/2026 18:57:44] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 19:11:20,641 [INFO] 127.0.0.1 - - [09/Apr/2026 19:11:20] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 19:11:27,942 [INFO] 127.0.0.1 - - [09/Apr/2026 19:11:27] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 19:14:34,465 [INFO] 127.0.0.1 - - [09/Apr/2026 19:14:34] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-09 19:16:32,892 [INFO] 127.0.0.1 - - [09/Apr/2026 19:16:32] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 10:21:22,023 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-11 10:21:29,491 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.109:5000
+2026-04-11 10:21:29,493 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-11 10:23:49,911 [INFO] 127.0.0.1 - - [11/Apr/2026 10:23:49] "GET / HTTP/1.1" 200 -
+2026-04-11 10:23:50,396 [INFO] 127.0.0.1 - - [11/Apr/2026 10:23:50] "GET /assets/index-DMK858eQ.css HTTP/1.1" 200 -
+2026-04-11 10:23:50,868 [INFO] 127.0.0.1 - - [11/Apr/2026 10:23:50] "GET /assets/index-by18YYnc.js HTTP/1.1" 200 -
+2026-04-11 10:23:51,152 [INFO] 127.0.0.1 - - [11/Apr/2026 10:23:51] "GET /favicon.svg HTTP/1.1" 200 -
+2026-04-11 10:25:46,054 [INFO] 127.0.0.1 - - [11/Apr/2026 10:25:46] "GET / HTTP/1.1" 200 -
+2026-04-11 10:25:46,139 [INFO] 127.0.0.1 - - [11/Apr/2026 10:25:46] "[36mGET /assets/index-DMK858eQ.css HTTP/1.1[0m" 304 -
+2026-04-11 10:25:46,148 [INFO] 127.0.0.1 - - [11/Apr/2026 10:25:46] "[36mGET /assets/index-by18YYnc.js HTTP/1.1[0m" 304 -
+2026-04-11 10:26:54,654 [INFO] 172.20.22.109 - - [11/Apr/2026 10:26:54] "GET / HTTP/1.1" 200 -
+2026-04-11 10:26:55,013 [INFO] 172.20.22.109 - - [11/Apr/2026 10:26:55] "GET /assets/index-by18YYnc.js HTTP/1.1" 200 -
+2026-04-11 10:26:55,013 [INFO] 172.20.22.109 - - [11/Apr/2026 10:26:55] "GET /assets/index-DMK858eQ.css HTTP/1.1" 200 -
+2026-04-11 10:26:55,348 [INFO] 172.20.22.109 - - [11/Apr/2026 10:26:55] "GET /favicon.svg HTTP/1.1" 200 -
+2026-04-11 10:27:00,880 [INFO] 127.0.0.1 - - [11/Apr/2026 10:27:00] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 10:29:09,831 [INFO] 127.0.0.1 - - [11/Apr/2026 10:29:09] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 10:31:13,826 [INFO] 127.0.0.1 - - [11/Apr/2026 10:31:13] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 10:31:14,032 [INFO] 127.0.0.1 - - [11/Apr/2026 10:31:14] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 10:31:37,377 [INFO] 127.0.0.1 - - [11/Apr/2026 10:31:37] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 10:31:37,827 [INFO] 127.0.0.1 - - [11/Apr/2026 10:31:37] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 10:34:12,097 [INFO] 127.0.0.1 - - [11/Apr/2026 10:34:12] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 10:35:13,643 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-11 10:35:19,431 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.109:5000
+2026-04-11 10:35:19,439 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-11 10:35:22,487 [INFO] 127.0.0.1 - - [11/Apr/2026 10:35:22] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 10:35:39,552 [INFO] 127.0.0.1 - - [11/Apr/2026 10:35:39] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 10:35:45,945 [INFO] 127.0.0.1 - - [11/Apr/2026 10:35:45] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 10:38:28,449 [INFO] 127.0.0.1 - - [11/Apr/2026 10:38:28] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 10:39:59,706 [INFO] 127.0.0.1 - - [11/Apr/2026 10:39:59] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 10:39:59,990 [INFO] 127.0.0.1 - - [11/Apr/2026 10:39:59] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 10:40:00,094 [INFO] 127.0.0.1 - - [11/Apr/2026 10:40:00] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 10:40:00,113 [INFO] [WS] Client connected: EddR4YllUgV9lX9UAAAB
+2026-04-11 10:40:00,124 [INFO] 127.0.0.1 - - [11/Apr/2026 10:40:00] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 10:40:00,412 [INFO] 127.0.0.1 - - [11/Apr/2026 10:40:00] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 10:40:00,461 [INFO] 127.0.0.1 - - [11/Apr/2026 10:40:00] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 10:43:00,072 [INFO] [WS] Client disconnected: EddR4YllUgV9lX9UAAAB
+2026-04-11 10:43:00,103 [INFO] 127.0.0.1 - - [11/Apr/2026 10:43:00] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 10:43:00,131 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 10:45:18,486 [INFO] 127.0.0.1 - - [11/Apr/2026 10:45:18] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 10:45:49,923 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-11 10:45:54,487 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.109:5000
+2026-04-11 10:45:54,487 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-11 10:45:58,470 [INFO] 127.0.0.1 - - [11/Apr/2026 10:45:58] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 10:48:10,213 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:10] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 10:48:30,758 [INFO] [WS] Client connected: xmQJPQI3Jtagqk0hAAAB
+2026-04-11 10:48:30,811 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:30] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 10:48:30,815 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:30] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 10:48:30,865 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:30] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 10:48:30,906 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:30] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 10:48:31,139 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:31] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 10:48:31,369 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:31] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 10:48:41,638 [INFO] [WS] Client disconnected: xmQJPQI3Jtagqk0hAAAB
+2026-04-11 10:48:41,721 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:41] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 10:48:41,773 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 10:48:50,085 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:50] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 10:48:50,313 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:50] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 10:48:58,529 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:58] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 10:48:58,819 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:58] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 10:48:58,855 [INFO] [WS] Client connected: ifynQrjTRHhALYt3AAAD
+2026-04-11 10:48:58,915 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:58] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 10:48:58,973 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:58] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 10:48:59,165 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:59] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 10:48:59,517 [INFO] 127.0.0.1 - - [11/Apr/2026 10:48:59] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 10:49:40,182 [INFO] [ALERT RECEIVED] abusive — drugs
+2026-04-11 10:49:40,185 [INFO] 127.0.0.1 - - [11/Apr/2026 10:49:40] "POST /api/alert HTTP/1.1" 200 -
+2026-04-11 10:50:14,918 [INFO] [WS] Client disconnected: ifynQrjTRHhALYt3AAAD
+2026-04-11 10:50:15,421 [INFO] 127.0.0.1 - - [11/Apr/2026 10:50:15] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 10:50:15,434 [INFO] [WS] Client connected: It7K7OADw7OulXqMAAAF
+2026-04-11 10:50:15,450 [INFO] 127.0.0.1 - - [11/Apr/2026 10:50:15] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 10:50:15,505 [INFO] 127.0.0.1 - - [11/Apr/2026 10:50:15] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 10:50:15,673 [INFO] 127.0.0.1 - - [11/Apr/2026 10:50:15] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 10:50:15,859 [INFO] 127.0.0.1 - - [11/Apr/2026 10:50:15] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 10:50:16,015 [INFO] 127.0.0.1 - - [11/Apr/2026 10:50:16] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 10:50:16,778 [INFO] [WS] Client disconnected: It7K7OADw7OulXqMAAAF
+2026-04-11 10:50:16,797 [INFO] 127.0.0.1 - - [11/Apr/2026 10:50:16] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 10:50:16,814 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 11:00:21,746 [INFO] [WS] Client connected: cZYnwBegJGAuBKBhAAAH
+2026-04-11 11:00:21,788 [INFO] 127.0.0.1 - - [11/Apr/2026 11:00:21] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:00:21,812 [INFO] 127.0.0.1 - - [11/Apr/2026 11:00:21] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:00:21,847 [INFO] 127.0.0.1 - - [11/Apr/2026 11:00:21] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:00:21,897 [INFO] 127.0.0.1 - - [11/Apr/2026 11:00:21] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:00:22,184 [INFO] 127.0.0.1 - - [11/Apr/2026 11:00:22] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:00:22,772 [INFO] 127.0.0.1 - - [11/Apr/2026 11:00:22] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:00:30,934 [INFO] [WS] Client disconnected: cZYnwBegJGAuBKBhAAAH
+2026-04-11 11:00:30,976 [INFO] 127.0.0.1 - - [11/Apr/2026 11:00:30] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 11:00:30,978 [INFO] 127.0.0.1 - - [11/Apr/2026 11:00:30] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 11:00:31,010 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 11:00:31,337 [INFO] 127.0.0.1 - - [11/Apr/2026 11:00:31] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 11:02:52,781 [INFO] 127.0.0.1 - - [11/Apr/2026 11:02:52] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:04:21,731 [INFO] 127.0.0.1 - - [11/Apr/2026 11:04:21] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:07:31,439 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-11 11:07:36,548 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.109:5000
+2026-04-11 11:07:36,549 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-11 11:08:33,266 [INFO] [WS] Client connected: bZzB1WvvKuRI9SoRAAAB
+2026-04-11 11:08:33,317 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:33] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:08:33,368 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:33] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:08:33,370 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:33] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:08:33,506 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:33] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:08:33,707 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:33] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:08:34,014 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:34] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:08:38,770 [INFO] [WS] Client disconnected: bZzB1WvvKuRI9SoRAAAB
+2026-04-11 11:08:38,787 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:38] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 11:08:38,824 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 11:08:45,503 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:45] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:08:45,505 [INFO] [WS] Client connected: SV4gF-RDw5VDoYiXAAAD
+2026-04-11 11:08:45,534 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:45] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:08:45,603 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:45] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:08:45,805 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:45] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:08:45,891 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:45] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:08:46,105 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:46] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:08:47,239 [INFO] [WS] Client disconnected: SV4gF-RDw5VDoYiXAAAD
+2026-04-11 11:08:47,267 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:47] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 11:08:47,269 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 11:08:47,308 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:47] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 11:08:47,665 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:47] "GET /api/activity HTTP/1.1" 200 -
+2026-04-11 11:08:49,641 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:49] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:08:49,929 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:49] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:08:49,951 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:49] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:08:50,039 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:50] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:08:50,125 [INFO] [WS] Client connected: hzU--hCFtDnd2BBYAAAF
+2026-04-11 11:08:50,157 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:50] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:08:50,192 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:50] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:08:50,410 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:50] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:08:54,146 [INFO] [WS] Client disconnected: hzU--hCFtDnd2BBYAAAF
+2026-04-11 11:08:54,898 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:54] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:08:54,952 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:54] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:08:55,182 [INFO] [WS] Client connected: YmnLqpL-pu8XtJySAAAH
+2026-04-11 11:08:55,236 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:55] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:08:55,273 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:55] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:08:55,300 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:55] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:08:55,785 [INFO] 127.0.0.1 - - [11/Apr/2026 11:08:55] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:11:48,400 [INFO] 127.0.0.1 - - [11/Apr/2026 11:11:48] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:12:34,822 [INFO] [WS] Client disconnected: YmnLqpL-pu8XtJySAAAH
+2026-04-11 11:16:13,719 [INFO] 127.0.0.1 - - [11/Apr/2026 11:16:13] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:16:38,737 [INFO] 127.0.0.1 - - [11/Apr/2026 11:16:38] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:16:38,782 [INFO] [WS] Client connected: T4lzuUCu-6isb1m_AAAJ
+2026-04-11 11:16:38,795 [INFO] 127.0.0.1 - - [11/Apr/2026 11:16:38] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:16:38,851 [INFO] 127.0.0.1 - - [11/Apr/2026 11:16:38] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:16:38,950 [INFO] 127.0.0.1 - - [11/Apr/2026 11:16:38] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:16:39,099 [INFO] 127.0.0.1 - - [11/Apr/2026 11:16:39] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:16:39,169 [INFO] 127.0.0.1 - - [11/Apr/2026 11:16:39] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:16:46,485 [INFO] [WS] Client disconnected: T4lzuUCu-6isb1m_AAAJ
+2026-04-11 11:16:46,504 [INFO] 127.0.0.1 - - [11/Apr/2026 11:16:46] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:16:46,508 [INFO] 127.0.0.1 - - [11/Apr/2026 11:16:46] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 11:16:46,532 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 11:16:46,831 [INFO] 127.0.0.1 - - [11/Apr/2026 11:16:46] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:17:36,582 [INFO] 127.0.0.1 - - [11/Apr/2026 11:17:36] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:18:27,647 [INFO] 127.0.0.1 - - [11/Apr/2026 11:18:27] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:18:50,682 [INFO] 127.0.0.1 - - [11/Apr/2026 11:18:50] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:18:50,946 [INFO] 127.0.0.1 - - [11/Apr/2026 11:18:50] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:19:53,012 [INFO] [ALERT RECEIVED] abusive — drugs
+2026-04-11 11:19:53,013 [INFO] 127.0.0.1 - - [11/Apr/2026 11:19:53] "POST /api/alert HTTP/1.1" 200 -
+2026-04-11 11:21:08,865 [INFO] 127.0.0.1 - - [11/Apr/2026 11:21:08] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:21:09,128 [INFO] 127.0.0.1 - - [11/Apr/2026 11:21:09] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:22:59,284 [INFO] 127.0.0.1 - - [11/Apr/2026 11:22:59] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:27:33,254 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-11 11:27:37,655 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.109:5000
+2026-04-11 11:27:37,656 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-11 11:28:11,024 [INFO] [WS] Client connected: r4kyhnRUcNPoP3fIAAAB
+2026-04-11 11:28:11,054 [INFO] 127.0.0.1 - - [11/Apr/2026 11:28:11] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:28:11,059 [INFO] 127.0.0.1 - - [11/Apr/2026 11:28:11] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:28:11,127 [INFO] 127.0.0.1 - - [11/Apr/2026 11:28:11] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:28:11,197 [INFO] 127.0.0.1 - - [11/Apr/2026 11:28:11] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:28:11,380 [INFO] 127.0.0.1 - - [11/Apr/2026 11:28:11] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:28:11,454 [INFO] 127.0.0.1 - - [11/Apr/2026 11:28:11] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:28:19,445 [INFO] [WS] Client disconnected: r4kyhnRUcNPoP3fIAAAB
+2026-04-11 11:28:19,472 [INFO] 127.0.0.1 - - [11/Apr/2026 11:28:19] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:28:19,475 [INFO] 127.0.0.1 - - [11/Apr/2026 11:28:19] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 11:28:19,490 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 11:28:19,797 [INFO] 127.0.0.1 - - [11/Apr/2026 11:28:19] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:29:23,108 [INFO] 127.0.0.1 - - [11/Apr/2026 11:29:23] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:29:55,031 [INFO] 127.0.0.1 - - [11/Apr/2026 11:29:55] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:30:28,605 [INFO] 127.0.0.1 - - [11/Apr/2026 11:30:28] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:30:28,622 [INFO] [WS] Client connected: XgaXUDo9y9Jg-g-HAAAD
+2026-04-11 11:30:28,641 [INFO] 127.0.0.1 - - [11/Apr/2026 11:30:28] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:30:28,722 [INFO] 127.0.0.1 - - [11/Apr/2026 11:30:28] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:30:28,851 [INFO] 127.0.0.1 - - [11/Apr/2026 11:30:28] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:30:28,957 [INFO] 127.0.0.1 - - [11/Apr/2026 11:30:28] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:30:29,042 [INFO] 127.0.0.1 - - [11/Apr/2026 11:30:29] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:30:30,671 [INFO] [WS] Client disconnected: XgaXUDo9y9Jg-g-HAAAD
+2026-04-11 11:30:30,680 [INFO] 127.0.0.1 - - [11/Apr/2026 11:30:30] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:30:30,690 [INFO] 127.0.0.1 - - [11/Apr/2026 11:30:30] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 11:30:30,701 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 11:30:31,001 [INFO] 127.0.0.1 - - [11/Apr/2026 11:30:31] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:31:21,882 [INFO] [ALERT RECEIVED] abusive — drugs
+2026-04-11 11:31:21,884 [INFO] 127.0.0.1 - - [11/Apr/2026 11:31:21] "POST /api/alert HTTP/1.1" 200 -
+2026-04-11 11:32:27,260 [INFO] 127.0.0.1 - - [11/Apr/2026 11:32:27] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:32:53,364 [INFO] 127.0.0.1 - - [11/Apr/2026 11:32:53] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:34:18,053 [INFO] [ALERT RECEIVED] abusive — i will kill you
+2026-04-11 11:34:18,055 [INFO] 127.0.0.1 - - [11/Apr/2026 11:34:18] "POST /api/alert HTTP/1.1" 200 -
+2026-04-11 11:34:20,022 [INFO] 127.0.0.1 - - [11/Apr/2026 11:34:20] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-11 11:34:23,539 [INFO] 127.0.0.1 - - [11/Apr/2026 11:34:23] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-11 11:37:16,799 [INFO] 127.0.0.1 - - [11/Apr/2026 11:37:16] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:38:02,995 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-11 11:38:07,492 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.109:5000
+2026-04-11 11:38:07,492 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-11 11:38:11,444 [INFO] 127.0.0.1 - - [11/Apr/2026 11:38:11] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:39:04,799 [INFO] 127.0.0.1 - - [11/Apr/2026 11:39:04] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:39:04,800 [INFO] 127.0.0.1 - - [11/Apr/2026 11:39:04] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:39:04,821 [INFO] [WS] Client connected: r6Yq10cJDxFE-wyyAAAB
+2026-04-11 11:39:04,852 [INFO] 127.0.0.1 - - [11/Apr/2026 11:39:04] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:39:04,904 [INFO] 127.0.0.1 - - [11/Apr/2026 11:39:04] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:39:05,162 [INFO] 127.0.0.1 - - [11/Apr/2026 11:39:05] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:39:05,322 [INFO] 127.0.0.1 - - [11/Apr/2026 11:39:05] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:39:16,891 [INFO] [WS] Client disconnected: r6Yq10cJDxFE-wyyAAAB
+2026-04-11 11:39:16,922 [INFO] 127.0.0.1 - - [11/Apr/2026 11:39:16] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 11:39:16,963 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 11:39:17,205 [INFO] 127.0.0.1 - - [11/Apr/2026 11:39:17] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:39:17,468 [INFO] 127.0.0.1 - - [11/Apr/2026 11:39:17] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:39:51,831 [INFO] 127.0.0.1 - - [11/Apr/2026 11:39:51] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:43:50,790 [INFO] 127.0.0.1 - - [11/Apr/2026 11:43:50] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:48:05,803 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-11 11:48:09,978 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.109:5000
+2026-04-11 11:48:09,980 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-11 11:48:56,918 [INFO] 127.0.0.1 - - [11/Apr/2026 11:48:56] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:50:24,567 [INFO] [ALERT RECEIVED] abusive — i kill you
+2026-04-11 11:50:24,572 [INFO] 127.0.0.1 - - [11/Apr/2026 11:50:24] "POST /api/alert HTTP/1.1" 200 -
+2026-04-11 11:53:22,618 [INFO] 127.0.0.1 - - [11/Apr/2026 11:53:22] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:57:34,189 [INFO] 127.0.0.1 - - [11/Apr/2026 11:57:34] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 11:58:09,491 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-11 11:58:16,397 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.109:5000
+2026-04-11 11:58:16,397 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-11 11:58:32,782 [INFO] 127.0.0.1 - - [11/Apr/2026 11:58:32] "GET / HTTP/1.1" 200 -
+2026-04-11 11:58:33,588 [INFO] 127.0.0.1 - - [11/Apr/2026 11:58:33] "GET /assets/index-DyNlzBdC.css HTTP/1.1" 200 -
+2026-04-11 11:58:34,815 [INFO] 127.0.0.1 - - [11/Apr/2026 11:58:34] "GET /assets/index-CyiKGO7c.js HTTP/1.1" 200 -
+2026-04-11 11:59:09,273 [INFO] [WS] Client connected: 4cMZBjAB7tL9P2kWAAAB
+2026-04-11 11:59:09,300 [INFO] 127.0.0.1 - - [11/Apr/2026 11:59:09] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 11:59:09,314 [INFO] 127.0.0.1 - - [11/Apr/2026 11:59:09] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 11:59:09,455 [INFO] 127.0.0.1 - - [11/Apr/2026 11:59:09] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 11:59:14,367 [INFO] [WS] Client disconnected: 4cMZBjAB7tL9P2kWAAAB
+2026-04-11 11:59:14,394 [INFO] 127.0.0.1 - - [11/Apr/2026 11:59:14] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 11:59:14,406 [INFO] 127.0.0.1 - - [11/Apr/2026 11:59:14] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 11:59:14,433 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 12:00:14,460 [INFO] [ML] Loading model: cardiffnlp/twitter-roberta-base-offensive
+2026-04-11 12:00:19,765 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.22.109:5000
+2026-04-11 12:00:19,769 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-11 12:00:22,928 [INFO] 127.0.0.1 - - [11/Apr/2026 12:00:22] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:02:26,614 [INFO] [WS] Client connected: SgFuuvwZegcBIOdqAAAB
+2026-04-11 12:02:26,698 [INFO] 127.0.0.1 - - [11/Apr/2026 12:02:26] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 12:02:26,816 [INFO] 127.0.0.1 - - [11/Apr/2026 12:02:26] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 12:02:26,846 [INFO] 127.0.0.1 - - [11/Apr/2026 12:02:26] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 12:02:26,906 [INFO] 127.0.0.1 - - [11/Apr/2026 12:02:26] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 12:02:27,170 [INFO] 127.0.0.1 - - [11/Apr/2026 12:02:27] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 12:02:27,301 [INFO] 127.0.0.1 - - [11/Apr/2026 12:02:27] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 12:02:33,186 [INFO] [WS] Client disconnected: SgFuuvwZegcBIOdqAAAB
+2026-04-11 12:02:33,315 [INFO] 127.0.0.1 - - [11/Apr/2026 12:02:33] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 12:02:33,828 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 12:03:48,228 [INFO] 127.0.0.1 - - [11/Apr/2026 12:03:48] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:04:24,826 [INFO] 127.0.0.1 - - [11/Apr/2026 12:04:24] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:04:47,023 [INFO] 127.0.0.1 - - [11/Apr/2026 12:04:47] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:05:51,764 [INFO] 127.0.0.1 - - [11/Apr/2026 12:05:51] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:06:14,929 [INFO] [ALERT RECEIVED] abusive — i will kill you
+2026-04-11 12:06:14,931 [INFO] 127.0.0.1 - - [11/Apr/2026 12:06:14] "POST /api/alert HTTP/1.1" 200 -
+2026-04-11 12:07:20,112 [INFO] 127.0.0.1 - - [11/Apr/2026 12:07:20] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:07:30,453 [INFO] 127.0.0.1 - - [11/Apr/2026 12:07:30] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:07:58,795 [INFO] 127.0.0.1 - - [11/Apr/2026 12:07:58] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:08:08,032 [INFO] 127.0.0.1 - - [11/Apr/2026 12:08:08] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-11 12:08:08,896 [INFO] 127.0.0.1 - - [11/Apr/2026 12:08:08] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:08:13,641 [INFO] 127.0.0.1 - - [11/Apr/2026 12:08:13] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-11 12:08:33,139 [INFO] 127.0.0.1 - - [11/Apr/2026 12:08:33] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 12:08:33,414 [INFO] 127.0.0.1 - - [11/Apr/2026 12:08:33] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 12:08:33,436 [INFO] [WS] Client connected: N3uhAC25RLpkvpY8AAAD
+2026-04-11 12:08:33,481 [INFO] 127.0.0.1 - - [11/Apr/2026 12:08:33] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 12:08:33,520 [INFO] 127.0.0.1 - - [11/Apr/2026 12:08:33] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 12:08:33,746 [INFO] 127.0.0.1 - - [11/Apr/2026 12:08:33] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 12:08:33,959 [INFO] 127.0.0.1 - - [11/Apr/2026 12:08:33] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 12:09:07,554 [INFO] [WS] Client disconnected: N3uhAC25RLpkvpY8AAAD
+2026-04-11 12:09:07,583 [INFO] 127.0.0.1 - - [11/Apr/2026 12:09:07] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 12:09:07,595 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 12:09:25,229 [INFO] 127.0.0.1 - - [11/Apr/2026 12:09:25] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 12:09:25,484 [INFO] 127.0.0.1 - - [11/Apr/2026 12:09:25] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 12:09:31,171 [INFO] [ALERT RECEIVED] abusive — i will kill you
+2026-04-11 12:09:31,179 [INFO] 127.0.0.1 - - [11/Apr/2026 12:09:31] "POST /api/alert HTTP/1.1" 200 -
+2026-04-11 12:10:27,086 [INFO] 127.0.0.1 - - [11/Apr/2026 12:10:27] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:10:43,616 [INFO] 127.0.0.1 - - [11/Apr/2026 12:10:43] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:12:12,543 [INFO] 127.0.0.1 - - [11/Apr/2026 12:12:12] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 12:12:12,789 [INFO] 127.0.0.1 - - [11/Apr/2026 12:12:12] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 12:12:15,070 [INFO] 127.0.0.1 - - [11/Apr/2026 12:12:15] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 12:12:15,330 [INFO] 127.0.0.1 - - [11/Apr/2026 12:12:15] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 12:12:15,360 [INFO] [WS] Client connected: Ch9-wm2pFxUw776pAAAF
+2026-04-11 12:12:15,437 [INFO] 127.0.0.1 - - [11/Apr/2026 12:12:15] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 12:12:15,450 [INFO] 127.0.0.1 - - [11/Apr/2026 12:12:15] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 12:12:15,678 [INFO] 127.0.0.1 - - [11/Apr/2026 12:12:15] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 12:12:15,848 [INFO] 127.0.0.1 - - [11/Apr/2026 12:12:15] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 12:13:13,730 [INFO] [WS] Client disconnected: Ch9-wm2pFxUw776pAAAF
+2026-04-11 12:13:13,748 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:13] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 12:13:13,763 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 12:13:14,058 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:14] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 12:13:14,323 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:14] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 12:13:15,853 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:15] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 12:13:16,161 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:16] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 12:13:16,182 [INFO] [WS] Client connected: M8-iA0jEI5I74Dn_AAAH
+2026-04-11 12:13:16,210 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:16] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 12:13:16,261 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:16] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 12:13:16,484 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:16] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 12:13:16,661 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:16] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 12:13:17,870 [INFO] [WS] Client disconnected: M8-iA0jEI5I74Dn_AAAH
+2026-04-11 12:13:17,890 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:17] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 12:13:17,898 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 12:13:18,182 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:18] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 12:13:18,448 [INFO] 127.0.0.1 - - [11/Apr/2026 12:13:18] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 12:15:33,859 [INFO] 127.0.0.1 - - [11/Apr/2026 12:15:33] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 12:15:34,126 [INFO] 127.0.0.1 - - [11/Apr/2026 12:15:34] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-11 12:15:35,577 [INFO] 127.0.0.1 - - [11/Apr/2026 12:15:35] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 12:15:35,869 [INFO] 127.0.0.1 - - [11/Apr/2026 12:15:35] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 12:15:35,882 [INFO] [WS] Client connected: ZRoxJM-u4hzJOEUzAAAJ
+2026-04-11 12:15:35,917 [INFO] 127.0.0.1 - - [11/Apr/2026 12:15:35] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 12:15:35,957 [INFO] 127.0.0.1 - - [11/Apr/2026 12:15:35] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 12:15:36,198 [INFO] 127.0.0.1 - - [11/Apr/2026 12:15:36] "GET /api/alerts?limit=15 HTTP/1.1" 200 -
+2026-04-11 12:15:36,343 [INFO] 127.0.0.1 - - [11/Apr/2026 12:15:36] "GET /api/trend HTTP/1.1" 200 -
+2026-04-11 12:16:38,517 [INFO] [WS] Client disconnected: ZRoxJM-u4hzJOEUzAAAJ
+2026-04-11 12:16:38,538 [INFO] 127.0.0.1 - - [11/Apr/2026 12:16:38] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2026-04-11 12:16:38,548 [ERROR] Error on request:
+Traceback (most recent call last):
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "C:\Users\subha\anaconda3\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+2026-04-11 12:21:08,355 [INFO] 127.0.0.1 - - [11/Apr/2026 12:21:08] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:21:35,581 [INFO] 127.0.0.1 - - [11/Apr/2026 12:21:35] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:23:01,230 [INFO] [ALERT RECEIVED] abusive — i will kill you
+2026-04-11 12:23:01,233 [INFO] 127.0.0.1 - - [11/Apr/2026 12:23:01] "POST /api/alert HTTP/1.1" 200 -
+2026-04-11 12:26:31,047 [INFO] 127.0.0.1 - - [11/Apr/2026 12:26:31] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:29:17,380 [INFO] 127.0.0.1 - - [11/Apr/2026 12:29:17] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:31:27,525 [INFO] 127.0.0.1 - - [11/Apr/2026 12:31:27] "POST /api/keylog HTTP/1.1" 200 -
+2026-04-11 12:32:02,570 [INFO] 127.0.0.1 - - [11/Apr/2026 12:32:02] "POST /api/keylog HTTP/1.1" 200 -

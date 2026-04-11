@@ -48,6 +48,10 @@ function mediaRoutes(appConfig) {
   // Serve db file directly
   router.get("/file/:id", (req, res) => mediaController.serveMediaFile(req, res));
 
+  // Lock and Delete (Requires body.secretKey)
+  router.post("/:id/lock", (req, res) => mediaController.lockMediaFile(req, res));
+  router.delete("/:id", (req, res) => mediaController.deleteMediaFile(req, res));
+
   return router;
 }
 

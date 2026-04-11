@@ -65,7 +65,7 @@ class EmailAlertService:
                 server.login(self.email_address, self.email_password)
                 server.send_message(msg)
 
-            logger.info(f"[EMAIL] Alert sent to {self.parent_email} ✓")
+            logger.info(f"[EMAIL] Alert sent to {self.parent_email} successfully")
             return True
 
         except Exception as e:

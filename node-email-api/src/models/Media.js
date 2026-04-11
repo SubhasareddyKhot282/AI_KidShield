@@ -11,6 +11,7 @@ const mediaSchema = new mongoose.Schema(
     // Persisted so frontend can render via returned URL.
     fileData: { type: Buffer, required: true },
     fileUrl: { type: String, required: true },
+    isLocked: { type: Boolean, default: false },
   },
   { timestamps: true }
 );

@@ -36,6 +36,7 @@ async function listMyMedia(req, res) {
       mimeType: m.mimeType,
       url: m.fileUrl,
       createdAt: m.createdAt,
+      isLocked: m.isLocked || false,
     }))
   );
 }
@@ -47,14 +48,13 @@ async function createMediaRecord(req, res) {
   if (!kind) return res.status(400).json({ error: "Invalid kind" });
   if (!req.file) return res.status(400).json({ error: "Missing file" });
 
-  // multer memoryStorage kept the file in RAM
-  const rec = await Media.create({
+  const rec = new Media({
     childEmail,
     kind,
     originalName: req.file.originalname || "upload",
     mimeType: req.file.mimetype || "",
-    fileData: req.file.buffer, // Save binary data directly to MongoDB
-    fileUrl: "", // Temporary, will update below with the document ID
+    fileData: req.file.buffer,
+    fileUrl: "temp",
   });
 
   rec.fileUrl = `${config.publicBaseUrl}/api/media/file/${rec._id}`;
@@ -75,14 +75,49 @@ async function serveMediaFile(req, res) {
     const med = await Media.findById(req.params.id);
     if (!med || !med.fileData) return res.status(404).send("File not found");
     
-    // Serve the binary Buffer using accurate mimetype header
+    const fileBuffer = Buffer.from(med.fileData);
     res.set("Content-Type", med.mimeType || "application/octet-stream");
-    res.send(med.fileData);
+    res.set("Content-Length", fileBuffer.length);
+    res.send(fileBuffer);
   } catch (err) {
     console.error(err);
     res.status(500).send("Server Error");
   }
 }
 
-module.exports = { listMyMedia, createMediaRecord, serveMediaFile };
+async function lockMediaFile(req, res) {
+  try {
+    const { secretKey } = req.body;
+    if (secretKey !== 'safeguard123') return res.status(403).json({ error: "Invalid secret key" });
 
+    const med = await Media.findById(req.params.id);
+    if (!med) return res.status(404).json({ error: "File not found" });
+
+    med.isLocked = !med.isLocked; // toggle lock
+    await med.save();
+    return res.json({ success: true, isLocked: med.isLocked });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Server error" });
+  }
+}
+
+async function deleteMediaFile(req, res) {
+  try {
+    const { secretKey } = req.body;
+    if (secretKey !== 'safeguard123') return res.status(403).json({ error: "Invalid secret key" });
+
+    const med = await Media.findById(req.params.id);
+    if (!med) return res.status(404).json({ error: "File not found" });
+
+    if (med.isLocked) return res.status(403).json({ error: "File is locked and cannot be deleted" });
+
+    await Media.deleteOne({ _id: req.params.id });
+    return res.json({ success: true });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Server error" });
+  }
+}
+
+module.exports = { listMyMedia, createMediaRecord, serveMediaFile, lockMediaFile, deleteMediaFile };
